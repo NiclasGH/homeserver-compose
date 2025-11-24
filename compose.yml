@@ -1,0 +1,37 @@
+services:
+  jellyfin:
+    image: jellyfin/jellyfin
+    ports:
+      - 8096:8096/tcp
+      - 7359:7359/udp
+    volumes:
+      - type: bind
+        source: media
+        target: /media
+    restart: 'unless-stopped'
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:26.3.4
+    ports:
+      - "8080:8080"
+    networks:
+     - keycloak-network
+    environment:
+      KC_DB: postgres
+      KC_DB_URL: jdbc:postgresql://keycloak-db:5432/keycloak
+    env_file: keycloak.env
+    command: "start-dev"
+
+  keycloak-db:
+    image: postgres:17
+    volumes:
+      - keycloak-data:/var/lib/postgresql/data
+    env_file: keycloak.env
+    networks:
+     - keycloak-network
+
+networks:
+  keycloak-network:
+
+volumes:
+  keycloak-data:
