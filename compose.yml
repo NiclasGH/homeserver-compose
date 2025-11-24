@@ -2,3 +2,4 @@ include:
  - jellyfish-compose.yml
  - keycloak-compose.yml
  - pihole-compose.yml
+ - kuma-compose.yml
