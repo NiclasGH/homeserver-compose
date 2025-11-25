@@ -1,0 +1,89 @@
+volumes:
+  conf:
+  html:
+  certs:
+  acme:
+
+networks:
+  local:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
+          gateway: 10.5.0.1
+
+services:
+  gitlab:
+    image: gitlab/gitlab-ce:${GITLAB_VERSION}
+    container_name: gitlab
+    restart: always
+    hostname: "git.gersch.dev"
+    env_file:
+      - gitlab/.env
+    environment:
+      PROXY_ADDRESS_FORWARDING: true
+      VIRTUAL_HOST: git.gersch.dev
+      VIRTUAL_PORT: 80
+      LETSENCRYPT_HOST: git.gersch.dev
+    volumes:
+      - "/srv/gitlab/config:/etc/gitlab"
+      - "./logs/gitlab:/var/log/gitlab"
+      - "/srv/gitlab/data:/var/opt/gitlab"
+    shm_size: "256m"
+    networks:
+      - local
+
+  proxy:
+    image: nginx:${PROXY_VERSION}
+    container_name: proxy
+    labels:
+      - com.github.nginx-proxy.nginx=true
+    depends_on:
+      - proxy-generator
+    ports:
+      - 443:443
+      - 80:80
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - html:/usr/share/nginx/html
+      - certs:/etc/nginx/certs
+      - ./proxy-default/homelab.conf:/etc/nginx/conf.d/homelab.conf:ro
+      # - ./proxy-vhost:/etc/nginx/vhost.d:ro             # ich überschreibe derzeitig keine locations, daher auskommentiert
+    networks:
+      - local
+
+  proxy-generator:
+    image: nginxproxy/docker-gen:${PROXY_GENERATOR_VERSION}
+    container_name: proxy-generator
+    command: -config /etc/nginx/config/config.cfg
+    labels:
+      - com.github.nginx-proxy.docker-gen=true
+    depends_on:
+      - gitlab
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - html:/usr/share/nginx/html
+      - certs:/etc/nginx/certs
+      # - ./proxy-vhost:/etc/nginx/vhost.d:ro
+      - ./proxy-generator/config.cfg:/etc/nginx/config/config.cfg
+      - ./proxy-generator/nginx.tmpl:/etc/nginx/templates/nginx.tmpl
+      - /var/run/docker.sock:/tmp/docker.sock:ro
+    networks:
+      - local
+
+  acme:
+    image: nginxproxy/acme-companion:${ACME_VERSION}
+    container_name: acme
+    depends_on:
+      - proxy
+      - proxy-generator
+    env_file:
+      - acme/.env
+    volumes:
+      - conf:/etc/nginx/conf.d
+      - html:/usr/share/nginx/html
+      - certs:/etc/nginx/certs
+      - acme:/etc/acme.sh
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - local
