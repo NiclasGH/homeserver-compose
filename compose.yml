@@ -9,7 +9,7 @@ services:
       - jellyfish-config:/config
       - jellyfish-cache:/cache
       - type: bind
-        source: media
+        source: jellyfish/media
         target: /media
     restart: 'unless-stopped'
 
@@ -19,7 +19,7 @@ services:
       - 8004:80/tcp
     volumes:
       - type: bind
-        source: media
+        source: jellyfish/media
         target: /srv
       - filebrowser-database:/database
       - filebrowser-config:/config
