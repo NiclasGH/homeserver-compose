@@ -7,3 +7,4 @@ Public Services will use 8000+:
 * 8001: Pihole
 * 8002: Keycloak
 * 8003: Uptime-Kuma
+* 8004: Filebrowser
