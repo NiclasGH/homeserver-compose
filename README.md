@@ -1,5 +1,6 @@
 # Pi Compose
-This is my raspberri pi in a docker compose file
+This is my raspberri pi in a docker compose file.
+The root compose is the "root" compose with the main services. Submodules are in other folders.
 
 ## Port Exploration:
 Public Services will use 8000+:
