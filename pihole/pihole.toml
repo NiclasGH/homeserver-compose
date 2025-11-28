@@ -1,0 +1,11 @@
+[dns]
+    hosts = [
+        "192.168.178.60 tira-misu.org", # jellyfish
+        "192.168.178.60 media.tira-misu.org", # jellyfish
+        "192.168.178.60 dns.tira-misu.org", # pihole
+        "192.168.178.60 filebrowser.tira-misu.org", # filebrowser
+        "192.168.178.60 kuma.tira-misu.org", # uptime kuma
+        "192.168.178.60 id.tira-misu.org" # keycloak
+    ]
+    listeningMode = "ALL"
+    upstreams = ["9.9.9.9", "8.8.8.8"]

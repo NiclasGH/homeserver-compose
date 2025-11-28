@@ -2,11 +2,15 @@ services:
   # === MEDIA SERVER - 8000, 8004
   jellyfin:
     image: jellyfin/jellyfin
+    container_name: media-server
     ports:
       - 8000:8096/tcp
+      - 80:8096/tcp
       - 7359:7359/udp
     volumes:
-      - jellyfish-config:/config
+      - type: bind
+        source: jellyfish/config
+        target: /config
       - jellyfish-cache:/cache
       - type: bind
         source: jellyfish/media
@@ -15,6 +19,7 @@ services:
 
   filebrowser:
     image: filebrowser/filebrowser
+    container_name: filebrowser
     ports:
       - 8004:80/tcp
     volumes:
@@ -28,6 +33,7 @@ services:
   # === KEYCLOAK - 8002
   keycloak:
     image: quay.io/keycloak/keycloak:26.3.4
+    container_name: keycloak
     ports:
       - "8002:8080"
     networks:
@@ -49,6 +55,7 @@ services:
   # === KUMA - 8003
   uptime-kuma:
     image: louislam/uptime-kuma:2
+    container_name: uptime-kuma
     ports:
       - "8003:3001"
     volumes:
@@ -64,18 +71,19 @@ services:
       - "53:53/udp"
       - "8001:80/tcp"
       # - "443:443/tcp"
+    env_file: pihole.env
     environment:
       TZ: 'Europe/Berlin'
-      FTLCONF_webserver_api_password: 'pihole'
-      FTLCONF_dns_listeningMode: 'ALL'
-      FTLCONF_dns_upstreams: '9.9.9.9;8.8.8.8'
     volumes:
       # For persisting Pi-hole's databases and common configuration file
       - pihole-data:/etc/pihole
+      - type: bind
+        source: pihole/pihole.toml
+        target: /etc/pihole/pihole.toml
+        read_only: true
     restart: unless-stopped
 
 volumes:
-  jellyfish-config:
   jellyfish-cache:
 
   filebrowser-data:
