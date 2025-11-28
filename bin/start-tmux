@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+SESSION="dev"
+
+tmux has-session -t $SESSION 2>/dev/null
+
+# if not exists
+if [ $? != 0 ]; then
+  tmux new-session -d -s $SESSION
+  
+  # Window 1: monitoring
+  tmux rename-window -t $SESSION:0 'monitoring'
+  tmux split-window -v -t $SESSION:0
+  tmux send-keys -t $SESSION:0.0 'htop' C-m
+  tmux send-keys -t $SESSION:0.1 'cd ~/pi-compose' C-m
+  tmux send-keys -t $SESSION:0.1 'docker compose logs --follow --tail 5' C-m
+  
+  # Window 2: vim
+  tmux new-window -t $SESSION:1 -n 'editor'
+  tmux send-keys -t $SESSION:1 'vim ~/pi-compose' C-m
+  
+  # Window 3: terminal
+  tmux new-window -t $SESSION:2 -n 'terminal'
+  tmux send-keys -t $SESSION:2 'cd ~/pi-compose' C-m
+  
+  # Start in monitoring
+  tmux select-window -t $SESSION:1
+fi
+
+tmux attach-session -t $SESSION
