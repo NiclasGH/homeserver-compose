@@ -1,4 +1,4 @@
-jellyfish/media/
-jellyfish/config/log
+jellyfin/media/
+jellyfin/config/log
 .DS_Store
 *.env

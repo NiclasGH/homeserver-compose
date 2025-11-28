@@ -2,18 +2,18 @@ services:
   # === MEDIA SERVER - 8000, 8004
   jellyfin:
     image: jellyfin/jellyfin
-    container_name: media-server
+    container_name: jellyfin
     ports:
       - 8000:8096/tcp
       - 80:8096/tcp
       - 7359:7359/udp
     volumes:
       - type: bind
-        source: jellyfish/config
+        source: jellyfin/config
         target: /config
-      - jellyfish-cache:/cache
+      - jellyfin-cache:/cache
       - type: bind
-        source: jellyfish/media
+        source: jellyfin/media
         target: /media
     restart: 'unless-stopped'
 
@@ -24,7 +24,7 @@ services:
       - 8004:80/tcp
     volumes:
       - type: bind
-        source: jellyfish/media
+        source: jellyfin/media
         target: /srv
       - filebrowser-database:/database
       - filebrowser-config:/config
@@ -43,15 +43,7 @@ services:
     environment:
       KC_DB: postgres
       KC_DB_URL: jdbc:postgresql://keycloak-db:5432/keycloak
-      KC_HEALTH_ENABLED: true
     env_file: keycloak.env
-    # source for the healthcheck: https://gist.github.com/sarath-soman/5d9aec06953bbd0990c648605d4dba07
-    healthcheck:
-      test: ["CMD-SHELL", "exec 3<>/dev/tcp/127.0.0.1/9000;echo -e 'GET /health/ready HTTP/1.1\r\nhost: http://localhost\r\nConnection: close\r\n\r\n' >&3;if [ $? -eq 0 ]; then echo 'Healthcheck Successful';exit 0;else echo 'Healthcheck Failed';exit 1;fi;"]
-      start_period: 10s
-      interval: 30s
-      retries: 3
-      timeout: 5s
     command: "start-dev"
 
   keycloak-db:
@@ -60,12 +52,6 @@ services:
     volumes:
       - keycloak-data:/var/lib/postgresql/data
     env_file: keycloak.env
-    healthcheck:
-      test: ['CMD-SHELL', 'pg_isready']
-      start_period: 10s
-      interval: 30s
-      retries: 3
-      timeout: 5s
     networks:
      - keycloak-network
 
@@ -101,7 +87,7 @@ services:
     restart: unless-stopped
 
 volumes:
-  jellyfish-cache:
+  jellyfin-cache:
 
   filebrowser-data:
   filebrowser-database:
