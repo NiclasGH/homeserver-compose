@@ -11,8 +11,7 @@
         "fe80::f75d:30d2:4fdd:529c media.tira-misu.org",
         "192.168.178.60 www.media.tira-misu.org",
         "fe80::f75d:30d2:4fdd:529c www.media.tira-misu.org",
-        # "192.168.178.60 media.tira-misu.org", # jellyfish
-        # "192.168.178.60 media.tira-misu.org", # jellyfish
+
         # "192.168.178.60 dns.tira-misu.org", # pihole
         # "192.168.178.60 dns.tira-misu.org", # pihole
         # "192.168.178.60 filebrowser.tira-misu.org", # filebrowser

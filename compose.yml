@@ -3,6 +3,8 @@ services:
   proxy:
     image: nginx
     container_name: proxy
+    networks:
+      - proxy_network
     ports:
       - 443:443
       - 80:80
@@ -23,6 +25,8 @@ services:
     ports:
       - 8000:8096/tcp
       - 7359:7359/udp
+    networks:
+      - proxy_network
     volumes:
       - type: bind
         source: jellyfin/config
@@ -38,6 +42,8 @@ services:
     container_name: filebrowser
     ports:
       - 8004:80/tcp
+    networks:
+      - proxy_network
     volumes:
       - type: bind
         source: jellyfin/media
@@ -55,6 +61,7 @@ services:
     ports:
       - "8002:8080"
     networks:
+     - proxy_network
      - keycloak-network
     environment:
       KC_DB: postgres
@@ -77,6 +84,8 @@ services:
     container_name: uptime-kuma
     ports:
       - "8003:3001"
+    networks:
+     - proxy_network
     volumes:
       - uptime-kuma-data:/app/data
     restart: unless-stopped
@@ -85,6 +94,8 @@ services:
   pihole:
     container_name: pihole
     image: pihole/pihole:latest
+    networks:
+     - proxy_network
     ports:
       - "53:53/tcp"
       - "53:53/udp"
@@ -116,3 +127,5 @@ volumes:
 
 networks:
   keycloak-network:
+
+  proxy_network:
