@@ -83,7 +83,6 @@ services:
       - type: bind
         source: pihole/pihole.toml
         target: /etc/pihole/pihole.toml
-        read_only: true
     restart: unless-stopped
 
 volumes:
