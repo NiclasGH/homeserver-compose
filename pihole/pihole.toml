@@ -1,11 +1,26 @@
 [dns]
     hosts = [
-        "192.168.178.60 tira-misu.org", # jellyfish
-        "192.168.178.60 media.tira-misu.org", # jellyfish
-        "192.168.178.60 dns.tira-misu.org", # pihole
-        "192.168.178.60 filebrowser.tira-misu.org", # filebrowser
-        "192.168.178.60 kuma.tira-misu.org", # uptime kuma
-        "192.168.178.60 id.tira-misu.org" # keycloak
+        # tira-misu.org www.tira-misu.org
+        "192.168.178.60 tira-misu.org",
+        "fe80::f75d:30d2:4fdd:529c tira-misu.org",
+        "192.168.178.60 www.tira-misu.org",
+        "fe80::f75d:30d2:4fdd:529c www.tira-misu.org",
+
+        # media.tira-misu.org www.media.tira-misu.org
+        "192.168.178.60 media.tira-misu.org",
+        "fe80::f75d:30d2:4fdd:529c media.tira-misu.org",
+        "192.168.178.60 www.media.tira-misu.org",
+        "fe80::f75d:30d2:4fdd:529c www.media.tira-misu.org",
+        # "192.168.178.60 media.tira-misu.org", # jellyfish
+        # "192.168.178.60 media.tira-misu.org", # jellyfish
+        # "192.168.178.60 dns.tira-misu.org", # pihole
+        # "192.168.178.60 dns.tira-misu.org", # pihole
+        # "192.168.178.60 filebrowser.tira-misu.org", # filebrowser
+        # "192.168.178.60 filebrowser.tira-misu.org", # filebrowser
+        # "192.168.178.60 kuma.tira-misu.org", # uptime kuma
+        # "192.168.178.60 kuma.tira-misu.org", # uptime kuma
+        # "192.168.178.60 id.tira-misu.org" # keycloak
+        # "192.168.178.60 id.tira-misu.org" # keycloak
     ]
     listeningMode = "ALL"
     upstreams = ["9.9.9.9", "8.8.8.8"]
