@@ -2,7 +2,6 @@ services:
   # === NGINX - 80, 443
   proxy:
     image: nginx
-    container_name: proxy
     networks:
       - proxy_network
     ports:
@@ -17,7 +16,6 @@ services:
   # === MEDIA SERVER - 8000
   jellyfin:
     image: jellyfin/jellyfin
-    container_name: jellyfin
     ports:
       - 8000:8096/tcp # for devices, that block local dns
       - 7359:7359/udp
@@ -35,7 +33,6 @@ services:
 
   filebrowser:
     image: filebrowser/filebrowser
-    container_name: filebrowser
     # ports:
     #   - 8000:80/tcp
     networks:
@@ -51,7 +48,6 @@ services:
   # === KEYCLOAK
   keycloak:
     image: quay.io/keycloak/keycloak:26.3.4
-    container_name: keycloak
     depends_on:
       - keycloak-db
     # ports:
@@ -67,7 +63,6 @@ services:
 
   keycloak-db:
     image: postgres:17
-    container_name: keycloak-db
     volumes:
       - keycloak-data:/var/lib/postgresql/data
     env_file: keycloak.env
@@ -77,7 +72,6 @@ services:
   # === KUMA
   uptime-kuma:
     image: louislam/uptime-kuma:2
-    container_name: uptime-kuma
     # ports:
     #   - "3001:3001"
     networks:
@@ -88,15 +82,12 @@ services:
 
   # === PIHOLE - 53
   pihole:
-    container_name: pihole
     image: pihole/pihole:latest
     networks:
      - proxy_network
     ports:
       - "53:53/tcp"
       - "53:53/udp"
-      - "80:80/tcp"
-      - "443:443/tcp"
     env_file: pihole.env
     environment:
       TZ: 'Europe/Berlin'
