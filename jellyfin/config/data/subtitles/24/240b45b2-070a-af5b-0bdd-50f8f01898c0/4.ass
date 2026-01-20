@@ -1,0 +1,741 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 1080
+Timer: 100.0
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,sans-serif,71,&H00FFFFFF,&H00FFFFFF,&H000F0F0F,&H000F0F0F,0,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,0
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:21.29,0:00:22.71,Default,,0,0,0,,Hey.
+Dialogue: 0,0:00:25.46,0:00:27.00,Default,,0,0,0,,You, um...
+Dialogue: 0,0:00:27.55,0:00:29.34,Default,,0,0,0,,You selling?
+Dialogue: 0,0:00:30.34,0:00:32.13,Default,,0,0,0,,I don't know what\Nyou' re talking about.
+Dialogue: 0,0:00:32.30,0:00:34.55,Default,,0,0,0,,Okay. That's cool.
+Dialogue: 0,0:00:37.02,0:00:41.07,Default,,0,0,0,,I'm just saying, you know,\Nif you were selling,
+Dialogue: 0,0:00:41.36,0:00:43.78,Default,,0,0,0,,I could maybe do with\Na teenth.
+Dialogue: 0,0:00:46.65,0:00:48.36,Default,,0,0,0,,You' re kidding, right?
+Dialogue: 0,0:00:49.32,0:00:51.70,Default,,0,0,0,,Dude, I so smell bacon.
+Dialogue: 0,0:00:51.87,0:00:54.21,Default,,0,0,0,,What? What are you\Ntalking about?
+Dialogue: 0,0:00:54.37,0:00:56.08,Default,,0,0,0,,Oh, gee, I don't know.
+Dialogue: 0,0:00:56.25,0:00:59.13,Default,,0,0,0,,How about over there.\NThat brown van.
+Dialogue: 0,0:01:00.29,0:01:01.50,Default,,0,0,0,,That's yours, right?
+Dialogue: 0,0:01:01.67,0:01:03.63,Default,,0,0,0,,What brown van?
+Dialogue: 0,0:01:03.84,0:01:06.01,Default,,0,0,0,,Parked all inconspicuous.
+Dialogue: 0,0:01:06.17,0:01:08.30,Default,,0,0,0,,It's a cop van.
+Dialogue: 0,0:01:08.84,0:01:11.55,Default,,0,0,0,,Yeah, another one\Nright over there.
+Dialogue: 0,0:01:12.34,0:01:15.01,Default,,0,0,0,,"Duke City Flowers"?\NCome on.
+Dialogue: 0,0:01:15.18,0:01:17.27,Default,,0,0,0,,Can't you at least\Nbe original?
+Dialogue: 0,0:01:17.43,0:01:19.89,Default,,0,0,0,,Dude, I just wanna get high.
+Dialogue: 0,0:01:20.06,0:01:21.73,Default,,0,0,0,,A flower van.
+Dialogue: 0,0:01:21.90,0:01:22.90,Default,,0,0,0,,[SIGHS]
+Dialogue: 0,0:01:23.06,0:01:25.65,Default,,0,0,0,,You know what\Nyou should do\Nis a garbage truck.
+Dialogue: 0,0:01:25.82,0:01:27.82,Default,,0,0,0,,Seriously, and I don't\Nmean to disrespect,
+Dialogue: 0,0:01:27.99,0:01:30.62,Default,,0,0,0,,but if you put a bunch\Nof cops in the back\Nof a garbage truck,
+Dialogue: 0,0:01:30.78,0:01:32.91,Default,,0,0,0,,there's no way\NI'm seriously thinking
+Dialogue: 0,0:01:33.07,0:01:36.41,Default,,0,0,0,,that there's cops in the\Nback of a garbage truck.
+Dialogue: 0,0:01:36.87,0:01:39.25,Default,,0,0,0,,It's a freebie, yo.\NJust think about it.
+Dialogue: 0,0:01:39.41,0:01:40.74,Default,,0,0,0,,Think about it, boys.
+Dialogue: 0,0:01:40.91,0:01:42.49,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:01:42.67,0:01:45.67,Default,,0,0,0,,All right. l'm hitting it.
+Dialogue: 0,0:01:45.92,0:01:48.34,Default,,0,0,0,,Oh. You dudes\Ngive up that easy?
+Dialogue: 0,0:01:48.51,0:01:50.55,Default,,0,0,0,,I'm not a cop.
+Dialogue: 0,0:01:51.09,0:01:54.72,Default,,0,0,0,,Then lift your shirt.\NShow me you're not\Nwearing a wire.
+Dialogue: 0,0:01:56.47,0:01:57.97,Default,,0,0,0,,All right, you know what?
+Dialogue: 0,0:01:58.14,0:02:00.98,Default,,0,0,0,,Just to show you\Nyou' re being an asshole.
+Dialogue: 0,0:02:01.14,0:02:03.27,Default,,0,0,0,,Ah! I'm blinded by white.\NHa-ha-ha.
+Dialogue: 0,0:02:03.44,0:02:04.48,Default,,0,0,0,,Douchebag.
+Dialogue: 0,0:02:04.65,0:02:07.19,Default,,0,0,0,,Ah, come on.\NI was joking. Come on.
+Dialogue: 0,0:02:07.36,0:02:10.78,Default,,0,0,0,,Don't walk away angry.\NSit down. Come on.
+Dialogue: 0,0:02:12.53,0:02:14.28,Default,,0,0,0,,I mean, what are you\Ncomplaining about?
+Dialogue: 0,0:02:14.45,0:02:16.74,Default,,0,0,0,,You got abs, man.\NKind of.
+Dialogue: 0,0:02:16.91,0:02:18.83,Default,,0,0,0,,Whatever, dude.
+Dialogue: 0,0:02:18.99,0:02:20.74,Default,,0,0,0,,I'm not even sure\NI wanna buy anymore.
+Dialogue: 0,0:02:20.91,0:02:23.62,Default,,0,0,0,,I think you turned me off\Nto the whole thing.
+Dialogue: 0,0:02:23.79,0:02:25.88,Default,,0,0,0,,Come on.\NDon't be like that.
+Dialogue: 0,0:02:26.04,0:02:29.29,Default,,0,0,0,,I just-- l just need\Nyou to prove it,\Nyou know?
+Dialogue: 0,0:02:29.46,0:02:31.00,Default,,0,0,0,,Prove you're not a cop.
+Dialogue: 0,0:02:31.17,0:02:33.92,Default,,0,0,0,,How the hell\Nam l supposed to do that?
+Dialogue: 0,0:02:34.76,0:02:36.47,Default,,0,0,0,,I don't know.
+Dialogue: 0,0:02:37.64,0:02:41.06,Default,,0,0,0,,Hey, I got it. Go over\Nthere and punch that dude\Nright in the face.
+Dialogue: 0,0:02:41.22,0:02:43.01,Default,,0,0,0,,Which dude?
+Dialogue: 0,0:02:43.19,0:02:44.48,Default,,0,0,0,,That dude?\NYeah.
+Dialogue: 0,0:02:44.65,0:02:46.73,Default,,0,0,0,,No way. He'd kick my ass.
+Dialogue: 0,0:02:46.90,0:02:47.90,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:02:48.07,0:02:49.61,Default,,0,0,0,,True that.
+Dialogue: 0,0:02:49.78,0:02:50.78,Default,,0,0,0,,Argh!
+Dialogue: 0,0:02:50.94,0:02:53.32,Default,,0,0,0,,This is so hard,\Nyou know?
+Dialogue: 0,0:02:57.03,0:02:58.61,Default,,0,0,0,,I know.
+Dialogue: 0,0:02:58.83,0:03:00.67,Default,,0,0,0,,It's simple.
+Dialogue: 0,0:03:00.95,0:03:05.33,Default,,0,0,0,,If you ask a cop if he's a cop,\Nhe's, like, obligated to tell you.
+Dialogue: 0,0:03:05.50,0:03:07.42,Default,,0,0,0,,It's in the Constitution.
+Dialogue: 0,0:03:07.58,0:03:09.75,Default,,0,0,0,,Constitution of America?
+Dialogue: 0,0:03:10.75,0:03:11.79,Default,,0,0,0,,Hm.
+Dialogue: 0,0:03:11.96,0:03:14.71,Default,,0,0,0,,So go ahead and ask.
+Dialogue: 0,0:03:14.88,0:03:17.22,Default,,0,0,0,,You a cop?\NNo, no. Not like that.
+Dialogue: 0,0:03:17.39,0:03:19.56,Default,,0,0,0,,Ask it, like, official.
+Dialogue: 0,0:03:19.72,0:03:22.35,Default,,0,0,0,,Are you\Na police officer?
+Dialogue: 0,0:03:22.85,0:03:26.44,Default,,0,0,0,,No, I am not a police officer.
+Dialogue: 0,0:03:26.60,0:03:28.73,Default,,0,0,0,,Okay, then. Hundred\Nand seventy-five for\Na teenth.
+Dialogue: 0,0:03:28.90,0:03:32.70,Default,,0,0,0,,Whoa.\NThe price is the price, yo.
+Dialogue: 0,0:03:37.11,0:03:38.82,Default,,0,0,0,,All right.
+Dialogue: 0,0:04:04.35,0:04:07.19,Default,,0,0,0,,There you go. Enjoy.
+Dialogue: 0,0:04:08.06,0:04:09.81,Default,,0,0,0,,Thanks, man.
+Dialogue: 0,0:04:15.90,0:04:17.90,Default,,0,0,0,,Albuquerque Police!\NYou' re under arrest!\NGet down on the ground!
+Dialogue: 0,0:04:18.07,0:04:19.40,Default,,0,0,0,,[POLICE SlREN WAlLlNG]
+Dialogue: 0,0:04:19.57,0:04:23.57,Default,,0,0,0,,Get on your stomach now!\NOn your stomach.\NGet on the ground!
+Dialogue: 0,0:04:24.62,0:04:27.71,Default,,0,0,0,,COP 1 : Hold it right there. Don' t move.\NCOP 2: Stay down.
+Dialogue: 0,0:04:31.46,0:04:34.09,Default,,0,0,0,,[♪♪♪]
+Dialogue: 0,0:04:48.89,0:04:53.81,Default,,0,0,0,,I had a good job until\Nmy boss accused me of stealing.
+Dialogue: 0,0:04:54.98,0:04:56.98,Default,,0,0,0,,l better call Saul.
+Dialogue: 0,0:05:00.11,0:05:03.53,Default,,0,0,0,,I was out partying,\Nminding my own business
+Dialogue: 0,0:05:04.41,0:05:08.46,Default,,0,0,0,,You are under arrest.\Nl better call Saul.
+Dialogue: 0,0:05:09.33,0:05:10.46,Default,,0,0,0,,Hi. I' m Saul Goodman.
+Dialogue: 0,0:05:10.62,0:05:12.37,Default,,0,0,0,,Did you know that you have rights?
+Dialogue: 0,0:05:12.54,0:05:15.04,Default,,0,0,0,,The Constitution says you do.\NAnd so do l.
+Dialogue: 0,0:05:15.21,0:05:17.21,Default,,0,0,0,,I believe that until proven guilty,
+Dialogue: 0,0:05:17.38,0:05:20.59,Default,,0,0,0,,every man, woman,\Nand child in this country is innocent.
+Dialogue: 0,0:05:20.76,0:05:22.76,Default,,0,0,0,,And that's why l fight for you,\NAlbuquerque.
+Dialogue: 0,0:05:22.93,0:05:23.97,Default,,0,0,0,,ANNOUNCER:\NBetter call Saul.
+Dialogue: 0,0:05:24.14,0:05:26.27,Default,,0,0,0,,Saul Goodman, attorney at law,\N505-1 64-CALL.
+Dialogue: 0,0:05:26.43,0:05:29.47,Default,,0,0,0,,That' s 505-1 64-CALL.
+Dialogue: 0,0:05:31.14,0:05:34.85,Default,,0,0,0,,JESSE:\NI really need to get\Nsome furniture.
+Dialogue: 0,0:05:36.15,0:05:37.65,Default,,0,0,0,,I suggest you start with a bed.
+Dialogue: 0,0:05:38.32,0:05:39.65,Default,,0,0,0,,[JESSE CHUCKLES]
+Dialogue: 0,0:05:41.03,0:05:43.62,Default,,0,0,0,,JESSE:\NGod, I wish\Nwe could smoke in here.
+Dialogue: 0,0:05:43.78,0:05:47.16,Default,,0,0,0,,Well, you can't.\NYeah, no. l know.
+Dialogue: 0,0:05:47.33,0:05:49.37,Default,,0,0,0,,I'm just saying.
+Dialogue: 0,0:05:51.75,0:05:53.63,Default,,0,0,0,,Don't think I can't\Nsmell that weed.
+Dialogue: 0,0:05:53.79,0:05:55.71,Default,,0,0,0,,You better seriously hope\Nthat airs out.
+Dialogue: 0,0:05:55.88,0:05:58.67,Default,,0,0,0,,My dad will keep\Nyour security deposit.
+Dialogue: 0,0:05:59.84,0:06:02.17,Default,,0,0,0,,He has a nose\Nlike a damn bloodhound.
+Dialogue: 0,0:06:02.34,0:06:03.38,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:06:03.55,0:06:05.01,Default,,0,0,0,,Yeah?
+Dialogue: 0,0:06:05.18,0:06:09.43,Default,,0,0,0,,Has he, um,\Never caught you?
+Dialogue: 0,0:06:10.35,0:06:14.27,Default,,0,0,0,,Yeah. Many times.
+Dialogue: 0,0:06:15.44,0:06:17.15,Default,,0,0,0,,Well, listen.
+Dialogue: 0,0:06:17.86,0:06:21.20,Default,,0,0,0,,Since I already lost\Nmy deposit and all,
+Dialogue: 0,0:06:21.36,0:06:23.99,Default,,0,0,0,,maybe we should light up.
+Dialogue: 0,0:06:27.87,0:06:29.58,Default,,0,0,0,,No, thanks.
+Dialogue: 0,0:06:29.74,0:06:30.78,Default,,0,0,0,,You sure?
+Dialogue: 0,0:06:32.29,0:06:34.75,Default,,0,0,0,,Well, is it cool\Nif l burn one?
+Dialogue: 0,0:06:34.92,0:06:37.21,Default,,0,0,0,,Maybe you'll change\Nyour mind.
+Dialogue: 0,0:06:41.51,0:06:43.51,Default,,0,0,0,,Do what you wanna do,\NI guess.
+Dialogue: 0,0:06:49.51,0:06:51.85,Default,,0,0,0,,Hey. What'd l say?
+Dialogue: 0,0:06:52.35,0:06:53.89,Default,,0,0,0,,Nothing.
+Dialogue: 0,0:06:55.06,0:06:57.06,Default,,0,0,0,,I just have to go is all.
+Dialogue: 0,0:07:16.75,0:07:18.38,Default,,0,0,0,,JESSE:\NWhat's this?
+Dialogue: 0,0:07:19.09,0:07:20.72,Default,,0,0,0,,My 1 8-month chip.
+Dialogue: 0,0:07:23.38,0:07:24.42,Default,,0,0,0,,I'm in recovery.
+Dialogue: 0,0:07:24.59,0:07:30.26,Default,,0,0,0,,And, you know,\Npot is like stepping stones.
+Dialogue: 0,0:07:32.60,0:07:36.81,Default,,0,0,0,,Recovery? That's cool.
+Dialogue: 0,0:07:36.98,0:07:38.36,Default,,0,0,0,,Right on.
+Dialogue: 0,0:07:39.11,0:07:40.74,Default,,0,0,0,,I respect that.
+Dialogue: 0,0:07:40.90,0:07:43.78,Default,,0,0,0,,You know,\NI don't really burn much anymore.
+Dialogue: 0,0:07:43.94,0:07:46.90,Default,,0,0,0,,It's just a sometime thing.
+Dialogue: 0,0:07:48.03,0:07:51.12,Default,,0,0,0,,But no more, like, in the house.
+Dialogue: 0,0:07:54.62,0:07:57.91,Default,,0,0,0,,So, um, you wanna go grab\Nsome dinner?
+Dialogue: 0,0:07:58.08,0:08:00.62,Default,,0,0,0,,I could really go for some Chinese.
+Dialogue: 0,0:08:00.79,0:08:02.29,Default,,0,0,0,,No, I better hit it.
+Dialogue: 0,0:08:04.01,0:08:05.72,Default,,0,0,0,,We, um...
+Dialogue: 0,0:08:06.01,0:08:07.64,Default,,0,0,0,,We cool?
+Dialogue: 0,0:08:08.55,0:08:10.59,Default,,0,0,0,,[INDlSTlNCT SOUNDS ON TV]
+Dialogue: 0,0:08:11.14,0:08:12.77,Default,,0,0,0,,Your satellite is on, by the way.
+Dialogue: 0,0:08:16.27,0:08:18.44,Default,,0,0,0,,That screen is badass.
+Dialogue: 0,0:08:32.70,0:08:34.83,Default,,0,0,0,,WALT:\NI just think it's asking a lot.
+Dialogue: 0,0:08:35.00,0:08:37.04,Default,,0,0,0,,SKYLER:\NHe knows it.
+Dialogue: 0,0:08:37.21,0:08:38.92,Default,,0,0,0,,He's done nothing\Nbut apologize.
+Dialogue: 0,0:08:40.46,0:08:42.04,Default,,0,0,0,,Is this gonna be\Nevery weekend now?
+Dialogue: 0,0:08:42.21,0:08:45.55,Default,,0,0,0,,No. It's just the end\Nof the quarter. You\Nremember how that was.
+Dialogue: 0,0:08:45.71,0:08:50.34,Default,,0,0,0,,But I am earning double time,\Nso there's a bright side.
+Dialogue: 0,0:08:50.51,0:08:52.93,Default,,0,0,0,,So when the laziest boy\Nin the world wakes up,
+Dialogue: 0,0:08:53.10,0:08:55.10,Default,,0,0,0,,tell him he better wash\Nthose sneakers.
+Dialogue: 0,0:08:55.27,0:08:56.31,Default,,0,0,0,,And l said bye.
+Dialogue: 0,0:08:56.47,0:08:58.85,Default,,0,0,0,,Ooh, and tell him\Nto let them air-dry this time.
+Dialogue: 0,0:08:59.02,0:09:01.65,Default,,0,0,0,,I don't want him\Nbanging the hell out of my dryer.
+Dialogue: 0,0:09:02.61,0:09:03.65,Default,,0,0,0,,What?
+Dialogue: 0,0:09:05.23,0:09:07.48,Default,,0,0,0,,What, you don't even get\Ncasual Saturday?
+Dialogue: 0,0:09:07.65,0:09:08.78,Default,,0,0,0,,I mean...
+Dialogue: 0,0:09:08.95,0:09:10.66,Default,,0,0,0,,No, it' s just you--
+Dialogue: 0,0:09:10.82,0:09:12.78,Default,,0,0,0,,You look nice is all.
+Dialogue: 0,0:09:12.95,0:09:15.20,Default,,0,0,0,,It's work, Walt.\NAnd everybody is gonna be there.
+Dialogue: 0,0:09:16.33,0:09:17.37,Default,,0,0,0,,Okay.\NOkay.
+Dialogue: 0,0:09:17.54,0:09:20.04,Default,,0,0,0,,Maybe we'll order\Na pizza tonight?
+Dialogue: 0,0:09:20.21,0:09:21.67,Default,,0,0,0,,Okay.
+Dialogue: 0,0:09:22.33,0:09:23.37,Default,,0,0,0,,Bye.\NBye.
+Dialogue: 0,0:09:29.92,0:09:31.55,Default,,0,0,0,,[PHONE RINGING]
+Dialogue: 0,0:09:35.76,0:09:38.85,Default,,0,0,0,,SKYLER [ON RECORDING]:\NHi. You've reached Walt,\NSkyler and Walter, Jr.
+Dialogue: 0,0:09:39.02,0:09:41.40,Default,,0,0,0,,Please leave a message,\Nand we'll get back to you.
+Dialogue: 0,0:09:41.56,0:09:46.11,Default,,0,0,0,,MARIE:\NSkyler? Are you there?\NI don't know what to do.
+Dialogue: 0,0:09:46.27,0:09:49.90,Default,,0,0,0,,I-- I need to talk to you. I--
+Dialogue: 0,0:09:50.07,0:09:53.66,Default,,0,0,0,,Hey, Marie. It's me. What's up?
+Dialogue: 0,0:10:00.29,0:10:03.00,Default,,0,0,0,,MARIE:\NYesterday I got home\Nand found him.
+Dialogue: 0,0:10:03.63,0:10:06.17,Default,,0,0,0,,He didn' t even tell me\Nhe was coming.
+Dialogue: 0,0:10:06.63,0:10:10.09,Default,,0,0,0,,A man was killed?\NA Federale, right in front of him.
+Dialogue: 0,0:10:10.97,0:10:14.39,Default,,0,0,0,,Three agents wounded,\None lost his leg.
+Dialogue: 0,0:10:14.55,0:10:18.22,Default,,0,0,0,,It's like what you hear about\Nfrom lraq or something.
+Dialogue: 0,0:10:18.39,0:10:21.23,Default,,0,0,0,,The IEDs.\NOh, Jesus.
+Dialogue: 0,0:10:21.39,0:10:24.27,Default,,0,0,0,,I had to hear about it\Nfrom Steve Gomez.
+Dialogue: 0,0:10:24.44,0:10:26.90,Default,,0,0,0,,Hank talked to his ASAC\Nfor about an hour.
+Dialogue: 0,0:10:27.07,0:10:30.36,Default,,0,0,0,,Hank could win an Oscar.\NHe's so damn breezy\Nwith the man.
+Dialogue: 0,0:10:30.53,0:10:33.62,Default,,0,0,0,,He hangs up the phone,\Ngoes right back to bed.
+Dialogue: 0,0:10:33.78,0:10:39.66,Default,,0,0,0,,And all he keeps saying is,\N"I' m fine. I'm fine.\NLeave me alone."
+Dialogue: 0,0:10:52.63,0:10:54.13,Default,,0,0,0,,[KNOCKlNG ON DOOR]
+Dialogue: 0,0:11:03.77,0:11:05.48,Default,,0,0,0,,Baby, not now.
+Dialogue: 0,0:11:06.73,0:11:09.69,Default,,0,0,0,,WALT:\NIt's-- It's me, Hank.\NSorry. l--
+Dialogue: 0,0:11:13.49,0:11:15.49,Default,,0,0,0,,Hey, buddy. What' s--?
+Dialogue: 0,0:11:15.66,0:11:17.24,Default,,0,0,0,,What's up?
+Dialogue: 0,0:11:19.03,0:11:21.16,Default,,0,0,0,,Um, I just--
+Dialogue: 0,0:11:21.58,0:11:23.75,Default,,0,0,0,,Do you mind if I...?
+Dialogue: 0,0:11:24.04,0:11:25.67,Default,,0,0,0,,No, no.
+Dialogue: 0,0:11:28.08,0:11:29.83,Default,,0,0,0,,So, uh...
+Dialogue: 0,0:11:33.13,0:11:34.30,Default,,0,0,0,,How you doing?
+Dialogue: 0,0:11:34.84,0:11:37.55,Default,,0,0,0,,Oh, you know, lousy.
+Dialogue: 0,0:11:38.09,0:11:39.63,Default,,0,0,0,,Montezuma's revenge,\Nbig time.
+Dialogue: 0,0:11:39.80,0:11:44.05,Default,,0,0,0,,I mean, everything's\Ngoing through me\Nlike crap through a tinhorn.
+Dialogue: 0,0:11:44.23,0:11:45.23,Default,,0,0,0,,[CHUCKLES]
+Dialogue: 0,0:11:45.39,0:11:47.14,Default,,0,0,0,,Better not get too close.
+Dialogue: 0,0:11:47.31,0:11:50.31,Default,,0,0,0,,Well, l'll take my chances.
+Dialogue: 0,0:11:58.62,0:12:02.33,Default,,0,0,0,,I guess you heard about\Nwhat happened down in Juárez?
+Dialogue: 0,0:12:04.00,0:12:05.71,Default,,0,0,0,,Terrible.
+Dialogue: 0,0:12:06.58,0:12:09.04,Default,,0,0,0,,What do you expect?\NBunch of freaking animals.
+Dialogue: 0,0:12:09.21,0:12:10.88,Default,,0,0,0,,It's like Apocalypse Now\Ndown there.
+Dialogue: 0,0:12:11.04,0:12:14.92,Default,,0,0,0,,It's like Colonel Kurtz\Nholed up in his jungle.
+Dialogue: 0,0:12:16.59,0:12:20.05,Default,,0,0,0,,And my SAC in El Paso\Nsends me home.
+Dialogue: 0,0:12:20.89,0:12:24.64,Default,,0,0,0,,Now, that' s a sound leadership\Ndecision right there, huh?
+Dialogue: 0,0:12:24.81,0:12:27.94,Default,,0,0,0,,You know, you don't put\Nyour second most senior man
+Dialogue: 0,0:12:28.10,0:12:30.23,Default,,0,0,0,,on the trail\Nof those motherless bastards,
+Dialogue: 0,0:12:30.40,0:12:31.90,Default,,0,0,0,,you send him home.
+Dialogue: 0,0:12:33.40,0:12:36.07,Default,,0,0,0,,I was, you know,\N"He's out getting\Nan evidence bag
+Dialogue: 0,0:12:36.24,0:12:38.20,Default,,0,0,0,,and so ends up\Nwithout a scratch on him.
+Dialogue: 0,0:12:38.36,0:12:41.90,Default,,0,0,0,,So must be something wrong\Nwith that picture, you know."
+Dialogue: 0,0:12:44.41,0:12:47.41,Default,,0,0,0,,So are you home\Nfor good then?
+Dialogue: 0,0:12:47.58,0:12:48.62,Default,,0,0,0,,Uh...
+Dialogue: 0,0:12:48.79,0:12:50.92,Default,,0,0,0,,No, no. It's, uh...
+Dialogue: 0,0:12:51.08,0:12:55.00,Default,,0,0,0,,Playing it by ear.\NTo be determined.
+Dialogue: 0,0:12:57.51,0:13:01.35,Default,,0,0,0,,Think you might wanna\Ntalk it through\Nwith somebody?
+Dialogue: 0,0:13:01.51,0:13:04.60,Default,,0,0,0,,What, a shrink?\NNo, no, no.\NCan't go down that road.
+Dialogue: 0,0:13:04.76,0:13:07.51,Default,,0,0,0,,Start going down that road,\Nkiss your career goodbye.
+Dialogue: 0,0:13:08.39,0:13:14.40,Default,,0,0,0,,Or Marie.\NOr me, if you like.
+Dialogue: 0,0:13:20.61,0:13:24.78,Default,,0,0,0,,You know, um, I don't know\Nhow to say this. I, uh--
+Dialogue: 0,0:13:26.74,0:13:28.87,Default,,0,0,0,,You know,\Nthe things l deal with,
+Dialogue: 0,0:13:30.04,0:13:33.33,Default,,0,0,0,,you and me don't have\Nmuch of a--
+Dialogue: 0,0:13:33.50,0:13:37.59,Default,,0,0,0,,What you might call\N"an experiential overlap."
+Dialogue: 0,0:13:45.81,0:13:48.27,Default,,0,0,0,,What if I told you we do?
+Dialogue: 0,0:13:55.73,0:14:00.23,Default,,0,0,0,,I have spent\Nmy whole life scared.
+Dialogue: 0,0:14:02.24,0:14:05.41,Default,,0,0,0,,Frightened of things\Nthat could happen,
+Dialogue: 0,0:14:05.58,0:14:07.96,Default,,0,0,0,,might happen,\Nmight not happen.
+Dialogue: 0,0:14:08.12,0:14:11.66,Default,,0,0,0,,Fifty years I spent like that.
+Dialogue: 0,0:14:13.42,0:14:17.01,Default,,0,0,0,,Finding myself awake\Nat 3 in the morning.
+Dialogue: 0,0:14:20.59,0:14:22.42,Default,,0,0,0,,But you know what?
+Dialogue: 0,0:14:23.38,0:14:26.01,Default,,0,0,0,,Ever since my diagnosis,
+Dialogue: 0,0:14:27.51,0:14:29.64,Default,,0,0,0,,I sleep just fine.
+Dialogue: 0,0:14:35.36,0:14:36.90,Default,,0,0,0,,Okay.
+Dialogue: 0,0:14:37.57,0:14:42.91,Default,,0,0,0,,And l came to realize\Nit' s that fear that' s the\Nworst of it.
+Dialogue: 0,0:14:43.07,0:14:45.28,Default,,0,0,0,,That's the real enemy.
+Dialogue: 0,0:14:48.03,0:14:49.61,Default,,0,0,0,,So...
+Dialogue: 0,0:14:51.83,0:14:53.29,Default,,0,0,0,,Get up.
+Dialogue: 0,0:14:53.71,0:14:56.05,Default,,0,0,0,,Get out in the real world.
+Dialogue: 0,0:14:56.63,0:15:01.43,Default,,0,0,0,,And you kick that bastard\Nas hard as you can right\Nin the teeth.
+Dialogue: 0,0:15:16.35,0:15:19.14,Default,,0,0,0,,Do it again. Go on.
+Dialogue: 0,0:15:26.45,0:15:29.41,Default,,0,0,0,,Ten thousand even,\Nsame as last time.\NIt's totally accurate.
+Dialogue: 0,0:15:29.95,0:15:32.03,Default,,0,0,0,,You and I, we are\Ngonna feed this machine.
+Dialogue: 0,0:15:32.20,0:15:35.87,Default,,0,0,0,,I want it running 24 hours a day.\NRight on.
+Dialogue: 0,0:15:43.26,0:15:44.89,Default,,0,0,0,,Not yours, I take it.
+Dialogue: 0,0:15:46.80,0:15:52.01,Default,,0,0,0,,We got 1 0, 20, 30,
+Dialogue: 0,0:15:52.18,0:15:57.23,Default,,0,0,0,,44, five each.
+Dialogue: 0,0:15:59.15,0:16:02.57,Default,,0,0,0,,Three pounds\Nshould be 48 each.
+Dialogue: 0,0:16:02.73,0:16:03.81,Default,,0,0,0,,Who's short?
+Dialogue: 0,0:16:03.99,0:16:06.78,Default,,0,0,0,,All right. Don' t freak, all right?\NWe didn't get ripped off.
+Dialogue: 0,0:16:06.95,0:16:08.95,Default,,0,0,0,,But Badger hasn' t kicked in\Nhis full amount.
+Dialogue: 0,0:16:09.12,0:16:11.46,Default,,0,0,0,,I know he was planning on\Npulling an all-nighter,
+Dialogue: 0,0:16:11.62,0:16:13.37,Default,,0,0,0,,so he's probably still in the sack.
+Dialogue: 0,0:16:13.54,0:16:17.46,Default,,0,0,0,,Then wake him up.\NHe can sleep after we're paid.
+Dialogue: 0,0:16:17.62,0:16:20.12,Default,,0,0,0,,Why you gotta be such\Na hard-on?
+Dialogue: 0,0:16:20.29,0:16:22.83,Default,,0,0,0,,You' re not his pal.\NYou' re his boss.
+Dialogue: 0,0:16:23.00,0:16:25.46,Default,,0,0,0,,This only works when\Nthey' re scared of you, remember?
+Dialogue: 0,0:16:26.55,0:16:28.76,Default,,0,0,0,,[MUMBLES]\NJack off.
+Dialogue: 0,0:16:32.14,0:16:34.14,Default,,0,0,0,,It's going straight\Nto voicemail.
+Dialogue: 0,0:16:35.06,0:16:36.64,Default,,0,0,0,,Voicemail? Oh.
+Dialogue: 0,0:16:37.52,0:16:40.90,Default,,0,0,0,,Just chill, okay?\NCount your money.
+Dialogue: 0,0:16:46.11,0:16:47.40,Default,,0,0,0,,Combo.\NCOMBO: Yo, what's up?
+Dialogue: 0,0:16:47.57,0:16:49.82,Default,,0,0,0,,You seen Badger?
+Dialogue: 0,0:16:50.82,0:16:52.74,Default,,0,0,0,,Yo, don' t you cover\Nfor him, bitch.
+Dialogue: 0,0:16:52.91,0:16:55.83,Default,,0,0,0,,I ask you a straight-up question,\NI expect a straight-up answer.
+Dialogue: 0,0:17:11.72,0:17:13.10,Default,,0,0,0,,Well?
+Dialogue: 0,0:17:17.18,0:17:19.43,Default,,0,0,0,,They were too scared\Nto tell me.
+Dialogue: 0,0:17:21.02,0:17:22.69,Default,,0,0,0,,Badger got busted.
+Dialogue: 0,0:17:22.86,0:17:24.69,Default,,0,0,0,,He's in jail.
+Dialogue: 0,0:17:33.41,0:17:35.37,Default,,0,0,0,,[♪♪♪]
+Dialogue: 0,0:17:38.58,0:17:40.79,Default,,0,0,0,,[BREATHING HEAVlLY]
+Dialogue: 0,0:18:02.10,0:18:04.48,Default,,0,0,0,,HANK:\NHoney, I' m home!
+Dialogue: 0,0:18:04.65,0:18:06.90,Default,,0,0,0,,Oh! Too slow! What's up?
+Dialogue: 0,0:18:07.07,0:18:08.90,Default,,0,0,0,,Got more lives than\Na damn cat.
+Dialogue: 0,0:18:09.07,0:18:11.07,Default,,0,0,0,,Now if l could only learn\Nto lick myself.
+Dialogue: 0,0:18:11.24,0:18:12.24,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:18:12.41,0:18:15.41,Default,,0,0,0,,What's up, guys? Good\Nto see you. Good to see you.\NGood to see you.
+Dialogue: 0,0:18:15.58,0:18:19.42,Default,,0,0,0,,All right. Let's all get back to work,\Nfor chrissake, okay?
+Dialogue: 0,0:18:19.58,0:18:22.87,Default,,0,0,0,,In my office, man. Let's see\Nwhat you bozos been up to lately.
+Dialogue: 0,0:18:46.31,0:18:47.44,Default,,0,0,0,,You okay?
+Dialogue: 0,0:18:47.61,0:18:49.15,Default,,0,0,0,,Hanging in?
+Dialogue: 0,0:18:49.32,0:18:51.07,Default,,0,0,0,,What's it look like?
+Dialogue: 0,0:18:51.82,0:18:54.61,Default,,0,0,0,,What's this from A.P.D.?\NBeen checking with them to see
+Dialogue: 0,0:18:54.78,0:18:57.28,Default,,0,0,0,,if they come across\Nthat famous blue meth\Nof yours.
+Dialogue: 0,0:18:57.45,0:18:59.95,Default,,0,0,0,,Sure enough, last night.
+Dialogue: 0,0:19:00.12,0:19:02.58,Default,,0,0,0,,Got themselves\Nan honest-to-God dealer.
+Dialogue: 0,0:19:02.75,0:19:06.09,Default,,0,0,0,,I was thinking of cruising over\Nand saying hello.
+Dialogue: 0,0:19:06.79,0:19:08.29,Default,,0,0,0,,Maybe you'd like to go with me?
+Dialogue: 0,0:19:09.38,0:19:11.80,Default,,0,0,0,,Yeah. Well, all right.
+Dialogue: 0,0:19:12.55,0:19:14.80,Default,,0,0,0,,BADGER:\NYou told me to my face\Nyou weren't a cop, man.
+Dialogue: 0,0:19:15.64,0:19:17.43,Default,,0,0,0,,I feel manipulated.
+Dialogue: 0,0:19:17.60,0:19:19.23,Default,,0,0,0,,Thought we were gonna hang out.
+Dialogue: 0,0:19:19.39,0:19:20.93,Default,,0,0,0,,GETZ:\NWe are hanging out, Badger.
+Dialogue: 0,0:19:21.10,0:19:23.48,Default,,0,0,0,,You like Badger\Nor Brandon?
+Dialogue: 0,0:19:24.27,0:19:28.77,Default,,0,0,0,,I like people who don' t, like,\Nabuse the Constitution.
+Dialogue: 0,0:19:28.94,0:19:30.15,Default,,0,0,0,,Badger, listen.
+Dialogue: 0,0:19:30.73,0:19:32.11,Default,,0,0,0,,Hey.
+Dialogue: 0,0:19:32.49,0:19:34.87,Default,,0,0,0,,I'm trying to\Nhelp you here, man.
+Dialogue: 0,0:19:35.36,0:19:39.74,Default,,0,0,0,,Now, if you just tell me\Nwho your supplier is,
+Dialogue: 0,0:19:39.91,0:19:42.87,Default,,0,0,0,,I think this can end\Nvery well for you.
+Dialogue: 0,0:19:43.04,0:19:47.09,Default,,0,0,0,,Eh! What are you doing, detective?\NWhat are you doing talking\Nto my client without me present?
+Dialogue: 0,0:19:47.25,0:19:48.33,Default,,0,0,0,,You sneaky Pete.
+Dialogue: 0,0:19:49.63,0:19:51.01,Default,,0,0,0,,Which is which?
+Dialogue: 0,0:19:51.17,0:19:53.63,Default,,0,0,0,,What, did the academy hire you\Nright out of the womb?
+Dialogue: 0,0:19:53.80,0:19:55.63,Default,,0,0,0,,You guys get younger every--
+Dialogue: 0,0:19:55.80,0:19:57.51,Default,,0,0,0,,What'd you say\Nto baby face, huh?
+Dialogue: 0,0:19:57.68,0:19:59.14,Default,,0,0,0,,Did you say anything stupid?
+Dialogue: 0,0:19:59.30,0:20:01.34,Default,,0,0,0,,By "anything stupid,"\NI mean anything at all.
+Dialogue: 0,0:20:01.51,0:20:04.01,Default,,0,0,0,,Look at you. Mouth open,\Nvocal chords a-twitter.
+Dialogue: 0,0:20:04.18,0:20:06.56,Default,,0,0,0,,We' ll talk about it later.\NRight now, you out.
+Dialogue: 0,0:20:06.73,0:20:10.02,Default,,0,0,0,,Ten minutes ago. Go on.\NThere are laws, detective.
+Dialogue: 0,0:20:10.19,0:20:12.40,Default,,0,0,0,,Have your kindergarten teacher\Nread them to you.
+Dialogue: 0,0:20:12.57,0:20:16.32,Default,,0,0,0,,Go grab a juice box.\NHave a nap. Go on.
+Dialogue: 0,0:20:16.61,0:20:18.19,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:20:19.87,0:20:20.87,Default,,0,0,0,,All right.
+Dialogue: 0,0:20:21.99,0:20:23.78,Default,,0,0,0,,Who do we have?
+Dialogue: 0,0:20:24.45,0:20:25.70,Default,,0,0,0,,Brandon Mayhew.
+Dialogue: 0,0:20:25.87,0:20:29.21,Default,,0,0,0,,Brandon Mayhew. All right.
+Dialogue: 0,0:20:29.63,0:20:31.80,Default,,0,0,0,,Brandon Mayhew.
+Dialogue: 0,0:20:34.71,0:20:37.63,Default,,0,0,0,,Here we go. Public masturbation.\NWhat?
+Dialogue: 0,0:20:37.80,0:20:40.89,Default,,0,0,0,,I don't get it. What's the kick?\NWhy don' t you do it at home\Nlike the rest of us
+Dialogue: 0,0:20:41.05,0:20:44.55,Default,,0,0,0,,with a big flat-screen TV,\N50 channels of pay-per-view?
+Dialogue: 0,0:20:44.72,0:20:47.26,Default,,0,0,0,,In a Starbucks.\NThat's nice. Ha-ha.
+Dialogue: 0,0:20:47.44,0:20:49.40,Default,,0,0,0,,That ain't me, man. I--
+Dialogue: 0,0:20:49.56,0:20:54.36,Default,,0,0,0,,I was the guy who was\Nselling meth. Allegedly.
+Dialogue: 0,0:20:55.40,0:20:57.44,Default,,0,0,0,,Okay. All right. I got you.\NMeth. Right.
+Dialogue: 0,0:20:57.61,0:20:59.78,Default,,0,0,0,,Sorry, that was a little\Ntranspositional error.
+Dialogue: 0,0:20:59.95,0:21:02.62,Default,,0,0,0,,Nothing a little Wite-Out\Ncan' t take care of.
+Dialogue: 0,0:21:02.78,0:21:05.74,Default,,0,0,0,,Yeah, and felony quantity.
+Dialogue: 0,0:21:05.91,0:21:08.25,Default,,0,0,0,,Just barely.\NYeah, just barely.
+Dialogue: 0,0:21:08.41,0:21:11.50,Default,,0,0,0,,The cops are like butchers.\NAlways got their thumbs on the scales.
+Dialogue: 0,0:21:11.67,0:21:13.59,Default,,0,0,0,,But good luck arguing that in court.
+Dialogue: 0,0:21:13.75,0:21:14.83,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:21:15.00,0:21:16.50,Default,,0,0,0,,Let me get down\Nto brass tacks.
+Dialogue: 0,0:21:16.67,0:21:18.42,Default,,0,0,0,,I'm gonna get you\Na second phone call.
+Dialogue: 0,0:21:18.59,0:21:20.63,Default,,0,0,0,,Okay, you're gonna call\Nyour mommy or your daddy
+Dialogue: 0,0:21:20.80,0:21:23.22,Default,,0,0,0,,or your parish priest\Nor your Boy Scout leader,
+Dialogue: 0,0:21:23.39,0:21:26.56,Default,,0,0,0,,and they're gonna\Ndeliver me a check for $4650.
+Dialogue: 0,0:21:26.72,0:21:29.39,Default,,0,0,0,,I'm gonna write that down\Non the back of my business card.
+Dialogue: 0,0:21:29.56,0:21:32.15,Default,,0,0,0,,Four-six-five-zero. Okay?
+Dialogue: 0,0:21:32.31,0:21:36.48,Default,,0,0,0,,And l need that in a cashier's check\Nor a money order, doesn't matter.
+Dialogue: 0,0:21:36.65,0:21:39.15,Default,,0,0,0,,Actually,\NI want it in a money order.
+Dialogue: 0,0:21:39.32,0:21:42.11,Default,,0,0,0,,And make it out to\N"Ice Station Zebra Associates."
+Dialogue: 0,0:21:42.28,0:21:44.78,Default,,0,0,0,,That's my loan-out. It' s totally legit.
+Dialogue: 0,0:21:44.95,0:21:47.04,Default,,0,0,0,,It's done just for tax purposes.
+Dialogue: 0,0:21:47.20,0:21:49.79,Default,,0,0,0,,And after that,\Nwe can discuss Visa or MasterCard,
+Dialogue: 0,0:21:49.96,0:21:53.88,Default,,0,0,0,,but definitely not American Express,\Nso don't even ask. All right?
+Dialogue: 0,0:21:54.04,0:21:55.12,Default,,0,0,0,,Any questions?
+Dialogue: 0,0:21:57.05,0:22:00.05,Default,,0,0,0,,Uh-- You're gonna\Nget me off, right?
+Dialogue: 0,0:22:01.09,0:22:04.93,Default,,0,0,0,,What do I look like,\Nyour high-school girlfriend?\NFive fingers, no waiting?
+Dialogue: 0,0:22:05.51,0:22:08.80,Default,,0,0,0,,That's a joke, Brandon.\NLighten up.
+Dialogue: 0,0:22:09.31,0:22:12.81,Default,,0,0,0,,Son, l promise you this.
+Dialogue: 0,0:22:12.98,0:22:16.15,Default,,0,0,0,,I will give you\Nthe best criminal defense
+Dialogue: 0,0:22:16.32,0:22:17.74,Default,,0,0,0,,that money can buy.
+Dialogue: 0,0:22:19.65,0:22:21.82,Default,,0,0,0,,Yeah, but, Francesca,\NI took these already.
+Dialogue: 0,0:22:21.99,0:22:23.74,Default,,0,0,0,,Didn't l take these already?
+Dialogue: 0,0:22:23.91,0:22:26.91,Default,,0,0,0,,Okay. lt's on your head.\NYou' re not supposed to\Ndouble up on vitamin A.
+Dialogue: 0,0:22:27.08,0:22:29.00,Default,,0,0,0,,It's bad for the liver.
+Dialogue: 0,0:22:30.54,0:22:32.71,Default,,0,0,0,,Okay, who' s next?
+Dialogue: 0,0:22:32.87,0:22:35.16,Default,,0,0,0,,Did him. I did him.
+Dialogue: 0,0:22:35.33,0:22:37.62,Default,,0,0,0,,That one went public defender.\NThanks for nothing.
+Dialogue: 0,0:22:37.80,0:22:40.93,Default,,0,0,0,,Hey, what happened to\Nmy masturbator, Francesca?\NYou got me all turned around.
+Dialogue: 0,0:22:41.42,0:22:43.00,Default,,0,0,0,,Hang on.\NI'll get back to you.
+Dialogue: 0,0:22:44.26,0:22:47.97,Default,,0,0,0,,Gentlemen, l sense you're\Ndiscussing my client. Anything\Nyou care to share with me?
+Dialogue: 0,0:22:48.14,0:22:50.10,Default,,0,0,0,,Sure. Your commercials?\NThey suck ass.
+Dialogue: 0,0:22:50.27,0:22:51.31,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:22:51.48,0:22:54.15,Default,,0,0,0,,I've seen better acting\Nin an epileptic whorehouse.
+Dialogue: 0,0:22:54.31,0:22:56.10,Default,,0,0,0,,Is that like the one\Nyour mom works at?
+Dialogue: 0,0:22:56.27,0:22:58.02,Default,,0,0,0,,Is she still offering\Nthe two-for-one discount?
+Dialogue: 0,0:22:58.19,0:22:59.19,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:22:59.36,0:23:02.20,Default,,0,0,0,,DEA, huh? For a street bust.
+Dialogue: 0,0:23:02.36,0:23:05.53,Default,,0,0,0,,Now, what would two feds\Nwant with that little twerp?
+Dialogue: 0,0:23:19.59,0:23:21.59,Default,,0,0,0,,JESSE:\NSooner or later,\Nthis was gonna happen.
+Dialogue: 0,0:23:21.76,0:23:24.14,Default,,0,0,0,,You want your\Nexponential growth,
+Dialogue: 0,0:23:24.30,0:23:26.38,Default,,0,0,0,,guys are gonna get busted.\NSimple as that.
+Dialogue: 0,0:23:26.55,0:23:29.51,Default,,0,0,0,,How about we get him\Na real attorney?\NWhat the hell is this?
+Dialogue: 0,0:23:29.68,0:23:31.39,Default,,0,0,0,,This is who he hires?
+Dialogue: 0,0:23:31.56,0:23:35.06,Default,,0,0,0,,What? Are you kidding me?\NThis is the guy you want.
+Dialogue: 0,0:23:35.98,0:23:39.82,Default,,0,0,0,,This is the guy I'd hire.\NOh, it's the guy you'd hire.
+Dialogue: 0,0:23:39.98,0:23:41.36,Default,,0,0,0,,Look, you remember Emilio?
+Dialogue: 0,0:23:41.78,0:23:44.70,Default,,0,0,0,,Okay, this dude got Emilio off,\Nlike, twice. Okay?
+Dialogue: 0,0:23:44.86,0:23:49.45,Default,,0,0,0,,Both times, they had him\Ndead to rights, yo. And then, poof.
+Dialogue: 0,0:23:49.62,0:23:50.83,Default,,0,0,0,,Dude is like Houdini.
+Dialogue: 0,0:23:50.99,0:23:52.82,Default,,0,0,0,,Seriously,\Nwhen the going gets tough,
+Dialogue: 0,0:23:53.00,0:23:54.88,Default,,0,0,0,,you don't want\Na criminal lawyer.
+Dialogue: 0,0:23:55.04,0:23:58.42,Default,,0,0,0,,You want a "criminal" lawyer.
+Dialogue: 0,0:23:58.58,0:24:00.41,Default,,0,0,0,,Know what l'm saying?
+Dialogue: 0,0:24:01.96,0:24:04.13,Default,,0,0,0,,Look, we're in good shape,\NMr. White.
+Dialogue: 0,0:24:04.30,0:24:06.59,Default,,0,0,0,,Badger is way too loyal to roll.
+Dialogue: 0,0:24:06.76,0:24:08.76,Default,,0,0,0,,Plus, he's scared shitless of me,\Nall right.
+Dialogue: 0,0:24:08.93,0:24:13.27,Default,,0,0,0,,We pay four large.\NCost of business.\NTake it out of his payroll.
+Dialogue: 0,0:24:13.43,0:24:15.22,Default,,0,0,0,,And it's only\Nhis first dealing rap,
+Dialogue: 0,0:24:15.39,0:24:18.02,Default,,0,0,0,,so, worst-case scenario,\Nyou know, they plead him out.
+Dialogue: 0,0:24:18.19,0:24:21.78,Default,,0,0,0,,He does five months\Npicking up litter\Nin an orange jump suit.
+Dialogue: 0,0:24:22.94,0:24:26.94,Default,,0,0,0,,So who goes inside?\NI don't need them seeing my face.
+Dialogue: 0,0:24:27.11,0:24:29.70,Default,,0,0,0,,Well, l don't need them\Nseeing my face.
+Dialogue: 0,0:24:29.87,0:24:33.00,Default,,0,0,0,,Why not?\NYou look like his typical clientele.
+Dialogue: 0,0:24:33.16,0:24:34.66,Default,,0,0,0,,Dick.
+Dialogue: 0,0:24:34.83,0:24:36.37,Default,,0,0,0,,Fine.
+Dialogue: 0,0:24:36.91,0:24:39.58,Default,,0,0,0,,We' ll flip for it, all right?\NCall it.
+Dialogue: 0,0:24:41.13,0:24:42.80,Default,,0,0,0,,Heads.
+Dialogue: 0,0:24:45.63,0:24:47.76,Default,,0,0,0,,[BABY CRYlNG]
+Dialogue: 0,0:24:49.93,0:24:52.97,Default,,0,0,0,,["AMERICA THE BEAUTIFUL"\NPLAYlNG ON SPEAKERS]
+Dialogue: 0,0:24:55.60,0:24:58.98,Default,,0,0,0,,WOMAN [ON PA]:\NMayhew? Mr. Mayhew?
+Dialogue: 0,0:25:05.15,0:25:07.15,Default,,0,0,0,,[BABY CRYlNG]
+Dialogue: 0,0:25:12.41,0:25:14.83,Default,,0,0,0,,Mr. Mayhew.
+Dialogue: 0,0:25:14.99,0:25:17.99,Default,,0,0,0,,Nice of you to come down. Please.
+Dialogue: 0,0:25:18.29,0:25:19.46,Default,,0,0,0,,Look at you.
+Dialogue: 0,0:25:19.83,0:25:22.67,Default,,0,0,0,,Should I call the FBI\Nand tell them l found\ND.B. Cooper?
+Dialogue: 0,0:25:22.84,0:25:23.84,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:25:24.00,0:25:25.04,Default,,0,0,0,,Joking.
+Dialogue: 0,0:25:25.21,0:25:27.34,Default,,0,0,0,,I-- Please, come on.
+Dialogue: 0,0:25:27.51,0:25:29.34,Default,,0,0,0,,Come on. Please.
+Dialogue: 0,0:25:29.51,0:25:31.34,Default,,0,0,0,,Hello.
+Dialogue: 0,0:25:31.72,0:25:34.72,Default,,0,0,0,,Saul Goodman. Please sit.
+Dialogue: 0,0:25:37.31,0:25:42.19,Default,,0,0,0,,So it's a shame that we have to meet\Nunder these circumstances.
+Dialogue: 0,0:25:46.53,0:25:49.53,Default,,0,0,0,,I believe you have\Nsomething for me?
+Dialogue: 0,0:25:50.03,0:25:51.86,Default,,0,0,0,,Oh, yes.
+Dialogue: 0,0:25:54.45,0:25:58.83,Default,,0,0,0,,Mayhew. Is that Irish or English?\NIrish.
+Dialogue: 0,0:25:59.00,0:26:01.88,Default,,0,0,0,,[IN lRISH ACCENT]\NFaith and begorra.\NA fellow potato-eater.
+Dialogue: 0,0:26:03.04,0:26:04.46,Default,,0,0,0,,My real name is McGill.
+Dialogue: 0,0:26:05.04,0:26:06.87,Default,,0,0,0,,The Jew thing\NI just do for the homeboys.
+Dialogue: 0,0:26:07.05,0:26:11.14,Default,,0,0,0,,They all want a pipe-hitting member\Nof the tribe, so to speak.
+Dialogue: 0,0:26:11.68,0:26:14.60,Default,,0,0,0,,I digress.\NGood things are happening.
+Dialogue: 0,0:26:14.76,0:26:18.64,Default,,0,0,0,,Fact is, your nephew is gonna\Nget out in no time.
+Dialogue: 0,0:26:18.81,0:26:20.48,Default,,0,0,0,,That's wonderful, yeah.
+Dialogue: 0,0:26:20.64,0:26:23.06,Default,,0,0,0,,There's still a few details\Nto be ironed out,
+Dialogue: 0,0:26:23.23,0:26:25.23,Default,,0,0,0,,but now that the DEA\Nis involved,
+Dialogue: 0,0:26:25.65,0:26:29.15,Default,,0,0,0,,I think he's looking\Nat time served, then probation.
+Dialogue: 0,0:26:29.32,0:26:32.74,Default,,0,0,0,,So leave your number\Nwith Francesca,\Nand we'll be in touch.
+Dialogue: 0,0:26:32.91,0:26:34.58,Default,,0,0,0,,Excuse me, the DEA?\NYeah.
+Dialogue: 0,0:26:34.74,0:26:38.37,Default,,0,0,0,,That's the Drug Enforcement\NAdministration. The feds.
+Dialogue: 0,0:26:41.08,0:26:43.58,Default,,0,0,0,,I hope that I'm not\Nthe breaker of bad news,
+Dialogue: 0,0:26:43.75,0:26:47.34,Default,,0,0,0,,but your nephew got mixed up\Nwith some pretty nasty customers.
+Dialogue: 0,0:26:47.50,0:26:48.54,Default,,0,0,0,,I understand that.
+Dialogue: 0,0:26:48.71,0:26:50.46,Default,,0,0,0,,What does that have\Nto do with the DEA?
+Dialogue: 0,0:26:50.63,0:26:52.17,Default,,0,0,0,,They' re after\Nsome mystery man,
+Dialogue: 0,0:26:52.34,0:26:54.84,Default,,0,0,0,,some heavy-hitter\Nthat goes by the name Heisenberg.
+Dialogue: 0,0:26:55.01,0:26:57.47,Default,,0,0,0,,They want this guy\Nlike the ax wants the turkey.
+Dialogue: 0,0:26:57.64,0:26:59.60,Default,,0,0,0,,Seems young Brandon\Nmay have some information
+Dialogue: 0,0:26:59.77,0:27:01.65,Default,,0,0,0,,that could lead to his arrest.
+Dialogue: 0,0:27:02.14,0:27:04.18,Default,,0,0,0,,Jesus, cheer up.\NThis is good news.
+Dialogue: 0,0:27:04.35,0:27:06.94,Default,,0,0,0,,I mean, Brandon fell head-first\Ninto the doo-doo pile
+Dialogue: 0,0:27:07.11,0:27:10.03,Default,,0,0,0,,and came up smelling\Nlike Paco Rabanne. Ha-ha.
+Dialogue: 0,0:27:10.19,0:27:13.44,Default,,0,0,0,,Wait, wait. Look, l just-- I think--
+Dialogue: 0,0:27:13.61,0:27:18.78,Default,,0,0,0,,I just think that we should\Nreview our options.
+Dialogue: 0,0:27:18.95,0:27:20.41,Default,,0,0,0,,Options?
+Dialogue: 0,0:27:20.58,0:27:22.62,Default,,0,0,0,,I'm gonna tell you\Nwhat your options are, okay.
+Dialogue: 0,0:27:22.79,0:27:26.42,Default,,0,0,0,,You got a grand total of two.\NOption A: Brandon takes the deal.
+Dialogue: 0,0:27:26.58,0:27:28.79,Default,,0,0,0,,Option B: Brandon goes up\Nto the penitentiary
+Dialogue: 0,0:27:28.96,0:27:31.63,Default,,0,0,0,,and gets his rectum\Nresized about yay big.
+Dialogue: 0,0:27:31.80,0:27:35.47,Default,,0,0,0,,Look, look.\NWhat about reprisals?
+Dialogue: 0,0:27:35.63,0:27:37.46,Default,,0,0,0,,I mean, if Badger--
+Dialogue: 0,0:27:37.64,0:27:43.15,Default,,0,0,0,,If Brandon informs\Non this Heisenberg,
+Dialogue: 0,0:27:43.60,0:27:45.31,Default,,0,0,0,,I mean, what if, God forbid,
+Dialogue: 0,0:27:45.48,0:27:50.32,Default,,0,0,0,,that they decide to take revenge?
+Dialogue: 0,0:27:50.48,0:27:52.31,Default,,0,0,0,,What have you\Nbeen telling him?
+Dialogue: 0,0:27:52.48,0:27:55.94,Default,,0,0,0,,The kid keeps spouting off about,\N"If l talk, they' ll kill me."\NBlah, blah, blah.
+Dialogue: 0,0:27:56.11,0:27:59.07,Default,,0,0,0,,Right now, he's the only thing\Nholding up this deal.
+Dialogue: 0,0:27:59.99,0:28:02.95,Default,,0,0,0,,Good.\NNo, that's not good. That's terrible.
+Dialogue: 0,0:28:03.12,0:28:06.25,Default,,0,0,0,,Trust me, sir, your nephew\Nwon't last in prison two weeks.
+Dialogue: 0,0:28:06.42,0:28:09.13,Default,,0,0,0,,You let him take his chances\Non the outside.
+Dialogue: 0,0:28:09.29,0:28:11.29,Default,,0,0,0,,Maybe I can work\Nin some witness protection.
+Dialogue: 0,0:28:11.46,0:28:15.17,Default,,0,0,0,,No, look, look. These are\Nvicious, desperate people.
+Dialogue: 0,0:28:15.34,0:28:20.34,Default,,0,0,0,,I've been told that\None of them killed another man
+Dialogue: 0,0:28:20.51,0:28:24.01,Default,,0,0,0,,by crushing his head\Nwith an ATM machine.
+Dialogue: 0,0:28:24.60,0:28:27.69,Default,,0,0,0,,Ha-ha. People love to take credit\Nfor the fun ones.
+Dialogue: 0,0:28:27.85,0:28:31.35,Default,,0,0,0,,The guy who got his head smooshed\Nused to be a client of mine.
+Dialogue: 0,0:28:31.52,0:28:34.15,Default,,0,0,0,,His wife killed him, all right?\NIt was open and shut.
+Dialogue: 0,0:28:34.32,0:28:36.86,Default,,0,0,0,,Trust me, you folks have\Nnothing to worry about, okay?
+Dialogue: 0,0:28:37.03,0:28:40.41,Default,,0,0,0,,I'm gonna set your\Nnephew straight, get him\Nsinging like a canary,
+Dialogue: 0,0:28:40.57,0:28:43.03,Default,,0,0,0,,all's right with the world.
+Dialogue: 0,0:28:45.08,0:28:47.25,Default,,0,0,0,,WALT:\NTen thousand dollars.
+Dialogue: 0,0:28:49.37,0:28:52.21,Default,,0,0,0,,[COUGHlNG]
+Dialogue: 0,0:29:00.89,0:29:03.73,Default,,0,0,0,,Ten thousand, cash to you.
+Dialogue: 0,0:29:04.89,0:29:08.60,Default,,0,0,0,,I'm not saying\Nto throw the case.
+Dialogue: 0,0:29:08.77,0:29:13.69,Default,,0,0,0,,Just no talking to the DEA.
+Dialogue: 0,0:29:14.90,0:29:17.24,Default,,0,0,0,,Are you saying\Nwhat I think you' re saying?
+Dialogue: 0,0:29:17.99,0:29:19.41,Default,,0,0,0,,Yes.
+Dialogue: 0,0:29:20.24,0:29:22.07,Default,,0,0,0,,What's it going to be?
+Dialogue: 0,0:29:24.54,0:29:26.92,Default,,0,0,0,,JESSE:\NWhat, dude wouldn' t\Ntake a bribe?
+Dialogue: 0,0:29:27.29,0:29:30.08,Default,,0,0,0,,That dude in there?\NSaul Goodman\Nwe're talking about?
+Dialogue: 0,0:29:30.25,0:29:31.96,Default,,0,0,0,,Yeah. "Morally outraged,"\Nhe said.
+Dialogue: 0,0:29:32.13,0:29:33.59,Default,,0,0,0,,Threatened to call\Nthe police.
+Dialogue: 0,0:29:33.75,0:29:38.75,Default,,0,0,0,,Wait, and Badger is gonna spill?\NLike the Exxon Valdez.
+Dialogue: 0,0:29:39.76,0:29:41.89,Default,,0,0,0,,So, what do we do about it?
+Dialogue: 0,0:29:52.52,0:29:54.60,Default,,0,0,0,,SAUL:\NHey, Francesca,\Nhow about l follow you home?
+Dialogue: 0,0:29:54.77,0:29:55.85,Default,,0,0,0,,FRANCESCA:\NNo.
+Dialogue: 0,0:29:56.02,0:29:57.73,Default,,0,0,0,,SAUL:\NFor safety.
+Dialogue: 0,0:29:57.90,0:29:59.48,Default,,0,0,0,,What?
+Dialogue: 0,0:30:01.24,0:30:03.53,Default,,0,0,0,,God, you are killing me\Nwith that booty.
+Dialogue: 0,0:30:03.70,0:30:05.12,Default,,0,0,0,,[GRUNTS]
+Dialogue: 0,0:30:10.71,0:30:11.71,Default,,0,0,0,,[CAR ALARM CHIRPS]
+Dialogue: 0,0:30:16.88,0:30:19.47,Default,,0,0,0,,SAUL:\NTalk to me. Come on,\Ntalk to me, guys. I don't know--
+Dialogue: 0,0:30:19.63,0:30:23.30,Default,,0,0,0,,Come on, just tell me\Nwhat you want. Jesus!
+Dialogue: 0,0:30:23.68,0:30:26.64,Default,,0,0,0,,Oh! Oh, no, no, no!
+Dialogue: 0,0:30:26.81,0:30:29.77,Default,,0,0,0,,No, it wasn't me.\NIt was Ignacio. He's the one.
+Dialogue: 0,0:30:29.93,0:30:32.72,Default,,0,0,0,,Oh, no. Oh, no, no, no.
+Dialogue: 0,0:30:32.89,0:30:35.39,Default,,0,0,0,,[SAUL SPEAKlNG SPANISH]
+Dialogue: 0,0:30:35.56,0:30:37.48,Default,,0,0,0,,JESSE:\NShut up, dude.
+Dialogue: 0,0:30:37.90,0:30:41.07,Default,,0,0,0,,Shut up, all right?\NJust speak English.
+Dialogue: 0,0:30:41.24,0:30:44.16,Default,,0,0,0,,Lalo didn't send you?\NNo Lalo?
+Dialogue: 0,0:30:44.66,0:30:47.91,Default,,0,0,0,,Who?\NOh, thank God! Oh, Christ!
+Dialogue: 0,0:30:48.08,0:30:50.67,Default,,0,0,0,,Oh, l thought...
+Dialogue: 0,0:30:51.62,0:30:53.83,Default,,0,0,0,,What can I do for you,\Ngentlemen?
+Dialogue: 0,0:30:54.00,0:30:56.46,Default,,0,0,0,,Anything.\NJust tell me what you need.
+Dialogue: 0,0:30:56.63,0:31:00.76,Default,,0,0,0,,JESSE:\NThis afternoon, an associate\Nof ours offered you $1 0,000.
+Dialogue: 0,0:31:00.92,0:31:02.50,Default,,0,0,0,,You should have taken it.
+Dialogue: 0,0:31:02.67,0:31:05.80,Default,,0,0,0,,Wait a minute. This is in\Nregards to what's-his-name?
+Dialogue: 0,0:31:05.97,0:31:08.43,Default,,0,0,0,,Badger! Brandon Mayhew.
+Dialogue: 0,0:31:08.76,0:31:11.14,Default,,0,0,0,,The uncle.\NThat was your guy?
+Dialogue: 0,0:31:11.31,0:31:12.31,Default,,0,0,0,,[SAUL LAUGHS]
+Dialogue: 0,0:31:12.48,0:31:15.11,Default,,0,0,0,,No offense, guys,\Nbut I don't take bribes\Nfrom strangers, you know?
+Dialogue: 0,0:31:15.27,0:31:17.65,Default,,0,0,0,,Better safe than sorry.\NThat's my motto.
+Dialogue: 0,0:31:17.81,0:31:22.27,Default,,0,0,0,,But I'll take your money! Sure!\NNo, that offer has expired, yo.
+Dialogue: 0,0:31:22.44,0:31:26.40,Default,,0,0,0,,It was kind of low\Nanyways. But okay,\Nokay, I' ll take it.
+Dialogue: 0,0:31:26.57,0:31:28.32,Default,,0,0,0,,Just tell me what\Nyou need, all right?
+Dialogue: 0,0:31:28.49,0:31:30.62,Default,,0,0,0,,I'm easy. I'm gonna keep\Na happy thought
+Dialogue: 0,0:31:30.79,0:31:33.12,Default,,0,0,0,,and assume\Nthis is just a negotiating tactic.
+Dialogue: 0,0:31:33.29,0:31:36.38,Default,,0,0,0,,All right, listen to me\Nvery carefully.
+Dialogue: 0,0:31:36.54,0:31:38.46,Default,,0,0,0,,You are going to give\NBadger Mayhew
+Dialogue: 0,0:31:38.63,0:31:41.80,Default,,0,0,0,,the best legal\Nrepresentation ever.
+Dialogue: 0,0:31:41.96,0:31:44.25,Default,,0,0,0,,But no deals\Nwith the DEA.
+Dialogue: 0,0:31:44.42,0:31:48.13,Default,,0,0,0,,All right?\NBadger will not identify\Nanyone to anybody.
+Dialogue: 0,0:31:48.30,0:31:50.89,Default,,0,0,0,,If he does, you're dead.
+Dialogue: 0,0:31:52.89,0:31:55.31,Default,,0,0,0,,Why don' t you just kill Badger?
+Dialogue: 0,0:31:58.27,0:32:01.11,Default,,0,0,0,,I mean, follow me, guys.\NBut if a mosquito\Nis buzzing around you
+Dialogue: 0,0:32:01.27,0:32:04.52,Default,,0,0,0,,and it bites you on the ass,\Nyou don't go gunning for\Nthe mosquito's attorney.
+Dialogue: 0,0:32:04.70,0:32:08.16,Default,,0,0,0,,You go grab a fly swatter.\NI mean, so to speak.
+Dialogue: 0,0:32:08.53,0:32:11.74,Default,,0,0,0,,I mean, all due respect,\Nbut do I have to spell\Nthis out for you?
+Dialogue: 0,0:32:12.29,0:32:15.38,Default,,0,0,0,,We' re not killing Badger, yo.\NThen you got real problems, okay.
+Dialogue: 0,0:32:15.54,0:32:17.58,Default,,0,0,0,,Because the DEA\Nwill come down on your boy
+Dialogue: 0,0:32:17.75,0:32:19.71,Default,,0,0,0,,like a proverbial ton of bricks.
+Dialogue: 0,0:32:19.88,0:32:22.01,Default,,0,0,0,,I mean, I don't think\NI'm going out on a limb here,
+Dialogue: 0,0:32:22.17,0:32:24.00,Default,,0,0,0,,but, hey,\Nhe's not gonna like prison.
+Dialogue: 0,0:32:24.17,0:32:28.72,Default,,0,0,0,,He's gonna sing like Celine Dion\Nregardless of what you do to me.
+Dialogue: 0,0:32:28.89,0:32:31.93,Default,,0,0,0,,[COUGHlNG]
+Dialogue: 0,0:32:34.27,0:32:35.60,Default,,0,0,0,,Mr. Mayhew?
+Dialogue: 0,0:32:38.27,0:32:41.94,Default,,0,0,0,,Recognize your cough.\NTake that mask off,\Nyou know. Get some air.
+Dialogue: 0,0:32:42.27,0:32:43.81,Default,,0,0,0,,Go on.
+Dialogue: 0,0:32:50.20,0:32:52.62,Default,,0,0,0,,Ugh! God.\NTake it easy.
+Dialogue: 0,0:32:52.78,0:32:55.45,Default,,0,0,0,,Breathe in,\Nbreathe out.
+Dialogue: 0,0:32:55.62,0:32:59.54,Default,,0,0,0,,All right. l'm gonna\Nstand up, all right?\NBecause I got bad knees.
+Dialogue: 0,0:33:00.25,0:33:02.13,Default,,0,0,0,,That's better.
+Dialogue: 0,0:33:02.84,0:33:06.47,Default,,0,0,0,,Okay, now listen.\NThe three of us\Nare gonna work this out.
+Dialogue: 0,0:33:06.63,0:33:08.17,Default,,0,0,0,,Yeah? How?
+Dialogue: 0,0:33:08.38,0:33:11.13,Default,,0,0,0,,First thing, you'll put a dollar\Nin my pocket, both of you.
+Dialogue: 0,0:33:13.93,0:33:16.14,Default,,0,0,0,,You want attorney-client privilege,\Ndon't you?
+Dialogue: 0,0:33:16.31,0:33:19.40,Default,,0,0,0,,So that everything you say\Nis strictly between us.
+Dialogue: 0,0:33:20.60,0:33:22.48,Default,,0,0,0,,I mean it.\NPut a dollar in my pocket.
+Dialogue: 0,0:33:22.65,0:33:24.32,Default,,0,0,0,,Come on, make it official.
+Dialogue: 0,0:33:25.28,0:33:27.07,Default,,0,0,0,,Come on, do it.
+Dialogue: 0,0:33:28.28,0:33:31.12,Default,,0,0,0,,That's it, come on.\NJust a dollar.
+Dialogue: 0,0:33:35.29,0:33:39.00,Default,,0,0,0,,All right, now you, ski bum.\NCome on. Give with the dollar.
+Dialogue: 0,0:33:39.62,0:33:40.70,Default,,0,0,0,,Go on.\NBe smart.
+Dialogue: 0,0:33:40.87,0:33:42.37,Default,,0,0,0,,What?
+Dialogue: 0,0:33:46.00,0:33:47.83,Default,,0,0,0,,All I got is a five.\NI'll take a five.
+Dialogue: 0,0:33:48.01,0:33:51.64,Default,,0,0,0,,Come on, already.\NCome on. Be cool.
+Dialogue: 0,0:33:53.93,0:33:56.06,Default,,0,0,0,,Okay, you're now both\Nofficially represented
+Dialogue: 0,0:33:56.22,0:33:57.85,Default,,0,0,0,,by Saul Goodman\Nand Associates.
+Dialogue: 0,0:33:58.02,0:34:02.44,Default,,0,0,0,,Your secrets are safe\Nwith me under threat\Nof disbarment, all right?
+Dialogue: 0,0:34:02.81,0:34:06.15,Default,,0,0,0,,Take the ski mask off.\NI feel like I'm talking to the\NWeather Underground here.
+Dialogue: 0,0:34:08.03,0:34:10.03,Default,,0,0,0,,Just do it.
+Dialogue: 0,0:34:14.62,0:34:18.04,Default,,0,0,0,,Okay, so if a prison shanking\Nis completely off the table--
+Dialogue: 0,0:34:18.20,0:34:19.49,Default,,0,0,0,,And we' re sure of that?
+Dialogue: 0,0:34:22.08,0:34:23.62,Default,,0,0,0,,No shanking!
+Dialogue: 0,0:34:24.13,0:34:25.42,Default,,0,0,0,,[GROANS]
+Dialogue: 0,0:34:25.59,0:34:27.13,Default,,0,0,0,,All right, all right.
+Dialogue: 0,0:34:27.71,0:34:32.17,Default,,0,0,0,,The way l see it is\Nsomebody is going to prison.
+Dialogue: 0,0:34:36.05,0:34:37.97,Default,,0,0,0,,It's just a matter of who.
+Dialogue: 0,0:34:39.39,0:34:42.68,Default,,0,0,0,,HANK:\NAll right.\NLame-ass TV ads aside,
+Dialogue: 0,0:34:42.85,0:34:46.39,Default,,0,0,0,,your lawyer here,\Nhe cooked you up\Na pretty killer deal.
+Dialogue: 0,0:34:46.57,0:34:47.86,Default,,0,0,0,,Time served, no probation.
+Dialogue: 0,0:34:48.02,0:34:50.11,Default,,0,0,0,,It's pretty slick. Couldn't\Nbelieve the judge went for it.
+Dialogue: 0,0:34:50.28,0:34:52.11,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:34:52.28,0:34:54.70,Default,,0,0,0,,Don't get cocky.\NYou ain't home free yet.
+Dialogue: 0,0:34:54.87,0:34:57.08,Default,,0,0,0,,You don't give us\Nthe name of your supplier,
+Dialogue: 0,0:34:57.24,0:35:00.37,Default,,0,0,0,,you' re going nowhere. Understand?\NThe tough guy act is unnecessary.
+Dialogue: 0,0:35:00.54,0:35:02.88,Default,,0,0,0,,This young man\Nis cooperating fully.
+Dialogue: 0,0:35:03.04,0:35:06.00,Default,,0,0,0,,Is that right?\NYeah, you cooperating?
+Dialogue: 0,0:35:09.92,0:35:12.84,Default,,0,0,0,,Okay, let's start with a name.
+Dialogue: 0,0:35:15.26,0:35:17.39,Default,,0,0,0,,He just goes by Heisenberg.
+Dialogue: 0,0:35:17.93,0:35:18.93,Default,,0,0,0,,Heisenberg, huh?
+Dialogue: 0,0:35:20.27,0:35:21.77,Default,,0,0,0,,How old is this Heisenberg?
+Dialogue: 0,0:35:22.43,0:35:26.27,Default,,0,0,0,,Old. Like 50 or 70\Nor something.
+Dialogue: 0,0:35:26.44,0:35:28.61,Default,,0,0,0,,Height?\NAverage, l guess.
+Dialogue: 0,0:35:28.77,0:35:30.69,Default,,0,0,0,,Medium height,\Nmedium weight.
+Dialogue: 0,0:35:30.86,0:35:33.90,Default,,0,0,0,,What color hair?\NNo hair.
+Dialogue: 0,0:35:34.07,0:35:35.74,Default,,0,0,0,,Dude is balder than you.
+Dialogue: 0,0:35:37.91,0:35:40.41,Default,,0,0,0,,SAUL:\N1 963, James Edward Kilkelly
+Dialogue: 0,0:35:40.58,0:35:43.12,Default,,0,0,0,,is convicted of stealing\Na vending machine.
+Dialogue: 0,0:35:43.29,0:35:46.13,Default,,0,0,0,,1 975, breaking and entering.
+Dialogue: 0,0:35:46.29,0:35:48.96,Default,,0,0,0,,1 982, grand theft auto.
+Dialogue: 0,0:35:49.13,0:35:51.51,Default,,0,0,0,,1 984, armed robbery.
+Dialogue: 0,0:35:51.67,0:35:56.05,Default,,0,0,0,,1 987, 1 992. You get the idea.\NAnd here he is today.
+Dialogue: 0,0:35:56.22,0:35:58.14,Default,,0,0,0,,Better known as\NJimmy ln-and-Out.
+Dialogue: 0,0:35:58.30,0:36:03.85,Default,,0,0,0,,City, State, and Federal, he's spent\N44 of the last 58 years inside.
+Dialogue: 0,0:36:04.81,0:36:07.31,Default,,0,0,0,,Entire life behind bars.
+Dialogue: 0,0:36:07.77,0:36:10.06,Default,,0,0,0,,Jimmy provides\Na very special service.
+Dialogue: 0,0:36:10.23,0:36:13.11,Default,,0,0,0,,For a price,\NJimmy will go to prison for you.
+Dialogue: 0,0:36:14.07,0:36:17.82,Default,,0,0,0,,On purpose? The guy goes\Nto prison on purpose?
+Dialogue: 0,0:36:18.70,0:36:20.66,Default,,0,0,0,,He's actually\Nmore comfortable inside.
+Dialogue: 0,0:36:20.83,0:36:23.29,Default,,0,0,0,,The outside world\Nhasn't been too kind to him.
+Dialogue: 0,0:36:25.29,0:36:27.33,Default,,0,0,0,,Sometime during\Nthe Clinton administration,
+Dialogue: 0,0:36:27.50,0:36:31.67,Default,,0,0,0,,Jimmy figured out how he could\Nuse his talents to turn a profit.
+Dialogue: 0,0:36:36.13,0:36:40.97,Default,,0,0,0,,So when does all this happen?\NIt's already happening.
+Dialogue: 0,0:36:41.14,0:36:42.47,Default,,0,0,0,,The buy is set for tomorrow.
+Dialogue: 0,0:36:42.64,0:36:45.35,Default,,0,0,0,,Cops bust Jimmy,\NBadger gets out,\Neverybody's happy,
+Dialogue: 0,0:36:45.52,0:36:48.56,Default,,0,0,0,,and all it's gonna cost you\Nis 80 thousand and one pound
+Dialogue: 0,0:36:48.73,0:36:50.27,Default,,0,0,0,,of your finest meth.
+Dialogue: 0,0:36:54.86,0:36:58.74,Default,,0,0,0,,Eighty thousand dollars\Nfor eight years of his life, huh?
+Dialogue: 0,0:36:58.91,0:37:01.16,Default,,0,0,0,,SAUL:\NFirst of all,\Nhe's not gonna do eight years.
+Dialogue: 0,0:37:01.32,0:37:03.15,Default,,0,0,0,,I'll represent him, and l guarantee
+Dialogue: 0,0:37:03.33,0:37:06.87,Default,,0,0,0,,there'll be some unexpected\Nproblems with the prosecution' s case.
+Dialogue: 0,0:37:07.04,0:37:09.71,Default,,0,0,0,,Secondly, he gets 30.\NFifty goes to me.
+Dialogue: 0,0:37:09.87,0:37:12.96,Default,,0,0,0,,You get 50? For what?\NFor facilitating.
+Dialogue: 0,0:37:13.13,0:37:15.84,Default,,0,0,0,,Who's taking a bigger risk here?\NHe likes prison.
+Dialogue: 0,0:37:16.01,0:37:18.05,Default,,0,0,0,,You did bring the cash, didn't you?
+Dialogue: 0,0:37:18.22,0:37:21.35,Default,,0,0,0,,Look, if this option\Nis too expensive,
+Dialogue: 0,0:37:21.51,0:37:24.97,Default,,0,0,0,,you can still always, ugh, Badger\Nin the chow line.
+Dialogue: 0,0:37:43.24,0:37:45.37,Default,,0,0,0,,Conscience gets expensive,\Ndoesn't it?
+Dialogue: 0,0:38:02.76,0:38:05.30,Default,,0,0,0,,GETZ:\NAll right. There's our boy.
+Dialogue: 0,0:38:06.43,0:38:08.77,Default,,0,0,0,,Right on time.
+Dialogue: 0,0:38:25.41,0:38:27.95,Default,,0,0,0,,Whoa, whoa. Go back.\NWhat? All right, all right.
+Dialogue: 0,0:38:37.75,0:38:39.50,Default,,0,0,0,,[♪♪♪]
+Dialogue: 0,0:38:41.30,0:38:44.97,Default,,0,0,0,,WALT:\NSo, what do you think?\NThey see us?
+Dialogue: 0,0:38:45.35,0:38:47.27,Default,,0,0,0,,JESSE:\NNo, man, I think we're good.
+Dialogue: 0,0:38:52.64,0:38:54.77,Default,,0,0,0,,Badger looks like\Nhe's gonna throw up.
+Dialogue: 0,0:38:55.15,0:38:56.65,Default,,0,0,0,,WALT:\NGive me those back.
+Dialogue: 0,0:38:56.82,0:38:58.82,Default,,0,0,0,,Just give them to me.
+Dialogue: 0,0:38:59.44,0:39:01.27,Default,,0,0,0,,Oh, no.
+Dialogue: 0,0:39:01.82,0:39:03.07,Default,,0,0,0,,Where the hell is Jimmy?
+Dialogue: 0,0:39:03.24,0:39:05.28,Default,,0,0,0,,Should've been here\N1 0 minutes ago.
+Dialogue: 0,0:39:05.45,0:39:10.20,Default,,0,0,0,,You think Jimmy is actually\Nfor real? A guy who\Nwants to be in prison?
+Dialogue: 0,0:39:10.75,0:39:12.79,Default,,0,0,0,,There's more\Nthan one kind of prison.
+Dialogue: 0,0:39:12.96,0:39:14.84,Default,,0,0,0,,What the hell\Nis that supposed to mean?
+Dialogue: 0,0:39:15.00,0:39:17.50,Default,,0,0,0,,There he is--\NWait a minute.
+Dialogue: 0,0:39:17.67,0:39:21.26,Default,,0,0,0,,Oh, no, no, no.\NWhat? What? Let me see.
+Dialogue: 0,0:39:22.76,0:39:25.01,Default,,0,0,0,,Who the hell is that?\NI don't know.
+Dialogue: 0,0:39:28.68,0:39:31.68,Default,,0,0,0,,GETZ:\NMr. Heisenberg, I presume.
+Dialogue: 0,0:39:32.68,0:39:34.39,Default,,0,0,0,,Time to move?
+Dialogue: 0,0:39:34.64,0:39:36.72,Default,,0,0,0,,Let's see the exchange.
+Dialogue: 0,0:39:39.52,0:39:42.56,Default,,0,0,0,,JESSE:\NNo, no. Oh, shit.
+Dialogue: 0,0:39:42.74,0:39:45.87,Default,,0,0,0,,What?\NNow he shows.
+Dialogue: 0,0:39:49.33,0:39:51.29,Default,,0,0,0,,Okay, let's do this.
+Dialogue: 0,0:39:55.42,0:39:56.80,Default,,0,0,0,,JESSE:\NNo, no.
+Dialogue: 0,0:39:56.96,0:39:59.55,Default,,0,0,0,,Oh, my God. Jimmy is\Non the wrong bench. Crap!
+Dialogue: 0,0:39:59.71,0:40:01.84,Default,,0,0,0,,We are screwed!
+Dialogue: 0,0:40:02.01,0:40:03.43,Default,,0,0,0,,What are you doing?
+Dialogue: 0,0:40:03.59,0:40:05.76,Default,,0,0,0,,Hey, what are you doing?
+Dialogue: 0,0:40:09.80,0:40:11.72,Default,,0,0,0,,GOMEZ:\NI don't get it. What's the holdup?
+Dialogue: 0,0:40:22.40,0:40:23.73,Default,,0,0,0,,Where's the stuff, man?
+Dialogue: 0,0:40:23.90,0:40:26.07,Default,,0,0,0,,Where are we going?\NJust shut up.
+Dialogue: 0,0:40:31.91,0:40:33.16,Default,,0,0,0,,Get out. Go stop him.
+Dialogue: 0,0:40:33.33,0:40:35.79,Default,,0,0,0,,The DEA is right there.\NIf they see me, we're screwed.
+Dialogue: 0,0:40:35.96,0:40:37.50,Default,,0,0,0,,Get out. l'll do something.
+Dialogue: 0,0:40:37.67,0:40:39.71,Default,,0,0,0,,What?\NJust go!
+Dialogue: 0,0:40:52.60,0:40:54.77,Default,,0,0,0,,Hank, l thought that was you.
+Dialogue: 0,0:40:54.93,0:40:56.56,Default,,0,0,0,,Schrader, I'm blocked.
+Dialogue: 0,0:40:56.73,0:40:59.52,Default,,0,0,0,,Walt, not a good time.\NHow you doing? You feeling okay?
+Dialogue: 0,0:40:59.69,0:41:00.73,Default,,0,0,0,,Schrader, I'm blocked.
+Dialogue: 0,0:41:01.40,0:41:03.44,Default,,0,0,0,,We' re working.\NYou gotta get out of here.
+Dialogue: 0,0:41:03.61,0:41:06.99,Default,,0,0,0,,Working? Oh, like DEA working?\NGETZ: Schrader, we're missing it.
+Dialogue: 0,0:41:07.15,0:41:09.24,Default,,0,0,0,,Is something going down?
+Dialogue: 0,0:41:11.45,0:41:14.04,Default,,0,0,0,,JESSE [WHISPERING]:\NWrong guy, wrong guy.\NOther bench.
+Dialogue: 0,0:41:20.79,0:41:21.96,Default,,0,0,0,,HANK:\NWalt, Walt.
+Dialogue: 0,0:41:22.13,0:41:24.30,Default,,0,0,0,,Walter, move your ass now.\NOkay.
+Dialogue: 0,0:41:24.46,0:41:26.29,Default,,0,0,0,,Listen, l'll just go,\Nleave you alone.
+Dialogue: 0,0:41:26.46,0:41:29.30,Default,,0,0,0,,We' ll talk about it later. Just floor it.\NShould I back up?
+Dialogue: 0,0:41:29.47,0:41:30.93,Default,,0,0,0,,No. Go that way.\NForward is better?
+Dialogue: 0,0:41:31.09,0:41:32.97,Default,,0,0,0,,I'll be out of the way there.\NOkay, okay.
+Dialogue: 0,0:41:33.14,0:41:35.64,Default,,0,0,0,,Floor it!\NI'm sorry, all right? l'm sorry.
+Dialogue: 0,0:41:35.81,0:41:38.44,Default,,0,0,0,,I'll leave you alone.\NWe' ll talk later. Just go.
+Dialogue: 0,0:41:39.14,0:41:42.06,Default,,0,0,0,,GETZ:\NWhere'd he go?\NWhere the hell did he go?
+Dialogue: 0,0:41:43.98,0:41:47.27,Default,,0,0,0,,Oh, wait. Wait, wait, wait.\NGot him.
+Dialogue: 0,0:41:54.49,0:41:56.91,Default,,0,0,0,,Looks like it's going down.\NHANK: Take him.
+Dialogue: 0,0:41:58.41,0:42:01.12,Default,,0,0,0,,[POLICE SlREN WAlLlNG]
+Dialogue: 0,0:42:04.88,0:42:07.92,Default,,0,0,0,,COP 1 :\NFreeze! Hey, right there.\NDon't move.
+Dialogue: 0,0:42:10.30,0:42:11.76,Default,,0,0,0,,Come on, get them up.
+Dialogue: 0,0:42:18.60,0:42:20.06,Default,,0,0,0,,Ugh!
+Dialogue: 0,0:42:21.52,0:42:23.23,Default,,0,0,0,,Jesus!
+Dialogue: 0,0:42:24.19,0:42:26.07,Default,,0,0,0,,I think they bought it.
+Dialogue: 0,0:42:29.78,0:42:30.86,Default,,0,0,0,,GETZ:\NAbsolutely.
+Dialogue: 0,0:42:31.03,0:42:34.45,Default,,0,0,0,,Textbook bust, sir. Yes, sir.
+Dialogue: 0,0:42:34.62,0:42:37.21,Default,,0,0,0,,Looks like we got a full pound\Nof the blue stuff.
+Dialogue: 0,0:42:37.37,0:42:42.17,Default,,0,0,0,,Oh, and Heisenberg's real name?\NJames Kilkelly.
+Dialogue: 0,0:42:43.42,0:42:47.55,Default,,0,0,0,,GETZ:\NThank you. Thank you very much.\NIt was my pleasure.
+Dialogue: 0,0:43:04.69,0:43:06.27,Default,,0,0,0,,[KNOCKlNG]
+Dialogue: 0,0:43:14.24,0:43:15.62,Default,,0,0,0,,Hey.
+Dialogue: 0,0:43:16.57,0:43:19.11,Default,,0,0,0,,You weren't home,\Nso l let the delivery guys in.
+Dialogue: 0,0:43:19.29,0:43:22.75,Default,,0,0,0,,I hope that's okay.\NAbsolutely.
+Dialogue: 0,0:43:32.09,0:43:34.30,Default,,0,0,0,,So you bought a bed.
+Dialogue: 0,0:43:35.72,0:43:36.89,Default,,0,0,0,,Yeah.
+Dialogue: 0,0:43:37.43,0:43:39.18,Default,,0,0,0,,What is that, a king?
+Dialogue: 0,0:43:40.26,0:43:41.43,Default,,0,0,0,,Uh-huh.
+Dialogue: 0,0:43:41.64,0:43:43.27,Default,,0,0,0,,Pillow top?
+Dialogue: 0,0:43:59.08,0:44:00.54,Default,,0,0,0,,[WALT COUGHING]
+Dialogue: 0,0:44:19.43,0:44:23.39,Default,,0,0,0,,Oh, my God. You really are\Na chemistry teacher.
+Dialogue: 0,0:44:23.56,0:44:24.69,Default,,0,0,0,,[CHUCKLES]
+Dialogue: 0,0:44:26.94,0:44:28.15,Default,,0,0,0,,Uh...
+Dialogue: 0,0:44:28.31,0:44:29.85,Default,,0,0,0,,You mind?
+Dialogue: 0,0:44:33.90,0:44:36.15,Default,,0,0,0,,I was terrible at chemistry.
+Dialogue: 0,0:44:36.32,0:44:38.99,Default,,0,0,0,,I'm more of\Na humanities guy.
+Dialogue: 0,0:44:39.16,0:44:41.79,Default,,0,0,0,,How did you find me?\NWe should talk about that.
+Dialogue: 0,0:44:41.95,0:44:46.33,Default,,0,0,0,,It should be much, much harder\Nfor people to track you down.
+Dialogue: 0,0:44:46.50,0:44:48.17,Default,,0,0,0,,My PI charged me for three hours.
+Dialogue: 0,0:44:48.33,0:44:51.33,Default,,0,0,0,,so l seriously doubt\Nit took him more than one.
+Dialogue: 0,0:44:54.21,0:44:57.38,Default,,0,0,0,,So this is what,\Nblackmail?
+Dialogue: 0,0:44:57.55,0:44:59.30,Default,,0,0,0,,Walter, I' m your lawyer.
+Dialogue: 0,0:44:59.47,0:45:03.93,Default,,0,0,0,,Anything you say to me\Nis totally privileged.
+Dialogue: 0,0:45:04.10,0:45:06.69,Default,,0,0,0,,I'm not in the shake down racket.
+Dialogue: 0,0:45:06.85,0:45:09.31,Default,,0,0,0,,I'm a lawyer. Even drug dealers\Nneed lawyers, right?
+Dialogue: 0,0:45:09.48,0:45:12.65,Default,,0,0,0,,Especially drug dealers.
+Dialogue: 0,0:45:13.02,0:45:17.11,Default,,0,0,0,,So, what, you' re just\Ndoing this out of the\Nkindness of your heart?
+Dialogue: 0,0:45:17.61,0:45:20.20,Default,,0,0,0,,Come on. Have you\Nseen my hourly rate?
+Dialogue: 0,0:45:20.36,0:45:21.86,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:45:22.20,0:45:24.20,Default,,0,0,0,,By the way,\Nwhere do you keep the money?
+Dialogue: 0,0:45:24.37,0:45:28.71,Default,,0,0,0,,Is it in your mattress?\NIs it in a jelly jar\Nburied in the side yard, huh?
+Dialogue: 0,0:45:28.87,0:45:31.87,Default,,0,0,0,,This kid Mayhew may be the first\Nof your guys to get picked up,
+Dialogue: 0,0:45:32.04,0:45:33.37,Default,,0,0,0,,but he won't be the last.
+Dialogue: 0,0:45:33.54,0:45:37.13,Default,,0,0,0,,And if I can find you,\Nhow far behind can the cops be?
+Dialogue: 0,0:45:37.30,0:45:38.76,Default,,0,0,0,,I don't understand.
+Dialogue: 0,0:45:38.93,0:45:41.85,Default,,0,0,0,,What exactly are you\Noffering to do for me?
+Dialogue: 0,0:45:43.30,0:45:46.39,Default,,0,0,0,,What did Tom Hagen\Ndo for Vito Corleone?
+Dialogue: 0,0:45:46.77,0:45:49.90,Default,,0,0,0,,I'm no Vito Corleone.
+Dialogue: 0,0:45:50.06,0:45:52.85,Default,,0,0,0,,No shit.\NRight now, you're Fredo.
+Dialogue: 0,0:45:53.02,0:45:54.56,Default,,0,0,0,,But with some sound advice
+Dialogue: 0,0:45:54.73,0:45:57.15,Default,,0,0,0,,and the proper introductions,\Nwho knows?
+Dialogue: 0,0:45:57.32,0:45:59.32,Default,,0,0,0,,I'll tell you one thing,\Nyou' ve got the right product.
+Dialogue: 0,0:45:59.49,0:46:02.28,Default,,0,0,0,,Anything that gets\Nthe DEA's panties\Nin this big a bunch,
+Dialogue: 0,0:46:02.45,0:46:04.16,Default,,0,0,0,,you' re on to something special.
+Dialogue: 0,0:46:04.33,0:46:08.75,Default,,0,0,0,,And l would like to be\Na small and silent part of it.
+Dialogue: 0,0:46:11.29,0:46:12.37,Default,,0,0,0,,Food for thought, yeah?
+Dialogue: 0,0:46:17.55,0:46:22.26,Default,,0,0,0,,So if you wanna make more money\Nand keep the money that you make,
+Dialogue: 0,0:46:23.51,0:46:25.43,Default,,0,0,0,,"Better call Saul!"
+Dialogue: 0,0:46:25.60,0:46:27.39,Default,,0,0,0,,[LAUGHS]
+Dialogue: 0,0:46:30.43,0:46:32.27,Default,,0,0,0,,[COUGHlNG]
+Dialogue: 0,0:46:42.36,0:46:44.90,Default,,0,0,0,,[♪♪♪]

@@ -1,0 +1,1736 @@
+1
+00:00:01,291 --> 00:00:03,833
+<i>As missões dos heróis
+são eventos que mudam o mundo.</i>
+
+2
+00:00:03,958 --> 00:00:06,625
+<i>Criaram e destruíram impérios.</i>
+
+3
+00:00:06,791 --> 00:00:09,166
+<i>Alteraram o rumo da civilização humana.</i>
+
+4
+00:00:09,916 --> 00:00:11,500
+<i>Uma missão é algo sagrado.</i>
+
+5
+00:00:11,666 --> 00:00:15,666
+<i>E ser encarregado de uma é ter
+uma ligação direta aos próprios deuses.</i>
+
+6
+00:00:15,875 --> 00:00:18,000
+<i>Não dá para evitar
+os monstros completamente.</i>
+
+7
+00:00:18,166 --> 00:00:19,625
+<i>São mais comuns do que pensamos.</i>
+
+8
+00:00:19,833 --> 00:00:23,083
+{\an8}<i>O truque é reparar neles
+antes de eles repararem em nós.</i>
+
+9
+00:00:25,625 --> 00:00:29,833
+<i>É um prazer conhecer-te, filho de Posídon.
+Sou a Medusa.</i>
+
+10
+00:00:30,083 --> 00:00:32,958
+<i>A Medusa ofereceu ajuda
+para salvar a minha mãe se eu vos traísse.</i>
+
+11
+00:00:33,166 --> 00:00:35,250
+<i>- E o que disseste?
+- Cortei-lhe a cabeça.</i>
+
+12
+00:00:38,750 --> 00:00:41,375
+Percy, não podes enviar
+a cabeça da Medusa para o Olimpo.
+
+13
+00:00:42,000 --> 00:00:44,875
+{\an8}<i>- Porque não?
+- Porque os deuses não vão gostar.</i>
+
+14
+00:00:47,541 --> 00:00:54,000
+PERCY JACKSON
+
+15
+00:01:08,500 --> 00:01:09,625
+Pronto?
+
+16
+00:01:09,958 --> 00:01:11,916
+- Tens de te soltar, Percy.
+- Não consigo.
+
+17
+00:01:12,041 --> 00:01:14,250
+Consegues, sim. Só tens de tentar.
+
+18
+00:01:14,250 --> 00:01:16,541
+- Eu tentei.
+- Não, não tentaste.
+
+19
+00:01:16,541 --> 00:01:18,583
+Estamos na mesma posição há 15 minutos.
+
+20
+00:01:18,583 --> 00:01:20,625
+Por favor. Só uma vez, comigo.
+
+21
+00:01:21,125 --> 00:01:22,375
+Já podemos ir para casa?
+
+22
+00:01:22,500 --> 00:01:24,833
+Percy, nós pagámos esta aula.
+
+23
+00:01:29,375 --> 00:01:32,166
+Sabes que não te pediria isto
+se não fosse seguro, certo?
+
+24
+00:01:34,041 --> 00:01:38,083
+Percy, pode ser perigoso para ti
+se não aprenderes a fazer isto.
+
+25
+00:01:38,916 --> 00:01:41,666
+Um dia, pode ser mesmo muito importante,
+
+26
+00:01:41,833 --> 00:01:44,500
+e eu posso não estar lá para te ajudar
+quando isso acontecer.
+
+27
+00:01:44,500 --> 00:01:46,666
+Por isso, tenho de garantir que és capaz.
+
+28
+00:01:46,666 --> 00:01:47,916
+- Respira.
+- Como?
+
+29
+00:01:49,625 --> 00:01:50,750
+Respira apenas, mamã.
+
+30
+00:01:52,875 --> 00:01:54,541
+É o que me dizes sempre.
+
+31
+00:02:04,458 --> 00:02:05,708
+Vais estar sempre aqui.
+
+32
+00:02:15,875 --> 00:02:16,875
+Mãe?
+
+33
+00:02:19,083 --> 00:02:20,583
+Mãe!
+
+34
+00:02:24,166 --> 00:02:27,916
+<i>Olá de novo, heroizinho.</i>
+
+35
+00:02:28,791 --> 00:02:33,625
+<i>Em que sarilhos te meteste agora?</i>
+
+36
+00:02:33,791 --> 00:02:38,083
+<i>Um filho proibido atrai atenção.</i>
+
+37
+00:02:38,208 --> 00:02:45,000
+<i>Um herói proibido?
+Bem, esse atrai a perdição.</i>
+
+38
+00:02:45,125 --> 00:02:47,958
+<i>Ela vem aí.</i>
+
+39
+00:02:58,958 --> 00:03:00,083
+Estás a dormir?
+
+40
+00:03:04,208 --> 00:03:05,208
+Sim.
+
+41
+00:03:08,583 --> 00:03:10,625
+Tu e a Tália eram próximas?
+
+42
+00:03:12,916 --> 00:03:13,916
+Sim.
+
+43
+00:03:15,750 --> 00:03:16,875
+Como era ela?
+
+44
+00:03:19,666 --> 00:03:20,666
+Porquê?
+
+45
+00:03:23,166 --> 00:03:25,458
+Foi a última filha proibida
+antes de mim, certo?
+
+46
+00:03:26,791 --> 00:03:28,583
+Deve ter lidado com as mesmas cenas.
+
+47
+00:03:30,083 --> 00:03:31,125
+Ela era rija.
+
+48
+00:03:32,375 --> 00:03:35,083
+Sabia que era uma filha proibida,
+mas não se importava.
+
+49
+00:03:36,958 --> 00:03:41,041
+Quando o Luke e a Tália me encontraram,
+o Luke importou-se logo comigo.
+
+50
+00:03:41,500 --> 00:03:45,833
+Mas a Tália...
+Ela obrigou-me a provar o meu valor.
+
+51
+00:03:47,208 --> 00:03:51,291
+É por isso que és dura comigo?
+Também tenho de te provar o meu valor?
+
+52
+00:03:53,291 --> 00:03:54,833
+Sim. Talvez.
+
+53
+00:03:56,083 --> 00:03:58,166
+Isso não me faz grande sentido.
+
+54
+00:04:00,500 --> 00:04:01,916
+O quê?
+
+55
+00:04:03,125 --> 00:04:04,625
+A forma como todos vocês falam.
+
+56
+00:04:05,958 --> 00:04:07,666
+A forma como os deuses
+querem que pensemos.
+
+57
+00:04:08,625 --> 00:04:11,125
+Ter de queimar oferendas
+para os pais nos darem atenção.
+
+58
+00:04:12,041 --> 00:04:13,250
+Ter de vencer a Clarisse
+
+59
+00:04:13,250 --> 00:04:15,958
+só para o meu pai admitir que é meu pai.
+
+60
+00:04:17,041 --> 00:04:18,708
+Não é suposto ser assim.
+
+61
+00:04:21,708 --> 00:04:24,583
+Não é suposto
+quem te é próximo tratar-te assim.
+
+62
+00:04:27,750 --> 00:04:30,541
+Queres saber como acabei sozinha, na rua?
+
+63
+00:04:33,958 --> 00:04:36,500
+Comecei por ser uma oferenda ao meu pai.
+
+64
+00:04:37,875 --> 00:04:39,166
+É o que a Atena faz.
+
+65
+00:04:40,125 --> 00:04:41,666
+Nascemos de um pensamento dela
+
+66
+00:04:41,666 --> 00:04:44,041
+e somos dados a um parceiro
+a quem se sente ligada.
+
+67
+00:04:45,750 --> 00:04:47,791
+E, por um tempo,
+fui tratada como oferenda.
+
+68
+00:04:50,041 --> 00:04:51,250
+O meu pai importava-se comigo.
+
+69
+00:04:54,250 --> 00:04:55,250
+Amava-me.
+
+70
+00:04:57,000 --> 00:04:58,000
+Eu sabia.
+
+71
+00:05:01,458 --> 00:05:02,666
+Depois, conheceu uma mulher.
+
+72
+00:05:03,958 --> 00:05:05,291
+Tiveram filhos...
+
+73
+00:05:07,333 --> 00:05:09,000
+... e, para ela, eu não era uma oferenda.
+
+74
+00:05:10,708 --> 00:05:11,791
+Era um problema.
+
+75
+00:05:14,375 --> 00:05:15,375
+Por isso, fui-me embora.
+
+76
+00:05:17,583 --> 00:05:18,583
+Tinha sete anos.
+
+77
+00:05:22,958 --> 00:05:24,541
+Não são os deuses que pensam assim.
+
+78
+00:05:25,500 --> 00:05:26,541
+É toda a gente.
+
+79
+00:05:29,750 --> 00:05:31,375
+Mas, com os deuses, sabes as regras.
+
+80
+00:05:32,041 --> 00:05:33,750
+Respeita-os, e eles estão contigo,
+
+81
+00:05:33,750 --> 00:05:34,875
+incondicionalmente.
+
+82
+00:05:40,000 --> 00:05:41,041
+Estás acordado?
+
+83
+00:05:42,000 --> 00:05:43,500
+Agora, estou. Obrigado.
+
+84
+00:05:44,750 --> 00:05:45,750
+Estás bem?
+
+85
+00:05:46,041 --> 00:05:47,833
+Ele fica resmungão quando não dorme bem.
+
+86
+00:05:47,958 --> 00:05:50,541
+"Ele fica resmungão quando não dorme..."
+
+87
+00:05:52,375 --> 00:05:53,875
+Nunca viajaste com ele.
+
+88
+00:05:55,041 --> 00:05:57,125
+É bem diferente do colégio interno catita.
+
+89
+00:05:57,125 --> 00:06:00,208
+Quem é que é catita?
+Tu és catita. O que significa "catita"?
+
+90
+00:06:02,166 --> 00:06:03,291
+Tenho de comer.
+
+91
+00:06:22,125 --> 00:06:26,750
+Dois dias até chegarmos a Los Angeles.
+Temos muito tempo para chegar ao Submundo.
+
+92
+00:06:29,416 --> 00:06:33,583
+- Posso fazer uma pergunta estúpida?
+- Parece que precisas que goze contigo.
+
+93
+00:06:34,583 --> 00:06:35,583
+Diz lá.
+
+94
+00:06:36,541 --> 00:06:38,333
+Nunca estive em Los Angeles.
+
+95
+00:06:38,750 --> 00:06:41,750
+E deduzo que nenhum de vocês tenha estado.
+
+96
+00:06:42,416 --> 00:06:45,000
+Como é que vamos saber
+aonde nos dirigirmos?
+
+97
+00:06:46,041 --> 00:06:47,083
+Não faço ideia.
+
+98
+00:06:48,166 --> 00:06:51,416
+Mas esse é, tipo, o passo 37,
+e ainda estamos no quatro.
+
+99
+00:06:52,208 --> 00:06:53,625
+Pensamos nisso nessa altura.
+
+100
+00:06:55,500 --> 00:06:57,500
+- No seguimento da pergunta estúpida...
+- Meu...
+
+101
+00:06:57,875 --> 00:07:00,583
+"E não conseguirás salvar
+o que mais importa no fim."
+
+102
+00:07:01,875 --> 00:07:04,541
+Em Nova Jérsia, disse-vos
+que o Oráculo disse que a missão falharia.
+
+103
+00:07:04,916 --> 00:07:06,166
+E ninguém voltou a falar disso.
+
+104
+00:07:07,875 --> 00:07:11,041
+Parece-me algo
+que devíamos estar a levar mais a sério.
+
+105
+00:07:15,500 --> 00:07:16,666
+Vejam aquilo.
+
+106
+00:07:18,125 --> 00:07:20,041
+- São...
+- Centauros.
+
+107
+00:07:30,041 --> 00:07:31,250
+Ninguém sabe que estão ali.
+
+108
+00:07:32,208 --> 00:07:34,708
+Antes, havia manadas deles em todo o lado.
+
+109
+00:07:35,416 --> 00:07:36,500
+O que lhes aconteceu?
+
+110
+00:07:37,583 --> 00:07:38,666
+Humanos.
+
+111
+00:07:41,458 --> 00:07:43,750
+Há milhares de anos, o Deus dos Bosques,
+
+112
+00:07:44,583 --> 00:07:47,041
+Pã... desapareceu.
+
+113
+00:07:48,625 --> 00:07:51,583
+E, desde aí,
+sem o Pã a proteger a natureza,
+
+114
+00:07:51,916 --> 00:07:54,166
+os humanos têm feito tudo
+para acabar com ela.
+
+115
+00:07:56,041 --> 00:07:58,958
+Os sátiros mais corajosos
+oferecem-se para serem pesquisadores
+
+116
+00:07:59,583 --> 00:08:01,000
+e tentarem encontrar Pã.
+
+117
+00:08:02,625 --> 00:08:04,000
+Nunca regressou nenhum.
+
+118
+00:08:06,666 --> 00:08:09,166
+O teu tio Ferdinand,
+que estava no jardim da Medusa...
+
+119
+00:08:10,958 --> 00:08:12,166
+Era pesquisador?
+
+120
+00:08:17,041 --> 00:08:18,916
+O Oráculo não disse que a missão falharia.
+
+121
+00:08:20,041 --> 00:08:22,250
+"Não conseguirás salvar
+o que mais importa."
+
+122
+00:08:22,250 --> 00:08:26,333
+Pode significar muitas coisas.
+As profecias são assim. O destino é assim.
+
+123
+00:08:27,250 --> 00:08:28,708
+Pode significar muita coisa.
+
+124
+00:08:29,791 --> 00:08:34,208
+Quanto mais tentas compreender,
+mais difícil é compreender.
+
+125
+00:08:35,625 --> 00:08:38,041
+Às vezes,
+há que deixar vir a ti na altura certa.
+
+126
+00:08:39,416 --> 00:08:41,625
+Desculpem. Posso ver os vossos bilhetes?
+
+127
+00:08:49,250 --> 00:08:50,833
+Estão na Cabina 17B.
+
+128
+00:09:05,875 --> 00:09:07,000
+Querem explicar?
+
+129
+00:09:09,083 --> 00:09:11,500
+Espere. Acha que fizemos isto?
+
+130
+00:09:11,666 --> 00:09:12,708
+Fizeram?
+
+131
+00:09:12,916 --> 00:09:15,333
+Quer dizer... Como? E porquê?
+
+132
+00:09:15,333 --> 00:09:18,541
+Quando fomos tomar o pequeno-almoço,
+estava tudo intacto.
+
+133
+00:09:19,041 --> 00:09:20,750
+Não sabemos como isto aconteceu.
+
+134
+00:09:21,375 --> 00:09:24,458
+Uma testemunha diz
+que ouviu a janela partir-se
+
+135
+00:09:25,041 --> 00:09:26,916
+- e vozes de crianças.
+- Por favor.
+
+136
+00:09:26,916 --> 00:09:28,500
+Quando saíram da cabina?
+
+137
+00:09:28,666 --> 00:09:29,750
+Estamos presos?
+
+138
+00:09:31,291 --> 00:09:33,250
+Não uses esse tom comigo, menina.
+
+139
+00:09:37,166 --> 00:09:38,625
+Estamos presos?
+
+140
+00:09:43,791 --> 00:09:45,125
+Estamos só a matar tempo
+
+141
+00:09:45,125 --> 00:09:47,500
+até descobrirmos
+que é um lobisomem ou isso?
+
+142
+00:09:47,791 --> 00:09:52,000
+<i>O comboio vai chegar à Estação
+de St. Louis Gateway em 10 minutos.</i>
+
+143
+00:09:52,000 --> 00:09:55,166
+- Não me parece um monstro.
+- É difícil de dizer.
+
+144
+00:09:56,458 --> 00:09:58,625
+Se não é um monstro, o que se passa?
+
+145
+00:09:59,375 --> 00:10:01,041
+Porque destruiriam o nosso quarto?
+
+146
+00:10:01,541 --> 00:10:03,041
+Talvez procurassem algo.
+
+147
+00:10:03,833 --> 00:10:04,916
+Não temos nada.
+
+148
+00:10:05,375 --> 00:10:08,583
+Quem acha que roubaste
+o Raio de Zeus talvez discorde.
+
+149
+00:10:10,000 --> 00:10:11,041
+Certo.
+
+150
+00:10:11,625 --> 00:10:14,000
+Não vão encontrar algo que não temos.
+
+151
+00:10:15,375 --> 00:10:18,125
+De qualquer modo, não vamos
+passar o dia a responder a perguntas
+
+152
+00:10:18,125 --> 00:10:19,625
+na esquadra de St. Louis,
+
+153
+00:10:19,750 --> 00:10:22,000
+temos de sair disto
+antes que nos atrasemos.
+
+154
+00:10:23,708 --> 00:10:24,833
+Posso sentar-me?
+
+155
+00:10:29,791 --> 00:10:31,166
+Coitadinhos.
+
+156
+00:10:34,041 --> 00:10:35,625
+Os vossos pais não estão aqui, certo?
+
+157
+00:10:37,000 --> 00:10:38,458
+Não é, lindinha?
+
+158
+00:10:39,041 --> 00:10:41,875
+As crianças não têm medo
+quando estão sozinhas?
+
+159
+00:10:43,541 --> 00:10:47,291
+Está tudo bem. Sou mãe.
+Sei que devem estar cheios de medo.
+
+160
+00:10:49,416 --> 00:10:53,250
+Com licença.
+Importa-se de nos dar algum espaço?
+
+161
+00:10:53,500 --> 00:10:54,541
+Acho...
+
+162
+00:10:55,291 --> 00:10:57,083
+Acho que os está a deixar nervosos.
+
+163
+00:11:03,291 --> 00:11:04,375
+Quero que saibam
+
+164
+00:11:05,625 --> 00:11:08,791
+que não acho que tenham sido vocês
+a fazerem aquela confusão.
+
+165
+00:11:09,750 --> 00:11:12,625
+Só queria um momento a sós convosco.
+
+166
+00:11:13,291 --> 00:11:16,791
+Há coisas que preciso que compreendam...
+
+167
+00:11:16,916 --> 00:11:18,125
+Tem algo no seu casaco.
+
+168
+00:11:18,916 --> 00:11:20,000
+Parece...
+
+169
+00:11:22,458 --> 00:11:23,458
+Parece vidro.
+
+170
+00:11:27,125 --> 00:11:29,791
+Ninguém partiu as janelas
+de dentro da cabina.
+
+171
+00:11:31,416 --> 00:11:34,000
+Alguém as partiu do exterior.
+
+172
+00:11:39,666 --> 00:11:41,250
+Sim, fofinha.
+
+173
+00:11:41,666 --> 00:11:43,291
+Eu sei.
+
+174
+00:11:44,000 --> 00:11:45,333
+Estás impaciente.
+
+175
+00:11:48,916 --> 00:11:50,833
+Mas já está quase.
+
+176
+00:11:55,791 --> 00:11:56,958
+Vocês não têm culpa.
+
+177
+00:11:57,833 --> 00:11:58,875
+Mas, infelizmente,
+
+178
+00:11:59,541 --> 00:12:03,875
+vão ter de carregar o fardo
+dos erros dos vossos pais hoje.
+
+179
+00:12:04,041 --> 00:12:05,083
+Ouça, minha senhora.
+
+180
+00:12:05,541 --> 00:12:07,708
+Não sei quem é,
+mas acho que sei o que é.
+
+181
+00:12:08,541 --> 00:12:11,458
+Já nos deparámos com monstros como você
+e acabámos com eles.
+
+182
+00:12:13,791 --> 00:12:15,666
+Monstros como eu?
+
+183
+00:12:17,000 --> 00:12:18,000
+Bem...
+
+184
+00:12:19,250 --> 00:12:21,125
+... claro que são como eu.
+
+185
+00:12:23,166 --> 00:12:24,666
+Eram meus filhos.
+
+186
+00:12:25,833 --> 00:12:26,833
+Filhos?
+
+187
+00:12:27,583 --> 00:12:28,625
+O que significa isso?
+
+188
+00:12:29,958 --> 00:12:31,375
+A Mãe dos Monstros.
+
+189
+00:12:32,541 --> 00:12:33,541
+A Equidna.
+
+190
+00:12:43,291 --> 00:12:44,375
+"Monstro",
+
+191
+00:12:45,541 --> 00:12:46,833
+que palavra estranha,
+
+192
+00:12:47,166 --> 00:12:51,125
+considerando que a minha avó
+é a tua bisavó
+
+193
+00:12:51,125 --> 00:12:53,833
+e que isto foi sempre
+uma história de família.
+
+194
+00:12:54,958 --> 00:12:57,375
+Mas... aos meus olhos,
+
+195
+00:12:58,333 --> 00:13:02,583
+o semideus é a criatura mais perigosa.
+
+196
+00:13:04,291 --> 00:13:05,333
+Disruptor.
+
+197
+00:13:06,250 --> 00:13:07,375
+Violento.
+
+198
+00:13:08,375 --> 00:13:10,250
+Se existe razão para a minha existência
+
+199
+00:13:11,000 --> 00:13:15,125
+é interpor-me no caminho de monstros
+
+200
+00:13:16,041 --> 00:13:17,125
+como vocês.
+
+201
+00:13:19,875 --> 00:13:25,291
+Aqui a minha pequenina
+ainda é muito novinha, abençoada seja.
+
+202
+00:13:27,666 --> 00:13:28,708
+Hoje...
+
+203
+00:13:31,708 --> 00:13:33,125
+... serão a presa dela.
+
+204
+00:13:37,791 --> 00:13:39,000
+Já têm medo?
+
+205
+00:13:40,083 --> 00:13:42,625
+Não faz mal. O medo é natural.
+
+206
+00:13:43,291 --> 00:13:45,375
+E é também essencial à caçada.
+
+207
+00:13:46,000 --> 00:13:48,541
+O vosso medo. A vossa dúvida.
+
+208
+00:13:49,083 --> 00:13:50,333
+A vossa confusão.
+
+209
+00:13:51,708 --> 00:13:55,625
+Eu precisava que percebessem
+o que se estava a passar,
+
+210
+00:13:56,416 --> 00:13:59,083
+para que ela pudesse farejar o cheiro.
+
+211
+00:14:01,166 --> 00:14:04,875
+Para que ela pudesse
+aprender e crescer, porque...
+
+212
+00:14:05,958 --> 00:14:08,708
+... uma boa mãe faz isso pelos filhos.
+
+213
+00:14:09,708 --> 00:14:10,833
+Não que vocês saibam.
+
+214
+00:14:20,666 --> 00:14:22,000
+Deviam fugir agora.
+
+215
+00:14:26,208 --> 00:14:27,625
+- Não, querida!
+- Fujam!
+
+216
+00:14:31,375 --> 00:14:32,375
+Vocês! Parem!
+
+217
+00:14:33,791 --> 00:14:34,916
+Parem!
+
+218
+00:14:37,333 --> 00:14:38,333
+Tontinha.
+
+219
+00:14:39,416 --> 00:14:40,958
+Precipitaste-te.
+
+220
+00:14:41,958 --> 00:14:43,041
+Vamos melhorar isso.
+
+221
+00:14:56,708 --> 00:14:57,833
+Parem!
+
+222
+00:15:24,666 --> 00:15:25,750
+Percy.
+
+223
+00:15:25,916 --> 00:15:28,166
+- Abram!
+- Voltem e abram a porta!
+
+224
+00:15:28,166 --> 00:15:29,250
+O que é isso?
+
+225
+00:15:30,125 --> 00:15:31,208
+É um ferrão.
+
+226
+00:15:31,500 --> 00:15:33,416
+Grover, que tipo de monstro tem isso?
+
+227
+00:15:33,541 --> 00:15:35,833
+Não sei. Provavelmente, nenhum bom.
+
+228
+00:15:36,291 --> 00:15:38,625
+- Sentes-te bem?
+- Acho que sim. Porquê?
+
+229
+00:15:39,166 --> 00:15:40,375
+Acham que é venenoso?
+
+230
+00:15:40,500 --> 00:15:42,500
+- Abram esta porta!
+- Não sei.
+
+231
+00:15:42,750 --> 00:15:43,791
+Vá lá!
+
+232
+00:15:57,000 --> 00:15:58,083
+Temos de continuar.
+
+233
+00:16:00,125 --> 00:16:02,375
+<i>O comboio vai fazer
+uma paragem inesperada.</i>
+
+234
+00:16:02,500 --> 00:16:03,791
+<i>Mantenham-se sentados para vossa...</i>
+
+235
+00:16:10,125 --> 00:16:11,416
+Porque não nos perseguiu?
+
+236
+00:16:12,291 --> 00:16:15,416
+A Equidna disse que a coisa
+que ela trazia com ela é jovem.
+
+237
+00:16:15,916 --> 00:16:17,500
+Não se afastará muito da mãe.
+
+238
+00:16:18,041 --> 00:16:19,250
+Está a aprender a caçar
+
+239
+00:16:20,708 --> 00:16:22,541
+e esta parece a parte da caça.
+
+240
+00:16:26,375 --> 00:16:28,208
+Não vamos conseguir fugir-lhes
+por muito tempo.
+
+241
+00:16:29,125 --> 00:16:32,208
+Não precisamos.
+Temos de nos esconder num lugar seguro.
+
+242
+00:16:33,208 --> 00:16:34,208
+Um lugar seguro.
+
+243
+00:16:34,708 --> 00:16:36,666
+Alguém sabe onde podemos encontrar um?
+
+244
+00:16:38,416 --> 00:16:39,416
+Eu sei.
+
+245
+00:16:40,083 --> 00:16:42,125
+Um santuário, dedicado a Atena,
+
+246
+00:16:42,458 --> 00:16:44,458
+construído por um filho semideus dela
+há muito.
+
+247
+00:16:44,958 --> 00:16:47,125
+Há um templo de Atena escondido algures
+
+248
+00:16:47,125 --> 00:16:48,958
+na baixa de St. Louis?
+
+249
+00:16:49,458 --> 00:16:50,500
+Sim.
+
+250
+00:16:51,583 --> 00:16:53,500
+Só que não está lá muito escondido.
+
+251
+00:17:05,583 --> 00:17:10,833
+<i>Tem 192 m de largura, 192 m de altura,
+com uma diferença de menos de 2 cm.</i>
+
+252
+00:17:12,541 --> 00:17:14,375
+<i>Não tem suportes interiores.</i>
+
+253
+00:17:14,541 --> 00:17:16,833
+<i>Cada lado está perfeitamente
+equilibrado um contra o outro.</i>
+
+254
+00:17:18,958 --> 00:17:20,583
+<i>O arco é sustentado pela simetria.</i>
+
+255
+00:17:20,750 --> 00:17:22,125
+<i>É sustentado pela matemática.</i>
+
+256
+00:17:22,833 --> 00:17:25,583
+E é antissísmico,
+para o Posídon não o poder destruir.
+
+257
+00:17:26,916 --> 00:17:28,458
+- Boa.
+- Com licença.
+
+258
+00:17:29,500 --> 00:17:31,708
+É assim que demonstramos
+o nosso amor a Atena.
+
+259
+00:17:32,500 --> 00:17:35,208
+Um monumento elevado à perfeição.
+
+260
+00:17:36,791 --> 00:17:38,416
+É um monumento a outras cenas também.
+
+261
+00:17:40,166 --> 00:17:43,208
+Referes-te ao que alguns humanos
+querem que seja.
+
+262
+00:17:44,333 --> 00:17:46,416
+Eu refiro-me ao que realmente é.
+
+263
+00:17:47,958 --> 00:17:49,041
+Tanto faz.
+
+264
+00:17:49,750 --> 00:17:51,125
+Aqui, estamos seguros, certo?
+
+265
+00:17:52,208 --> 00:17:55,000
+Nenhum monstro pode entrar.
+Nem sequer a Equidna.
+
+266
+00:17:55,666 --> 00:17:57,041
+- Estamos seguros.
+- Ótimo.
+
+267
+00:17:58,625 --> 00:18:00,791
+Bem, já que o nosso comboio explodiu,
+
+268
+00:18:00,791 --> 00:18:03,208
+vou ver se arranjo bilhetes para outro.
+
+269
+00:18:03,875 --> 00:18:05,208
+Vamos ter de sair daqui.
+
+270
+00:18:10,166 --> 00:18:12,541
+Lá por sermos a presa,
+não temos de estar indefesos.
+
+271
+00:18:17,333 --> 00:18:19,333
+Ele não gosta que tratem mal animais.
+
+272
+00:18:21,166 --> 00:18:22,166
+Pois.
+
+273
+00:18:23,000 --> 00:18:24,083
+Eu sei.
+
+274
+00:18:25,625 --> 00:18:28,000
+Não me devia ter passado com ele. Eu só...
+
+275
+00:18:30,333 --> 00:18:31,333
+Eu sei.
+
+276
+00:18:34,958 --> 00:18:37,166
+Então, esta é a casa da tua mãe.
+
+277
+00:18:38,416 --> 00:18:39,458
+Ela andará por aqui?
+
+278
+00:18:41,916 --> 00:18:43,708
+"Vou já! Vou só ao penico!"
+
+279
+00:18:47,750 --> 00:18:48,791
+Boa.
+
+280
+00:18:49,541 --> 00:18:50,625
+Tenho um dom.
+
+281
+00:18:53,916 --> 00:18:55,250
+Acho que tinhas razão.
+
+282
+00:18:56,375 --> 00:18:59,458
+Precisávamos de um lugar seguro
+e a tua mãe tinha um à mão.
+
+283
+00:19:00,791 --> 00:19:02,875
+Que sorte, estarmos na cidade certa.
+
+284
+00:19:04,708 --> 00:19:05,708
+Sorte ou destino?
+
+285
+00:19:11,833 --> 00:19:14,125
+Sei que achas que é tudo da minha cabeça,
+
+286
+00:19:14,250 --> 00:19:18,125
+que me convenço de que a minha mãe
+se importa porque é mais fácil.
+
+287
+00:19:18,875 --> 00:19:19,916
+Eu não disse isso.
+
+288
+00:19:22,208 --> 00:19:26,500
+Ouve, só soube que sou um semideus...
+no sábado passado.
+
+289
+00:19:27,916 --> 00:19:29,000
+Não me devias ouvir.
+
+290
+00:19:31,208 --> 00:19:34,250
+Sabes... esta casa é da minha mãe,
+
+291
+00:19:34,500 --> 00:19:36,875
+mas... um templo é um templo.
+
+292
+00:19:38,000 --> 00:19:40,041
+Talvez possas dizer "olá" ao teu pai.
+
+293
+00:19:42,500 --> 00:19:43,541
+Não, obrigado.
+
+294
+00:19:44,208 --> 00:19:45,291
+Que mal pode fazer?
+
+295
+00:19:48,833 --> 00:19:50,000
+Tu e a tua mãe...
+
+296
+00:19:51,958 --> 00:19:56,416
+Eu percebo. É diferente.
+Funciona para ti. Mas o meu pai...
+
+297
+00:19:59,041 --> 00:20:02,166
+Não quero nada dele.
+Ele teve as suas oportunidades.
+
+298
+00:20:02,166 --> 00:20:05,416
+Sinceramente, tu fizeste mais por mim
+nos últimos dias
+
+299
+00:20:05,541 --> 00:20:07,125
+do que o meu pai a vida toda.
+
+300
+00:20:07,875 --> 00:20:09,208
+Se tiver de escolher alguém...
+
+301
+00:20:11,666 --> 00:20:12,791
+Cuidado.
+
+302
+00:20:13,583 --> 00:20:15,041
+Estás prestes a chamar-me "amiga".
+
+303
+00:20:16,250 --> 00:20:18,208
+Algures aqui, o Oráculo ri-se de nós.
+
+304
+00:20:18,208 --> 00:20:19,416
+Bem, sabes...
+
+305
+00:20:19,875 --> 00:20:22,625
+- Percy!
+- O que aconteceu?
+
+306
+00:20:22,625 --> 00:20:26,000
+Acho que aqueles ferrões eram venenosos.
+
+307
+00:20:26,708 --> 00:20:28,333
+Tenho uma ideia. Ajuda-me, vá.
+
+308
+00:20:28,708 --> 00:20:29,791
+Está bem.
+
+309
+00:20:37,250 --> 00:20:40,958
+A água curou-te na colónia,
+devia resultar com veneno também, certo?
+
+310
+00:20:42,541 --> 00:20:44,541
+Sabem? Acho que está a resultar.
+
+311
+00:20:45,500 --> 00:20:46,500
+Foi uma bela ideia.
+
+312
+00:20:50,125 --> 00:20:52,125
+- Ou não.
+- Talvez tenha de ser
+
+313
+00:20:52,125 --> 00:20:54,958
+água da natureza para o Posídon o curar.
+
+314
+00:20:59,625 --> 00:21:02,791
+- Temos de voltar para dentro.
+- Não. Temos de continuar a tentar.
+
+315
+00:21:03,041 --> 00:21:04,875
+Não está a resultar. E ela vem aí.
+
+316
+00:21:09,500 --> 00:21:12,166
+Levamos o Percy para dentro
+e vamos até ao altar.
+
+317
+00:21:12,375 --> 00:21:14,166
+Altar? Onde é o altar?
+
+318
+00:21:14,333 --> 00:21:17,541
+- No ponto mais alto, com a melhor vista.
+- De que nos servirá isso?
+
+319
+00:21:18,875 --> 00:21:21,916
+Vamos até ao altar,
+pedir ajuda à minha mãe.
+
+320
+00:21:24,541 --> 00:21:25,750
+Pensava que não pedíamos ajuda.
+
+321
+00:21:30,083 --> 00:21:31,625
+Vamos. Toca a andar.
+
+322
+00:21:41,083 --> 00:21:42,541
+Rapazes, ouviram aquilo?
+
+323
+00:21:43,000 --> 00:21:44,041
+O quê?
+
+324
+00:21:45,000 --> 00:21:46,291
+Esqueçam. Vamos.
+
+325
+00:21:55,541 --> 00:21:58,541
+<i>Por favor, sentem-se.
+Os elétricos vão partir.</i>
+
+326
+00:22:03,958 --> 00:22:05,791
+O que foi aquilo? O que ouviste?
+
+327
+00:22:08,666 --> 00:22:09,666
+Ela falou para ti.
+
+328
+00:22:11,125 --> 00:22:13,500
+A Alecto fez-me isso
+no museu em Nova Iorque.
+
+329
+00:22:14,333 --> 00:22:15,416
+O que disse ela?
+
+330
+00:22:22,583 --> 00:22:23,791
+Aquilo era a Quimera?
+
+331
+00:22:25,250 --> 00:22:28,166
+Acho... que era a Quimera.
+
+332
+00:22:28,541 --> 00:22:30,833
+Como é que a Quimera entrou aqui?
+
+333
+00:22:30,958 --> 00:22:33,416
+- Como é que um monstro entra aqui?
+- Annabeth?
+
+334
+00:22:33,583 --> 00:22:36,916
+Estamos num santuário.
+A Atena teria de a ter deixado entrar,
+
+335
+00:22:37,166 --> 00:22:38,458
+- mas porquê?
+- Annabeth!
+
+336
+00:22:39,666 --> 00:22:41,000
+O que te disse a Equidna?
+
+337
+00:22:44,041 --> 00:22:46,916
+Disse que a minha impertinência
+feriu o orgulho da minha mãe.
+
+338
+00:22:47,875 --> 00:22:49,833
+E que será a minha perdição.
+
+339
+00:22:50,875 --> 00:22:52,000
+Impertinência? Que tipo de...
+
+340
+00:22:54,458 --> 00:22:55,583
+A cabeça da Medusa.
+
+341
+00:22:57,750 --> 00:22:59,083
+Envergonhei a minha mãe.
+
+342
+00:23:01,458 --> 00:23:03,458
+Mas fui eu
+que enviei a cabeça para o Olimpo.
+
+343
+00:23:03,916 --> 00:23:06,000
+- Eu assinei.
+- E eu alinhei nisso.
+
+344
+00:23:08,416 --> 00:23:09,500
+Isso envergonhou-a.
+
+345
+00:23:10,458 --> 00:23:11,583
+Agora, está furiosa.
+
+346
+00:23:12,833 --> 00:23:14,666
+O que vamos fazer?
+
+347
+00:23:15,833 --> 00:23:18,125
+Ela não nos vai ajudar a salvar o Percy.
+
+348
+00:23:18,583 --> 00:23:21,541
+Não, refiro-me à Equidna e à Quimera.
+
+349
+00:23:22,083 --> 00:23:23,500
+Elas estão mesmo atrás de nós.
+
+350
+00:23:25,916 --> 00:23:28,666
+Não teremos muito tempo.
+Vão chegar a qualquer instante.
+
+351
+00:23:28,791 --> 00:23:33,250
+E, se a minha mãe não nos vai proteger,
+vamos ter de lutar aqui em cima.
+
+352
+00:23:43,125 --> 00:23:44,125
+Não.
+
+353
+00:23:44,458 --> 00:23:46,333
+Temos de tirar todos daqui.
+
+354
+00:23:55,375 --> 00:23:57,458
+<i>Atenção.</i>
+
+355
+00:23:57,583 --> 00:24:00,208
+- Em fila, todos.
+- Tu e o Percy, sigam-nos para baixo.
+
+356
+00:24:00,375 --> 00:24:02,791
+O quê? Não. Não nos vamos separar.
+
+357
+00:24:02,791 --> 00:24:03,875
+Grover, vá lá.
+
+358
+00:24:03,875 --> 00:24:06,416
+Não. Vamos sair todos daqui juntos.
+
+359
+00:24:06,416 --> 00:24:10,208
+Não vamos conseguir.
+A Quimera é a assassina de semideuses.
+
+360
+00:24:10,916 --> 00:24:13,958
+Alguém tem de a empatar
+e ganhar tempo para todos.
+
+361
+00:24:14,666 --> 00:24:15,750
+Vão.
+
+362
+00:24:18,291 --> 00:24:20,875
+Ajuda-o a descer e leva-o até ao rio.
+
+363
+00:24:21,208 --> 00:24:23,625
+E não parem. Só quando chegarem ao Hades
+
+364
+00:24:24,000 --> 00:24:26,416
+e tiverem o Raio, perceberam?
+
+365
+00:24:28,750 --> 00:24:29,875
+Pronto. Vão.
+
+366
+00:24:30,375 --> 00:24:31,375
+Espera.
+
+367
+00:24:37,125 --> 00:24:38,125
+Leva isto.
+
+368
+00:24:42,708 --> 00:24:43,875
+Espera!
+
+369
+00:24:44,333 --> 00:24:46,458
+Percy!
+
+370
+00:24:46,833 --> 00:24:48,333
+Percy, por favor!
+
+371
+00:24:48,458 --> 00:24:51,875
+Percy, não! Não faças isto. Vão matar-te.
+
+372
+00:24:52,000 --> 00:24:53,333
+O Posídon nunca me ajudou.
+
+373
+00:24:54,833 --> 00:24:57,208
+- Não ia começar agora.
+- Percy!
+
+374
+00:24:59,375 --> 00:25:00,750
+Nunca chegaria ao Hades.
+
+375
+00:25:00,750 --> 00:25:03,458
+Percy? Percy, por favor.
+
+376
+00:25:04,291 --> 00:25:05,500
+Mas vocês podem chegar.
+
+377
+00:25:07,708 --> 00:25:08,750
+E, agora, vão chegar.
+
+378
+00:25:09,125 --> 00:25:10,250
+Percy!
+
+379
+00:25:12,625 --> 00:25:17,166
+- Percy! Estás a ouvir?
+- Percy, não consegues fazê-lo sozinho.
+
+380
+00:25:33,750 --> 00:25:35,625
+Isto é o fim, querido.
+
+381
+00:25:36,666 --> 00:25:37,750
+Não lutes.
+
+382
+00:25:38,750 --> 00:25:40,500
+Só a vais enfurecer.
+
+383
+00:26:55,083 --> 00:26:56,083
+É tão injusto.
+
+384
+00:26:56,875 --> 00:26:58,333
+Nunca tiveste hipótese, pois não?
+
+385
+00:27:00,791 --> 00:27:04,583
+Ao menos, se alguém se importasse contigo
+o suficiente para te dar uma.
+
+386
+00:27:59,916 --> 00:28:01,166
+<i>Estás com medo.</i>
+
+387
+00:28:03,833 --> 00:28:05,250
+<i>Não faz mal, Percy.</i>
+
+388
+00:28:06,833 --> 00:28:09,041
+<i>O teu pai mandou-me dizer-te</i>
+
+389
+00:28:09,875 --> 00:28:11,000
+<i>que está tudo bem.</i>
+
+390
+00:28:13,250 --> 00:28:15,541
+<i>Respira apenas.</i>
+
+391
+00:28:19,000 --> 00:28:20,291
+<i>O teu pai está aqui.</i>
+
+392
+00:28:22,125 --> 00:28:23,541
+<i>Esteve sempre aqui.</i>
+
+393
+00:28:25,500 --> 00:28:27,541
+<i>É tão difícil para ele ficar a ver.</i>
+
+394
+00:28:28,458 --> 00:28:32,000
+<i>Ver-te em dificuldades.
+É tão difícil para todos nós.</i>
+
+395
+00:28:32,958 --> 00:28:34,000
+<i>Mas ele está aqui.</i>
+
+396
+00:28:34,833 --> 00:28:36,625
+<i>E tem tanto orgulho.</i>
+
+397
+00:28:39,458 --> 00:28:40,541
+<i>Confia nele.</i>
+
+398
+00:28:42,875 --> 00:28:44,625
+<i>Confia em ti.</i>
+
+399
+00:28:47,000 --> 00:28:50,750
+<i>Respira... apenas.</i>
+
+400
+00:30:37,541 --> 00:30:44,500
+PERCY JACKSON
+
+401
+00:30:53,833 --> 00:30:55,916
+{\an8}<i>A minha mãe estava sempre
+a contar-me estas histórias.</i>
+
+402
+00:30:57,166 --> 00:30:58,916
+Percy, levanta-te. A sério.
+
+403
+00:30:59,458 --> 00:31:01,583
+<i>Ela dizia que os deuses
+eram assim uns para os outros.</i>
+
+404
+00:31:03,000 --> 00:31:04,625
+<i>É o tipo de familiares que são.</i>
+
+405
+00:32:34,541 --> 00:32:36,708
+Legendas: Vânia Cristina
+

@@ -1,0 +1,836 @@
+[Script Info]
+ScriptType: v4.00+
+Collisions: Normal
+PlayResX: 1920
+PlayResY: 960
+Timer: 100.0
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,sans-serif,71,&H00FFFFFF,&H00FFFFFF,&H000F0F0F,&H000F0F0F,0,0,0,0,100,100,0,0.00,1,2,3,2,20,20,20,0
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:20.11,0:00:22.11,Default,,0,0,0,,{\i1}[soft piano music plays]{\i0}
+Dialogue: 0,0:00:23.57,0:00:25.57,Default,,0,0,0,,{\i1}[guests chattering, laughing]{\i0}
+Dialogue: 0,0:01:15.16,0:01:16.58,Default,,0,0,0,,{\i1}[Daphne gasps lightly]{\i0}
+Dialogue: 0,0:01:18.21,0:01:19.54,Default,,0,0,0,,{\i1}[breathes heavily]{\i0}
+Dialogue: 0,0:01:27.97,0:01:29.89,Default,,0,0,0,,{\i1}[theme music plays]{\i0}
+Dialogue: 0,0:01:32.06,0:01:34.40,Default,,0,0,0,,{\i1}[horses clomping]{\i0}
+Dialogue: 0,0:01:38.06,0:01:41.23,Default,,0,0,0,,{\i1}[Lady Whistledown]{\i0}\N<span style="style2">Dearest gentle reader, it is often said{\i0}
+Dialogue: 0,0:01:41.31,0:01:45.06,Default,,0,0,0,,{\an8}{\i1}that those who marry in haste{\i0}\N{\i1}must repent at leisure,{\i0}
+Dialogue: 0,0:01:45.15,0:01:49.15,Default,,0,0,0,,{\an8}{\i1}a sentiment that is clearly shared{\i0}\N{\i1}by Miss Daphne Bridgerton,{\i0}
+Dialogue: 0,0:01:49.24,0:01:52.62,Default,,0,0,0,,{\an8}{\i1}who has apparently rejected{\i0}\N{\i1}not one, not two,{\i0}
+Dialogue: 0,0:01:52.70,0:01:55.95,Default,,0,0,0,,{\i1}but three proposals already this week.{\i0}
+Dialogue: 0,0:01:56.62,0:02:01.17,Default,,0,0,0,,{\i1}Some believe she is showing admirable{\i0}\N{\i1}forethought in her deliberations,{\i0}
+Dialogue: 0,0:02:01.67,0:02:05.09,Default,,0,0,0,,{\i1}but I would venture{\i0}\N{\i1}a different conjecture,{\i0}
+Dialogue: 0,0:02:05.17,0:02:07.09,Default,,0,0,0,,{\i1}that she, like this author,{\i0}
+Dialogue: 0,0:02:07.17,0:02:10.51,Default,,0,0,0,,{\i1}is still waiting{\i0}\N{\i1}on the only suitor of note.{\i0}
+Dialogue: 0,0:02:15.72,0:02:17.31,Default,,0,0,0,,{\i1}Here we are.{\i0}
+Dialogue: 0,0:02:20.35,0:02:22.31,Default,,0,0,0,,{\i1}[Daphne] Our plan has worked thus far,{\i0}
+Dialogue: 0,0:02:22.40,0:02:25.28,Default,,0,0,0,,{\i1}but we must continue our ruse{\i0}\N{\i1}until I have found my match.{\i0}
+Dialogue: 0,0:02:25.36,0:02:28.20,Default,,0,0,0,,{\i1}In the grand battle of the season,{\i0}\N{\i1}I am your trusted general,{\i0}
+Dialogue: 0,0:02:28.28,0:02:29.28,Default,,0,0,0,,{\i1}marshaling the troops.{\i0}
+Dialogue: 0,0:02:29.36,0:02:32.36,Default,,0,0,0,,{\i1}Wellington could only hope{\i0}\N{\i1}for a soldier so brave.{\i0}
+Dialogue: 0,0:02:32.45,0:02:35.00,Default,,0,0,0,,{\i1}And handsome. You must not forget that.{\i0}
+Dialogue: 0,0:02:35.08,0:02:36.17,Default,,0,0,0,,{\i1}[laughs]{\i0}
+Dialogue: 0,0:02:45.04,0:02:46.54,Default,,0,0,0,,{\i1}[horse whinnies]{\i0}
+Dialogue: 0,0:02:46.63,0:02:48.05,Default,,0,0,0,,{\i1}[postman] Post has arrived!{\i0}
+Dialogue: 0,0:02:54.43,0:02:56.72,Default,,0,0,0,,{\i1}-Some prince is coming to London.{\i0}\N{\i1}-[Philippa gasps]{\i0}
+Dialogue: 0,0:02:56.81,0:02:59.44,Default,,0,0,0,,{\i1}Then I shall wear{\i0}\N{\i1}my most brilliant dress of all.{\i0}
+Dialogue: 0,0:02:59.52,0:03:01.11,Default,,0,0,0,,{\i1}Something must hold his interest,{\i0}
+Dialogue: 0,0:03:01.19,0:03:03.07,Default,,0,0,0,,{\i1}as it will certainly not be{\i0}\N{\i1}your conversation.{\i0}
+Dialogue: 0,0:03:03.15,0:03:04.32,Default,,0,0,0,,{\i1}[both chuckle]{\i0}
+Dialogue: 0,0:03:15.66,0:03:16.62,Default,,0,0,0,,{\i1}[Penelope sighs]{\i0}
+Dialogue: 0,0:03:23.21,0:03:24.04,Default,,0,0,0,,{\i1}Anything?{\i0}
+Dialogue: 0,0:03:28.96,0:03:30.05,Default,,0,0,0,,{\i1}[door closes]{\i0}
+Dialogue: 0,0:03:31.01,0:03:34.06,Default,,0,0,0,,{\i1}How long does it take{\i0}\N{\i1}for a letter to arrive from Spain?{\i0}
+Dialogue: 0,0:03:34.76,0:03:36.60,Default,,0,0,0,,{\i1}Sir George is with the front line.{\i0}
+Dialogue: 0,0:03:36.68,0:03:38.64,Default,,0,0,0,,{\i1}It must be difficult{\i0}\N{\i1}to get letters in and out.{\i0}
+Dialogue: 0,0:03:38.72,0:03:40.31,Default,,0,0,0,,{\i1}You must be patient.{\i0}
+Dialogue: 0,0:03:40.39,0:03:43.35,Default,,0,0,0,,{\i1}If your love is as great{\i0}\N{\i1}as your previous letters state,{\i0}
+Dialogue: 0,0:03:43.44,0:03:46.94,Default,,0,0,0,,{\i1}surely he will write back to you soon.{\i0}\N{\i1}Or perhaps, even better,{\i0}
+Dialogue: 0,0:03:47.02,0:03:48.94,Default,,0,0,0,,{\i1}he's already making his way{\i0}\N{\i1}back to you here{\i0}
+Dialogue: 0,0:03:49.03,0:03:50.28,Default,,0,0,0,,{\i1}to come and take you home.{\i0}
+Dialogue: 0,0:03:52.11,0:03:53.57,Default,,0,0,0,,{\i1}Penelope Featherington!{\i0}
+Dialogue: 0,0:03:53.66,0:03:56.50,Default,,0,0,0,,{\i1}What did I tell you{\i0}\N{\i1}about cavorting with the expectant?{\i0}
+Dialogue: 0,0:03:56.57,0:03:58.78,Default,,0,0,0,,{\i1}-Marina has been in here for ages, Mama!{\i0}\N{\i1}-Out. Out.{\i0}
+Dialogue: 0,0:03:58.87,0:04:00.12,Default,,0,0,0,,{\i1}-[Penelope moans]{\i0}\N{\i1}-Out!{\i0}
+Dialogue: 0,0:04:02.62,0:04:04.87,Default,,0,0,0,,{\i1}-[Featherington sighs]{\i0}\N{\i1}-You cannot hide me away forever.{\i0}
+Dialogue: 0,0:04:04.96,0:04:06.21,Default,,0,0,0,,{\i1}No, I cannot,{\i0}
+Dialogue: 0,0:04:06.29,0:04:10.80,Default,,0,0,0,,{\i1}which is why you are to reenter society{\i0}\N{\i1}at once and find yourself a husband.{\i0}
+Dialogue: 0,0:04:11.42,0:04:14.09,Default,,0,0,0,,{\i1}-I do not want--{\i0}\N{\i1}-What you want became immaterial long ago.{\i0}
+Dialogue: 0,0:04:14.18,0:04:16.68,Default,,0,0,0,,{\i1}You shall wed,{\i0}\N{\i1}and you shall do it as soon as possible.{\i0}
+Dialogue: 0,0:04:16.76,0:04:18.30,Default,,0,0,0,,{\i1}You are to be fitted for a new wardrobe.{\i0}
+Dialogue: 0,0:04:18.39,0:04:21.02,Default,,0,0,0,,{\i1}It's about time you dressed{\i0}\N{\i1}in the family colors anyway.{\i0}
+Dialogue: 0,0:04:28.02,0:04:30.02,Default,,0,0,0,,{\i1}Daphne, have you thought about{\i0}
+Dialogue: 0,0:04:30.11,0:04:32.40,Default,,0,0,0,,{\i1}with whom you would like to dance{\i0}\N{\i1}at tonight's ball?{\i0}
+Dialogue: 0,0:04:32.49,0:04:33.78,Default,,0,0,0,,{\i1}I have some ideas.{\i0}
+Dialogue: 0,0:04:33.86,0:04:35.90,Default,,0,0,0,,{\i1}Lord Weaver is a fine dancer.{\i0}
+Dialogue: 0,0:04:36.49,0:04:39.70,Default,,0,0,0,,{\i1}Lord Hardy was asking about you{\i0}\N{\i1}at White's last night.{\i0}
+Dialogue: 0,0:04:39.78,0:04:41.99,Default,,0,0,0,,{\i1}Lord Hardy? What about the duke?{\i0}
+Dialogue: 0,0:04:42.08,0:04:44.96,Default,,0,0,0,,{\i1}The duke has not proposed, Mama.{\i0}
+Dialogue: 0,0:04:45.71,0:04:48.67,Default,,0,0,0,,{\i1}-I am still considering my best course.{\i0}\N{\i1}-Wise girl.{\i0}
+Dialogue: 0,0:04:48.75,0:04:51.09,Default,,0,0,0,,{\i1}And Lord Hardy is a fine option.{\i0}
+Dialogue: 0,0:04:51.17,0:04:53.34,Default,,0,0,0,,{\i1}Although, he is rather boastful.{\i0}
+Dialogue: 0,0:04:53.42,0:04:56.30,Default,,0,0,0,,{\i1}[Viola] My dear,{\i0}\N{\i1}why ever do you complicate matters so?{\i0}
+Dialogue: 0,0:04:56.38,0:04:59.68,Default,,0,0,0,,{\i1}You must simply marry the man{\i0}\N{\i1}who feels like your dearest friend.{\i0}
+Dialogue: 0,0:04:59.76,0:05:02.81,Default,,0,0,0,,{\i1}Is that it, Mama?{\i0}\N{\i1}Well, how very simple indeed!{\i0}
+Dialogue: 0,0:05:02.89,0:05:04.85,Default,,0,0,0,,{\i1}Yes, quite. [chuckles ironically]{\i0}
+Dialogue: 0,0:05:07.02,0:05:10.61,Default,,0,0,0,,{\i1}[string quartet plays]{\i0}
+Dialogue: 0,0:05:12.03,0:05:14.03,Default,,0,0,0,,{\i1}[guests chattering]{\i0}
+Dialogue: 0,0:05:25.71,0:05:26.75,Default,,0,0,0,,{\i1}[parrot squawks]{\i0}
+Dialogue: 0,0:05:28.92,0:05:29.96,Default,,0,0,0,,{\i1}[Daphne laughs]{\i0}
+Dialogue: 0,0:05:34.30,0:05:37.30,Default,,0,0,0,,{\i1}-Is my general ready for battle?{\i0}\N{\i1}-I was born ready.{\i0}
+Dialogue: 0,0:05:37.38,0:05:38.55,Default,,0,0,0,,{\i1}[Daphne chuckles]{\i0}
+Dialogue: 0,0:05:38.63,0:05:41.63,Default,,0,0,0,,{\i1}Were that true, I suspect{\i0}\N{\i1}you would need less protection{\i0}
+Dialogue: 0,0:05:41.72,0:05:44.51,Default,,0,0,0,,{\i1}from our beloved packs of ambitious mamas.{\i0}
+Dialogue: 0,0:05:44.60,0:05:47.35,Default,,0,0,0,,{\i1}You call me the general,{\i0}\N{\i1}yet you are the first to draw blood.{\i0}
+Dialogue: 0,0:05:49.19,0:05:51.11,Default,,0,0,0,,{\i1}[Daphne laughs]{\i0}
+Dialogue: 0,0:05:51.19,0:05:52.23,Default,,0,0,0,,{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:05:52.32,0:05:53.70,Default,,0,0,0,,{\i1}Lord Weaver.{\i0}
+Dialogue: 0,0:05:55.36,0:05:58.86,Default,,0,0,0,,{\i1}I was wondering if you might{\i0}\N{\i1}do me the honor of a dance tonight.{\i0}
+Dialogue: 0,0:06:03.49,0:06:05.33,Default,,0,0,0,,{\i1}[loudly] Must I share your attention{\i0}
+Dialogue: 0,0:06:05.41,0:06:07.79,Default,,0,0,0,,{\i1}with every moon-eyed dandy,{\i0}\N{\i1}Miss Bridgerton?{\i0}
+Dialogue: 0,0:06:07.87,0:06:09.71,Default,,0,0,0,,{\i1}Only the charming ones, Your Grace.{\i0}
+Dialogue: 0,0:06:13.00,0:06:15.25,Default,,0,0,0,,{\i1}The perfect jealous suitor. Well done!{\i0}
+Dialogue: 0,0:06:15.34,0:06:17.51,Default,,0,0,0,,{\i1}Someone is angling{\i0}\N{\i1}for a promotion in rank.{\i0}
+Dialogue: 0,0:06:21.26,0:06:23.26,Default,,0,0,0,,{\i1}[music continues]{\i0}
+Dialogue: 0,0:06:26.14,0:06:30.52,Default,,0,0,0,,{\i1}So, tell me, my lord,{\i0}\N{\i1}do you prefer the city or the country?{\i0}
+Dialogue: 0,0:06:31.94,0:06:33.78,Default,,0,0,0,,{\i1}I suppose I've never thought of it.{\i0}
+Dialogue: 0,0:06:34.86,0:06:36.65,Default,,0,0,0,,{\i1}I am partial to the country,{\i0}
+Dialogue: 0,0:06:37.32,0:06:39.74,Default,,0,0,0,,{\i1}but there are certainly advantages{\i0}\N{\i1}to both.{\i0}
+Dialogue: 0,0:06:41.70,0:06:43.58,Default,,0,0,0,,{\i1}Where do you see yourself settling?{\i0}
+Dialogue: 0,0:06:44.37,0:06:46.12,Default,,0,0,0,,{\i1}Another excellent question.{\i0}
+Dialogue: 0,0:06:49.41,0:06:51.37,Default,,0,0,0,,{\i1}You look bewitching tonight,{\i0}\N{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:06:51.46,0:06:54.51,Default,,0,0,0,,{\i1}Well, I do hope you are not too spellbound{\i0}\N{\i1}to chat, Lord Hardy.{\i0}
+Dialogue: 0,0:06:54.59,0:06:57.14,Default,,0,0,0,,{\i1}Did you know I purchased{\i0}\N{\i1}my first landau when I left Oxford?{\i0}
+Dialogue: 0,0:06:57.21,0:06:59.21,Default,,0,0,0,,{\i1}I have acquired two more since.{\i0}
+Dialogue: 0,0:06:59.30,0:07:01.34,Default,,0,0,0,,{\i1}I keep them at my ancestral home.{\i0}
+Dialogue: 0,0:07:01.43,0:07:03.68,Default,,0,0,0,,{\i1}My ancestral home is really quite large,{\i0}
+Dialogue: 0,0:07:03.76,0:07:05.97,Default,,0,0,0,,{\i1}much larger than most others in the area.{\i0}
+Dialogue: 0,0:07:08.43,0:07:09.43,Default,,0,0,0,,{\i1}Fascinating.{\i0}
+Dialogue: 0,0:07:12.60,0:07:14.77,Default,,0,0,0,,{\i1}My family and I are exceptionally close.{\i0}
+Dialogue: 0,0:07:15.52,0:07:17.94,Default,,0,0,0,,{\i1}How wonderful, Lord Tompkins.{\i0}
+Dialogue: 0,0:07:18.61,0:07:20.57,Default,,0,0,0,,{\i1}I am quite the same with my own.{\i0}
+Dialogue: 0,0:07:20.65,0:07:22.03,Default,,0,0,0,,{\i1}After I marry, in fact,{\i0}
+Dialogue: 0,0:07:22.11,0:07:24.82,Default,,0,0,0,,{\i1}my mother will reside{\i0}\N{\i1}with me and my new bride.{\i0}
+Dialogue: 0,0:07:25.83,0:07:28.58,Default,,0,0,0,,{\i1}And does your father have{\i0}\N{\i1}anything to say about that?{\i0}
+Dialogue: 0,0:07:29.16,0:07:31.37,Default,,0,0,0,,{\i1}I should think so. It was his idea.{\i0}
+Dialogue: 0,0:07:37.21,0:07:38.63,Default,,0,0,0,,{\i1}[Violet] Not much of a pair.{\i0}
+Dialogue: 0,0:07:38.71,0:07:41.50,Default,,0,0,0,,{\i1}I should think not.{\i0}\N{\i1}She and the duke are a love match.{\i0}
+Dialogue: 0,0:07:41.59,0:07:44.59,Default,,0,0,0,,{\i1}Nonetheless, you must remind the duke{\i0}\N{\i1}to actually propose.{\i0}
+Dialogue: 0,0:07:47.39,0:07:49.89,Default,,0,0,0,,{\i1}I would not worry, Lady Bridgerton.{\i0}\N{\i1}Look at them.{\i0}
+Dialogue: 0,0:07:50.48,0:07:52.02,Default,,0,0,0,,{\i1}They are clearly attached.{\i0}
+Dialogue: 0,0:07:52.10,0:07:54.56,Default,,0,0,0,,{\i1}And how did you find{\i0}\N{\i1}our eligible bachelors?{\i0}
+Dialogue: 0,0:07:54.65,0:07:56.44,Default,,0,0,0,,{\i1}[sighs] I must confess,{\i0}
+Dialogue: 0,0:07:56.52,0:07:59.57,Default,,0,0,0,,{\i1}I have felt more chemistry{\i0}\N{\i1}when being fitted at the modiste.{\i0}
+Dialogue: 0,0:07:59.65,0:08:01.69,Default,,0,0,0,,{\i1}-[man 1] Your Majesty.{\i0}\N{\i1}-[man 2] Your Majesty.{\i0}
+Dialogue: 0,0:08:03.61,0:08:04.61,Default,,0,0,0,,{\i1}[woman] Your Majesty.{\i0}
+Dialogue: 0,0:08:04.70,0:08:08.45,Default,,0,0,0,,{\i1}The prince is from Prussia,{\i0}\N{\i1}and I dare say that I just caught his eye.{\i0}
+Dialogue: 0,0:08:08.53,0:08:11.37,Default,,0,0,0,,{\i1}[exclaims] I love Russia. I could swoon.{\i0}
+Dialogue: 0,0:08:12.21,0:08:14.71,Default,,0,0,0,,{\i1}-[Daphne] They do not even know him.{\i0}\N{\i1}-[Simon] They do not need to.{\i0}
+Dialogue: 0,0:08:14.79,0:08:16.42,Default,,0,0,0,,{\i1}Besides the fact he is a prince.{\i0}
+Dialogue: 0,0:08:16.50,0:08:19.29,Default,,0,0,0,,{\i1}Surely you cannot be surprised.{\i0}\N{\i1}You know how this works.{\i0}
+Dialogue: 0,0:08:19.38,0:08:21.59,Default,,0,0,0,,{\i1}Was it not you{\i0}\N{\i1}who wrote the book on the very subject?{\i0}
+Dialogue: 0,0:08:21.67,0:08:23.63,Default,,0,0,0,,{\i1}[both chuckle]{\i0}
+Dialogue: 0,0:08:25.64,0:08:27.43,Default,,0,0,0,,{\i1}Watch as Miss Cowper lowers her eyes.{\i0}
+Dialogue: 0,0:08:27.51,0:08:29.51,Default,,0,0,0,,{\i1}-[Simon] Mm.{\i0}\N{\i1}-[Daphne] Oh, so demure.{\i0}
+Dialogue: 0,0:08:29.60,0:08:32.73,Default,,0,0,0,,{\i1}Now she will look up at him,{\i0}\N{\i1}ever so quickly,{\i0}
+Dialogue: 0,0:08:32.81,0:08:36.23,Default,,0,0,0,,{\i1}and then allow her fan{\i0}\N{\i1}to slowly sweep across her bosom{\i0}
+Dialogue: 0,0:08:36.31,0:08:38.52,Default,,0,0,0,,{\i1}before casting her eyes{\i0}\N{\i1}back upon the ground,{\i0}
+Dialogue: 0,0:08:38.61,0:08:39.78,Default,,0,0,0,,{\i1}for one is much too timid{\i0}
+Dialogue: 0,0:08:39.86,0:08:42.78,Default,,0,0,0,,{\i1}to ever meet His Royal Highness's{\i0}\N{\i1}piercing gaze, of course.{\i0}
+Dialogue: 0,0:08:42.86,0:08:44.45,Default,,0,0,0,,{\i1}[both chuckle]{\i0}
+Dialogue: 0,0:08:45.24,0:08:46.95,Default,,0,0,0,,{\i1}Oh, now he will kiss her hand.{\i0}
+Dialogue: 0,0:08:47.03,0:08:49.28,Default,,0,0,0,,{\i1}[Simon] Forever charmed by her submission.{\i0}
+Dialogue: 0,0:08:49.37,0:08:50.66,Default,,0,0,0,,{\i1}Precisely.{\i0}
+Dialogue: 0,0:08:51.74,0:08:54.70,Default,,0,0,0,,{\i1}Should I ever need assistance{\i0}\N{\i1}drafting an addendum to my book,{\i0}
+Dialogue: 0,0:08:54.79,0:08:56.21,Default,,0,0,0,,{\i1}I shall know who to ask.{\i0}
+Dialogue: 0,0:08:56.96,0:09:01.17,Default,,0,0,0,,{\i1}[Simon] I do believe he just told{\i0}\N{\i1}Miss Cowper that her gown is exquisite.{\i0}
+Dialogue: 0,0:09:01.25,0:09:02.71,Default,,0,0,0,,{\i1}Do you think so?{\i0}
+Dialogue: 0,0:09:02.80,0:09:05.14,Default,,0,0,0,,{\i1}He is here{\i0}\N{\i1}to tell every lady the very same thing.{\i0}
+Dialogue: 0,0:09:05.22,0:09:06.05,Default,,0,0,0,,{\i1}[Daphne] Mm.{\i0}
+Dialogue: 0,0:09:09.01,0:09:13.06,Default,,0,0,0,,{\i1}Prince Friedrich, this is{\i0}\N{\i1}the young lady I was telling you about,{\i0}
+Dialogue: 0,0:09:13.14,0:09:14.68,Default,,0,0,0,,{\i1}the season's diamond.{\i0}
+Dialogue: 0,0:09:16.73,0:09:18.69,Default,,0,0,0,,{\i1}So lovely to meet you, Miss Bridgerton.{\i0}
+Dialogue: 0,0:09:18.77,0:09:20.81,Default,,0,0,0,,{\i1}Your gown, it is exquisite.{\i0}
+Dialogue: 0,0:09:20.90,0:09:22.82,Default,,0,0,0,,{\i1}[laughs, snorts]{\i0}
+Dialogue: 0,0:09:23.36,0:09:24.40,Default,,0,0,0,,{\i1}[chuckles]{\i0}
+Dialogue: 0,0:09:24.49,0:09:26.16,Default,,0,0,0,,{\i1}[Daphne snorts, laughs]{\i0}
+Dialogue: 0,0:09:28.28,0:09:29.32,Default,,0,0,0,,{\i1}My apologies.{\i0}
+Dialogue: 0,0:09:30.24,0:09:31.58,Default,,0,0,0,,{\i1}No apology necessary.{\i0}
+Dialogue: 0,0:09:32.58,0:09:33.83,Default,,0,0,0,,{\i1}Perhaps a small one.{\i0}
+Dialogue: 0,0:09:37.83,0:09:39.42,Default,,0,0,0,,{\i1}That was entirely your fault.{\i0}
+Dialogue: 0,0:09:39.50,0:09:42.34,Default,,0,0,0,,{\i1}How does one manage to make such{\i0}\N{\i1}an unbecoming sound while laughing?{\i0}
+Dialogue: 0,0:09:42.92,0:09:44.09,Default,,0,0,0,,{\i1}[Daphne snorts, laughs]{\i0}
+Dialogue: 0,0:09:44.17,0:09:45.13,Default,,0,0,0,,{\i1}[both laughing]{\i0}
+Dialogue: 0,0:09:45.21,0:09:46.50,Default,,0,0,0,,{\i1}Now you are making it look easy.{\i0}
+Dialogue: 0,0:09:48.72,0:09:51.56,Default,,0,0,0,,{\i1}[clears throat]{\i0}\N{\i1}Miss Bridgerton, might I have this dance?{\i0}
+Dialogue: 0,0:09:51.64,0:09:52.77,Default,,0,0,0,,{\i1}[Daphne clears throat]{\i0}
+Dialogue: 0,0:10:02.06,0:10:03.60,Default,,0,0,0,,{\i1}-Bonsoir.{\i0}\N<span style="style1">-Thank you.{\i0}
+Dialogue: 0,0:10:09.24,0:10:10.62,Default,,0,0,0,,{\i1}[muffled clattering]{\i0}
+Dialogue: 0,0:10:15.75,0:10:16.75,Default,,0,0,0,,{\i1}Hello?{\i0}
+Dialogue: 0,0:10:17.50,0:10:19.13,Default,,0,0,0,,{\i1}The shop has closed.{\i0}
+Dialogue: 0,0:10:22.92,0:10:23.96,Default,,0,0,0,,{\i1}[relieved sigh]{\i0}
+Dialogue: 0,0:10:24.46,0:10:27.21,Default,,0,0,0,,{\i1}Bloody hell, Si!{\i0}\N{\i1}You half scared me out of my wits!{\i0}
+Dialogue: 0,0:10:27.30,0:10:29.51,Default,,0,0,0,,{\i1}What?{\i0}\N{\i1}I used the back entrance, as you asked.{\i0}
+Dialogue: 0,0:10:29.59,0:10:31.05,Default,,0,0,0,,{\i1}Heaven forbid someone discover{\i0}
+Dialogue: 0,0:10:31.14,0:10:34.23,Default,,0,0,0,,{\i1}you consort with the most notorious{\i0}\N{\i1}opera singer in all of London.{\i0}
+Dialogue: 0,0:10:34.31,0:10:36.52,Default,,0,0,0,,{\i1}You are but third on that list.{\i0}
+Dialogue: 0,0:10:37.93,0:10:40.18,Default,,0,0,0,,{\i1}You know, you are always welcome here.{\i0}
+Dialogue: 0,0:10:40.81,0:10:43.98,Default,,0,0,0,,{\i1}I know you are used to finer comforts,{\i0}\N{\i1}but stay as long as you need.{\i0}
+Dialogue: 0,0:10:44.07,0:10:45.03,Default,,0,0,0,,{\i1}You are a dear friend,{\i0}
+Dialogue: 0,0:10:45.11,0:10:48.20,Default,,0,0,0,,{\i1}but I shall find an arrangement{\i0}\N{\i1}with another gentleman soon enough.{\i0}
+Dialogue: 0,0:10:48.28,0:10:50.24,Default,,0,0,0,,{\i1}Hopefully someone{\i0}\N{\i1}less of an ass than your last.{\i0}
+Dialogue: 0,0:10:52.07,0:10:54.28,Default,,0,0,0,,{\i1}I know. We will not think of him.{\i0}
+Dialogue: 0,0:10:54.37,0:10:57.25,Default,,0,0,0,,{\i1}-This is beautiful work.{\i0}\N{\i1}-For Lady Cowper's girl.{\i0}
+Dialogue: 0,0:10:57.33,0:10:59.50,Default,,0,0,0,,{\i1}Not that it will help her get an offer.{\i0}
+Dialogue: 0,0:10:59.58,0:11:02.83,Default,,0,0,0,,{\i1}Not even my finest silks{\i0}\N{\i1}will compensate for that sneer.{\i0}
+Dialogue: 0,0:11:04.34,0:11:07.13,Default,,0,0,0,,{\i1}I could make you something{\i0}\N{\i1}out of the same fabric.{\i0}
+Dialogue: 0,0:11:07.21,0:11:09.42,Default,,0,0,0,,{\i1}Perhaps for your performance next month.{\i0}
+Dialogue: 0,0:11:09.51,0:11:12.05,Default,,0,0,0,,{\i1}I should think it{\i0}\N{\i1}an odd choice of color for me.{\i0}
+Dialogue: 0,0:11:12.76,0:11:15.35,Default,,0,0,0,,{\i1}I am no innocent debutante.{\i0}
+Dialogue: 0,0:11:15.93,0:11:17.89,Default,,0,0,0,,{\i1}And more's your good fortune.{\i0}
+Dialogue: 0,0:11:18.85,0:11:21.77,Default,,0,0,0,,{\i1}Would you prefer to sit around{\i0}\N{\i1}simpering over your needlework{\i0}
+Dialogue: 0,0:11:21.85,0:11:25.48,Default,,0,0,0,,{\i1}or whatsoever it is these debutantes{\i0}\N{\i1}must do to pass the time?{\i0}
+Dialogue: 0,0:11:26.23,0:11:30.07,Default,,0,0,0,,{\i1}-You and I make our own way in the world.{\i0}\N{\i1}-That we do.{\i0}
+Dialogue: 0,0:11:30.57,0:11:34.45,Default,,0,0,0,,{\i1}Which is why I shall find myself{\i0}\N{\i1}a wealthy, sensible gentleman{\i0}
+Dialogue: 0,0:11:34.53,0:11:37.53,Default,,0,0,0,,{\i1}to keep me in high fashion,{\i0}\N{\i1}one who will never break his word.{\i0}
+Dialogue: 0,0:11:37.62,0:11:40.67,Default,,0,0,0,,{\i1}Or prevent you from running up{\i0}\N{\i1}vast accounts at your beloved modiste.{\i0}
+Dialogue: 0,0:11:40.75,0:11:43.96,Default,,0,0,0,,{\i1}Or run home every time{\i0}\N{\i1}his mother or sisters have need.{\i0}
+Dialogue: 0,0:11:44.04,0:11:47.59,Default,,0,0,0,,{\i1}[laughs] And where might you find{\i0}\N{\i1}such a paragon of dishonor?{\i0}
+Dialogue: 0,0:11:48.63,0:11:52.18,Default,,0,0,0,,{\i1}-[dice rattling]{\i0}\N{\i1}-[Anthony] Here we go. Come on.{\i0}
+Dialogue: 0,0:11:52.26,0:11:54.26,Default,,0,0,0,,{\i1}-[man laughing]{\i0}\N{\i1}-Me again.{\i0}
+Dialogue: 0,0:11:54.34,0:11:55.22,Default,,0,0,0,,{\i1}Indeed.{\i0}
+Dialogue: 0,0:11:55.30,0:11:58.60,Default,,0,0,0,,{\i1}I am inclined to investigate{\i0}\N{\i1}the provenance of such lucky dice.{\i0}
+Dialogue: 0,0:11:58.68,0:12:00.93,Default,,0,0,0,,{\i1}They did not land the same way{\i0}\N{\i1}when you were casting.{\i0}
+Dialogue: 0,0:12:01.02,0:12:04.02,Default,,0,0,0,,{\i1}Perhaps the common element is you.{\i0}\N{\i1}Might it be best to show some restraint?{\i0}
+Dialogue: 0,0:12:04.10,0:12:06.19,Default,,0,0,0,,{\i1}Restraint is not among{\i0}\N{\i1}Lord Featherington's skills.{\i0}
+Dialogue: 0,0:12:06.27,0:12:08.19,Default,,0,0,0,,{\i1}Well, then, neither is gambling.{\i0}
+Dialogue: 0,0:12:08.94,0:12:10.07,Default,,0,0,0,,{\i1}[Anthony laughs]{\i0}
+Dialogue: 0,0:12:10.61,0:12:13.03,Default,,0,0,0,,{\i1}-I seem to have done it, Bridgerton.{\i0}\N{\i1}-Done what?{\i0}
+Dialogue: 0,0:12:14.32,0:12:16.66,Default,,0,0,0,,{\i1}Proved you remain capable{\i0}\N{\i1}of laughing again in my presence.{\i0}
+Dialogue: 0,0:12:16.74,0:12:19.58,Default,,0,0,0,,{\i1}You cannot fault me{\i0}\N{\i1}for being doubtful of your intentions.{\i0}
+Dialogue: 0,0:12:19.66,0:12:20.49,Default,,0,0,0,,{\i1}Indeed, I can.{\i0}
+Dialogue: 0,0:12:20.58,0:12:22.33,Default,,0,0,0,,{\i1}For all the mischief{\i0}\N{\i1}you've witnessed me make,{\i0}
+Dialogue: 0,0:12:22.41,0:12:24.79,Default,,0,0,0,,{\i1}you'd also know{\i0}\N{\i1}I would never make a fool of a lady,{\i0}
+Dialogue: 0,0:12:24.87,0:12:26.54,Default,,0,0,0,,{\i1}and certainly not one such as your sister.{\i0}
+Dialogue: 0,0:12:26.63,0:12:27.55,Default,,0,0,0,,{\i1}You confound me.{\i0}
+Dialogue: 0,0:12:27.63,0:12:30.84,Default,,0,0,0,,{\i1}You are respectful, and yet I know{\i0}\N{\i1}you have no intention of marriage.{\i0}
+Dialogue: 0,0:12:30.92,0:12:32.67,Default,,0,0,0,,{\i1}-Has that changed?{\i0}\N{\i1}-I cannot claim so.{\i0}
+Dialogue: 0,0:12:32.76,0:12:36.10,Default,,0,0,0,,{\i1}-Then what could your intentions be?{\i0}\N{\i1}-Respectful. Might we leave it there?{\i0}
+Dialogue: 0,0:12:37.80,0:12:40.34,Default,,0,0,0,,{\i1}[crowd applauding]{\i0}
+Dialogue: 0,0:12:43.77,0:12:44.73,Default,,0,0,0,,{\i1}[Simon laughs]{\i0}
+Dialogue: 0,0:12:46.15,0:12:47.69,Default,,0,0,0,,{\i1}[crowd chattering]{\i0}
+Dialogue: 0,0:12:49.86,0:12:50.90,Default,,0,0,0,,{\i1}If you will excuse me.{\i0}
+Dialogue: 0,0:12:55.61,0:12:56.53,Default,,0,0,0,,{\i1}Excuse me.{\i0}
+Dialogue: 0,0:12:57.24,0:12:58.45,Default,,0,0,0,,{\i1}Ooh!{\i0}
+Dialogue: 0,0:13:01.87,0:13:05.46,Default,,0,0,0,,{\i1}You look exceedingly familiar to me,{\i0}\N{\i1}my lord.{\i0}
+Dialogue: 0,0:13:06.04,0:13:07.46,Default,,0,0,0,,{\i1}Or is it "Your Grace"?{\i0}
+Dialogue: 0,0:13:08.29,0:13:09.37,Default,,0,0,0,,{\i1}I am afraid it is.{\i0}
+Dialogue: 0,0:13:09.96,0:13:12.96,Default,,0,0,0,,{\i1}Might I have seen you at the opera?{\i0}\N{\i1}I perform there.{\i0}
+Dialogue: 0,0:13:13.05,0:13:14.47,Default,,0,0,0,,{\i1}-Do you?{\i0}\N{\i1}-Mm.{\i0}
+Dialogue: 0,0:13:14.55,0:13:18.30,Default,,0,0,0,,{\i1}I have often wondered what plays{\i0}\N{\i1}in one's mind when an aria is performed.{\i0}
+Dialogue: 0,0:13:18.39,0:13:20.48,Default,,0,0,0,,{\i1}Sometimes I think{\i0}\N{\i1}on the meaning of the words I sing.{\i0}
+Dialogue: 0,0:13:20.55,0:13:24.76,Default,,0,0,0,,{\i1}At other times, I think of all the tasks{\i0}\N{\i1}I have failed to accomplish during my day.{\i0}
+Dialogue: 0,0:13:24.85,0:13:29.23,Default,,0,0,0,,{\i1}And sometimes I ponder my plans{\i0}\N{\i1}for after my performance.{\i0}
+Dialogue: 0,0:13:30.65,0:13:34.78,Default,,0,0,0,,{\i1}Might I entice you to take in{\i0}\N{\i1}one of my performances sometime soon?{\i0}
+Dialogue: 0,0:13:35.99,0:13:37.41,Default,,0,0,0,,{\i1}Perhaps tomorrow night?{\i0}
+Dialogue: 0,0:13:44.70,0:13:47.37,Default,,0,0,0,,{\i1}[frustrated sigh]{\i0}
+Dialogue: 0,0:14:06.06,0:14:08.27,Default,,0,0,0,,{\i1}Sister? Whatever are you doing?{\i0}
+Dialogue: 0,0:14:09.48,0:14:10.65,Default,,0,0,0,,{\i1}I could not sleep.{\i0}
+Dialogue: 0,0:14:11.61,0:14:14.07,Default,,0,0,0,,{\i1}I thought a bit of warm milk{\i0}\N{\i1}might help matters.{\i0}
+Dialogue: 0,0:14:14.15,0:14:17.57,Default,,0,0,0,,{\i1}-Should I ring for a servant?{\i0}\N{\i1}-No. No, do not wake them.{\i0}
+Dialogue: 0,0:14:19.99,0:14:21.32,Default,,0,0,0,,{\i1}Would you like to join me?{\i0}
+Dialogue: 0,0:14:27.75,0:14:29.96,Default,,0,0,0,,{\i1}-We should light it.{\i0}\N{\i1}-Excellent idea.{\i0}
+Dialogue: 0,0:14:31.63,0:14:33.17,Default,,0,0,0,,{\i1}[Daphne] Well, go on.{\i0}
+Dialogue: 0,0:14:34.09,0:14:34.92,Default,,0,0,0,,{\i1}Me?{\i0}
+Dialogue: 0,0:14:35.80,0:14:38.60,Default,,0,0,0,,{\i1}-I should not know how to do it.{\i0}\N{\i1}-And you believe I should?{\i0}
+Dialogue: 0,0:14:44.97,0:14:46.22,Default,,0,0,0,,{\i1}Cold milk, then.{\i0}
+Dialogue: 0,0:14:46.31,0:14:48.10,Default,,0,0,0,,{\i1}Most refreshing, given the heat.{\i0}
+Dialogue: 0,0:14:52.61,0:14:53.49,Default,,0,0,0,,{\i1}[Daphne] Mm.{\i0}
+Dialogue: 0,0:14:53.56,0:14:56.06,Default,,0,0,0,,{\i1}Can I ask you a question, Brother?{\i0}
+Dialogue: 0,0:14:56.15,0:14:59.40,Default,,0,0,0,,{\i1}So long as it has nothing to do{\i0}\N{\i1}with the inner workings of that thing.{\i0}
+Dialogue: 0,0:14:59.49,0:15:00.41,Default,,0,0,0,,{\i1}[both chuckle]{\i0}
+Dialogue: 0,0:15:02.16,0:15:03.37,Default,,0,0,0,,{\i1}It is about the duke.{\i0}
+Dialogue: 0,0:15:05.37,0:15:06.29,Default,,0,0,0,,{\i1}What about the duke?{\i0}
+Dialogue: 0,0:15:07.29,0:15:10.42,Default,,0,0,0,,{\i1}Well-- Do you know the reason{\i0}\N{\i1}he is so opposed to marriage?{\i0}
+Dialogue: 0,0:15:10.50,0:15:12.71,Default,,0,0,0,,{\i1}-Daph…{\i0}\N{\i1}-He is your closest friend.{\i0}
+Dialogue: 0,0:15:12.79,0:15:14.92,Default,,0,0,0,,{\i1}Surely you must know things.{\i0}
+Dialogue: 0,0:15:15.00,0:15:17.54,Default,,0,0,0,,{\i1}The things I know{\i0}\N{\i1}are certainly not for your ears.{\i0}
+Dialogue: 0,0:15:20.67,0:15:21.67,Default,,0,0,0,,{\i1}[scoffs]{\i0}
+Dialogue: 0,0:15:22.30,0:15:25.05,Default,,0,0,0,,{\i1}How foolish of me{\i0}\N{\i1}to ever even wonder about such things.{\i0}
+Dialogue: 0,0:15:28.52,0:15:29.90,Default,,0,0,0,,{\i1}He barely knew his father.{\i0}
+Dialogue: 0,0:15:31.81,0:15:33.02,Default,,0,0,0,,{\i1}Never knew his mother.{\i0}
+Dialogue: 0,0:15:34.44,0:15:35.82,Default,,0,0,0,,{\i1}Not one sibling.{\i0}
+Dialogue: 0,0:15:39.23,0:15:40.86,Default,,0,0,0,,{\i1}The duke grew up…{\i0}
+Dialogue: 0,0:15:41.53,0:15:43.16,Default,,0,0,0,,{\i1}quite differently than us, Daph.{\i0}
+Dialogue: 0,0:15:44.95,0:15:47.20,Default,,0,0,0,,{\i1}In all the 20 years I have known him,{\i0}
+Dialogue: 0,0:15:47.28,0:15:49.45,Default,,0,0,0,,{\i1}he has not mentioned{\i0}\N{\i1}his so-called family even once.{\i0}
+Dialogue: 0,0:15:50.12,0:15:51.96,Default,,0,0,0,,{\i1}He has spent his entire life alone.{\i0}
+Dialogue: 0,0:15:54.46,0:15:55.50,Default,,0,0,0,,{\i1}How very sad.{\i0}
+Dialogue: 0,0:15:55.58,0:15:57.17,Default,,0,0,0,,{\i1}He prefers it that way.{\i0}
+Dialogue: 0,0:15:59.46,0:16:01.67,Default,,0,0,0,,{\i1}You must not concern yourself{\i0}\N{\i1}with his troubles.{\i0}
+Dialogue: 0,0:16:02.55,0:16:05.35,Default,,0,0,0,,{\i1}You must simply know{\i0}\N{\i1}some people are not meant to be together…{\i0}
+Dialogue: 0,0:16:06.60,0:16:07.56,Default,,0,0,0,,{\i1}no matter…{\i0}
+Dialogue: 0,0:16:08.51,0:16:10.30,Default,,0,0,0,,{\i1}how much we might wish otherwise.{\i0}
+Dialogue: 0,0:16:14.14,0:16:15.06,Default,,0,0,0,,{\i1}I see.{\i0}
+Dialogue: 0,0:16:19.90,0:16:20.82,Default,,0,0,0,,{\i1}Very well.{\i0}
+Dialogue: 0,0:16:23.36,0:16:25.49,Default,,0,0,0,,{\i1}Thank you, Brother, for the milk.{\i0}
+Dialogue: 0,0:16:26.74,0:16:28.78,Default,,0,0,0,,{\i1}We will have to do this again sometime.{\i0}
+Dialogue: 0,0:16:32.16,0:16:34.08,Default,,0,0,0,,{\i1}[Lady Whistledown] {\i0}<span style="style2">I have always thought{\i0}
+Dialogue: 0,0:16:34.16,0:16:40.21,Default,,0,0,0,,{\i1}that an appreciation of the arts{\i0}\N{\i1}is what lifts us beyond mere animals.{\i0}
+Dialogue: 0,0:16:40.84,0:16:44.59,Default,,0,0,0,,{\i1}It stirs the passions{\i0}\N{\i1}and moves the spirit,{\i0}
+Dialogue: 0,0:16:45.47,0:16:50.23,Default,,0,0,0,,{\i1}and, this author hopes,{\i0}\N{\i1}inspires more newsworthy pursuits.{\i0}
+Dialogue: 0,0:16:50.97,0:16:55.39,Default,,0,0,0,,{\i1}A new wing at Somerset House{\i0}\N{\i1}is to be opened today,{\i0}
+Dialogue: 0,0:16:55.48,0:16:58.32,Default,,0,0,0,,{\i1}where several attractions{\i0}\N{\i1}will be on display…{\i0}
+Dialogue: 0,0:16:59.27,0:17:02.19,Default,,0,0,0,,{\i1}like the lovely Miss Marina Thompson,{\i0}
+Dialogue: 0,0:17:02.28,0:17:04.82,Default,,0,0,0,,{\i1}newly recovered{\i0}\N{\i1}from her mysterious illness{\i0}
+Dialogue: 0,0:17:05.40,0:17:08.70,Default,,0,0,0,,{\i1}and expected to finally rejoin the season.{\i0}
+Dialogue: 0,0:17:09.45,0:17:10.41,Default,,0,0,0,,{\i1}[Genevieve] Oh!{\i0}
+Dialogue: 0,0:17:10.49,0:17:13.95,Default,,0,0,0,,{\i1}Mon Dieu!{\i0}\N<span style="style1">Perhaps I took your measurements wrong.{\i0}
+Dialogue: 0,0:17:15.00,0:17:16.92,Default,,0,0,0,,{\i1}Miss Thompson has a fondness for cake.{\i0}
+Dialogue: 0,0:17:17.00,0:17:19.34,Default,,0,0,0,,{\i1}A reducing diet{\i0}\N{\i1}will work wonders for her, I'm sure.{\i0}
+Dialogue: 0,0:17:20.71,0:17:21.63,Default,,0,0,0,,{\i1}Oui, madame.{\i0}
+Dialogue: 0,0:17:23.09,0:17:24.13,Default,,0,0,0,,{\i1}[Genevieve grunts]{\i0}
+Dialogue: 0,0:17:30.01,0:17:31.64,Default,,0,0,0,,{\i1}[guests chattering]{\i0}
+Dialogue: 0,0:17:31.72,0:17:36.31,Default,,0,0,0,,{\i1}[Lady Whistledown] {\i0}<span style="style2">Of course, there is{\i0}\N<span style="style2">today's royal attraction as well,{\i0}
+Dialogue: 0,0:17:36.81,0:17:38.98,Default,,0,0,0,,{\i1}Prince Friedrich of Prussia.{\i0}
+Dialogue: 0,0:17:39.73,0:17:44.99,Default,,0,0,0,,{\i1}His Highness has come to our shores{\i0}\N{\i1}in want of a fine Fräulein.{\i0}
+Dialogue: 0,0:17:45.07,0:17:46.74,Default,,0,0,0,,{\i1}Could this be the reason{\i0}
+Dialogue: 0,0:17:46.82,0:17:52.24,Default,,0,0,0,,{\i1}a certain language tutor has been seen{\i0}\N{\i1}visiting Cowper House all week?{\i0}
+Dialogue: 0,0:17:55.91,0:17:57.91,Default,,0,0,0,,{\i1}[guest chatter continues]{\i0}
+Dialogue: 0,0:18:08.76,0:18:10.55,Default,,0,0,0,,{\i1}Miss Anna Vaughn.{\i0}
+Dialogue: 0,0:18:10.64,0:18:13.23,Default,,0,0,0,,{\i1}Speaks several languages, I hear.{\i0}
+Dialogue: 0,0:18:15.47,0:18:18.18,Default,,0,0,0,,{\i1}Miss Mary Egglesfield.{\i0}\N{\i1}She's meant to be quite the reader.{\i0}
+Dialogue: 0,0:18:18.27,0:18:21.61,Default,,0,0,0,,{\i1}Were I looking for a list of debutantes{\i0}\N{\i1}and their dubious accomplishments,{\i0}
+Dialogue: 0,0:18:21.69,0:18:24.11,Default,,0,0,0,,{\i1}I could have stayed home{\i0}\N{\i1}and read Lady Whistledown.{\i0}
+Dialogue: 0,0:18:24.73,0:18:26.40,Default,,0,0,0,,{\i1}-That's enough from you.{\i0}\N{\i1}-No, no, no.{\i0}
+Dialogue: 0,0:18:26.90,0:18:27.73,Default,,0,0,0,,{\i1}Colin.{\i0}
+Dialogue: 0,0:18:29.45,0:18:31.16,Default,,0,0,0,,{\i1}Quite dull, would you not agree?{\i0}
+Dialogue: 0,0:18:31.24,0:18:32.37,Default,,0,0,0,,{\i1}It is terribly familiar,{\i0}
+Dialogue: 0,0:18:32.45,0:18:34.87,Default,,0,0,0,,{\i1}yet I am sure{\i0}\N{\i1}this is the first time I have seen it.{\i0}
+Dialogue: 0,0:18:34.95,0:18:36.66,Default,,0,0,0,,{\i1}That is because,{\i0}\N{\i1}like all of these paintings,{\i0}
+Dialogue: 0,0:18:36.75,0:18:39.63,Default,,0,0,0,,{\i1}it was done by a man{\i0}\N{\i1}who sees a woman as a decorative object.{\i0}
+Dialogue: 0,0:18:39.71,0:18:41.88,Default,,0,0,0,,{\i1}-They are like…{\i0}\N{\i1}-Human vases.{\i0}
+Dialogue: 0,0:18:43.50,0:18:44.46,Default,,0,0,0,,{\i1}[mouthing] Help me.{\i0}
+Dialogue: 0,0:18:45.13,0:18:46.97,Default,,0,0,0,,{\i1}I think my mama is calling me.{\i0}
+Dialogue: 0,0:18:48.09,0:18:51.51,Default,,0,0,0,,{\i1}-She is busy with Miss Thompson.{\i0}\N{\i1}-I will return shortly. Wait here.{\i0}
+Dialogue: 0,0:18:52.43,0:18:56.94,Default,,0,0,0,,{\i1}Lord Middlethorpe,{\i0}\N{\i1}you simply must meet Miss Marina Thompson,{\i0}
+Dialogue: 0,0:18:57.64,0:18:59.43,Default,,0,0,0,,{\i1}a distant cousin of my husband's.{\i0}
+Dialogue: 0,0:19:00.02,0:19:02.65,Default,,0,0,0,,{\i1}-Miss Thompson, the pleasure is mine.{\i0}\N{\i1}-Entirely.{\i0}
+Dialogue: 0,0:19:02.73,0:19:03.57,Default,,0,0,0,,{\i1}[Penelope] Marina…{\i0}
+Dialogue: 0,0:19:03.65,0:19:06.74,Default,,0,0,0,,{\i1}Penelope, allow us to view{\i0}\N{\i1}some of the paintings over here.{\i0}
+Dialogue: 0,0:19:06.82,0:19:10.20,Default,,0,0,0,,{\i1}-I had a brief question to ask Marina.{\i0}\N{\i1}-Now is not the time, Penelope.{\i0}
+Dialogue: 0,0:19:10.28,0:19:11.87,Default,,0,0,0,,{\i1}I believe now to be the perfect time.{\i0}
+Dialogue: 0,0:19:11.95,0:19:14.37,Default,,0,0,0,,{\i1}-Miss Thompson?{\i0}\N{\i1}-I certainly was not addressing you.{\i0}
+Dialogue: 0,0:19:18.37,0:19:22.29,Default,,0,0,0,,{\i1}I do not believe{\i0}\N{\i1}that I have ever met such a lovely girl{\i0}
+Dialogue: 0,0:19:22.37,0:19:24.71,Default,,0,0,0,,{\i1}with such an ugly countenance.{\i0}
+Dialogue: 0,0:19:26.80,0:19:28.59,Default,,0,0,0,,{\i1}You are a meddlesome little wench,{\i0}
+Dialogue: 0,0:19:28.67,0:19:31.13,Default,,0,0,0,,{\i1}and you clearly do not understand{\i0}\N{\i1}the gravity of your situation.{\i0}
+Dialogue: 0,0:19:31.22,0:19:32.93,Default,,0,0,0,,{\i1}That will need to change.{\i0}
+Dialogue: 0,0:19:34.43,0:19:36.14,Default,,0,0,0,,{\i1}[chattering continues]{\i0}
+Dialogue: 0,0:19:42.73,0:19:44.19,Default,,0,0,0,,{\i1}It's much too cold.{\i0}
+Dialogue: 0,0:19:45.86,0:19:47.82,Default,,0,0,0,,{\i1}Where's any sense of the subject's spirit?{\i0}
+Dialogue: 0,0:19:48.69,0:19:49.52,Default,,0,0,0,,{\i1}And the light!{\i0}
+Dialogue: 0,0:19:49.61,0:19:50.78,Default,,0,0,0,,{\i1}Given the quality,{\i0}
+Dialogue: 0,0:19:50.86,0:19:54.28,Default,,0,0,0,,{\i1}I do wonder why the piece was not skyed{\i0}\N{\i1}with the other daubs.{\i0}
+Dialogue: 0,0:19:54.36,0:19:56.15,Default,,0,0,0,,{\i1}Perhaps we should ask the artist.{\i0}
+Dialogue: 0,0:19:56.24,0:19:57.78,Default,,0,0,0,,{\i1}That would be something, Lady Danbury.{\i0}
+Dialogue: 0,0:19:57.87,0:20:00.29,Default,,0,0,0,,{\i1}Mm… Mr. Granville,{\i0}
+Dialogue: 0,0:20:00.37,0:20:02.75,Default,,0,0,0,,{\i1}why {\i0}<span style="style2">was{\i0}{\i1} your piece not skyed?{\i0}
+Dialogue: 0,0:20:03.29,0:20:04.88,Default,,0,0,0,,{\i1}-[Granville] Hmm.{\i0}\N{\i1}-Mr. Granville, I--{\i0}
+Dialogue: 0,0:20:04.96,0:20:07.21,Default,,0,0,0,,{\i1}If you will excuse me,{\i0}\N{\i1}um, I must find my wife.{\i0}
+Dialogue: 0,0:20:07.29,0:20:08.42,Default,,0,0,0,,{\i1}[Lady Danbury chuckling]{\i0}
+Dialogue: 0,0:20:08.50,0:20:11.80,Default,,0,0,0,,{\i1}You diabolical…{\i0}\N{\i1}How could you let me rattle on like that?{\i0}
+Dialogue: 0,0:20:11.88,0:20:14.67,Default,,0,0,0,,{\i1}How could I not, my dear Mr. Bridgerton?{\i0}
+Dialogue: 0,0:20:14.76,0:20:17.68,Default,,0,0,0,,{\i1}It was riotously funny, you must admit.{\i0}
+Dialogue: 0,0:20:31.44,0:20:32.40,Default,,0,0,0,,{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:20:34.61,0:20:35.53,Default,,0,0,0,,{\i1}Your Highness.{\i0}
+Dialogue: 0,0:20:35.61,0:20:36.90,Default,,0,0,0,,{\i1}I was hoping to see you today.{\i0}
+Dialogue: 0,0:20:37.82,0:20:38.82,Default,,0,0,0,,{\i1}-Were you?{\i0}\N{\i1}-Yes.{\i0}
+Dialogue: 0,0:20:38.91,0:20:42.16,Default,,0,0,0,,{\i1}It seems the art is not the only{\i0}\N{\i1}beautiful thing on display at present.{\i0}
+Dialogue: 0,0:20:42.25,0:20:43.29,Default,,0,0,0,,{\i1}[Daphne chuckles]{\i0}
+Dialogue: 0,0:20:43.87,0:20:45.96,Default,,0,0,0,,{\i1}Are you enjoying your time here in London?{\i0}
+Dialogue: 0,0:20:46.04,0:20:47.67,Default,,0,0,0,,{\i1}It's always been{\i0}\N{\i1}one of my favorite cities.{\i0}
+Dialogue: 0,0:20:47.75,0:20:50.84,Default,,0,0,0,,{\i1}How lovely to hear{\i0}\N{\i1}from someone who has traveled so widely.{\i0}
+Dialogue: 0,0:20:51.63,0:20:52.84,Default,,0,0,0,,{\i1}Have you traveled much?{\i0}
+Dialogue: 0,0:20:52.92,0:20:56.34,Default,,0,0,0,,{\i1}I think you would love{\i0}\N{\i1}the music of Vienna.{\i0}
+Dialogue: 0,0:20:58.76,0:20:59.59,Default,,0,0,0,,{\i1}Miss Bridgerton?{\i0}
+Dialogue: 0,0:21:01.01,0:21:01.97,Default,,0,0,0,,{\i1}[inhales sharply]{\i0}
+Dialogue: 0,0:21:02.06,0:21:04.19,Default,,0,0,0,,{\i1}You should make your rounds,{\i0}\N{\i1}Your Highness.{\i0}
+Dialogue: 0,0:21:04.69,0:21:08.11,Default,,0,0,0,,{\i1}I believe there is a gaggle{\i0}\N{\i1}of young ladies waiting for your favor.{\i0}
+Dialogue: 0,0:21:08.65,0:21:09.99,Default,,0,0,0,,{\i1}Delightful to see you.{\i0}
+Dialogue: 0,0:21:22.87,0:21:24.46,Default,,0,0,0,,{\i1}What are you doing, hiding away in here?{\i0}
+Dialogue: 0,0:21:25.29,0:21:26.71,Default,,0,0,0,,{\i1}Enjoying some culture.{\i0}
+Dialogue: 0,0:21:28.67,0:21:31.80,Default,,0,0,0,,{\i1}You are receiving glowing reviews{\i0}\N{\i1}from Whistledown.{\i0}
+Dialogue: 0,0:21:33.01,0:21:36.10,Default,,0,0,0,,{\i1}-Did you see?{\i0}\N{\i1}-I did. I ought to take to the stage.{\i0}
+Dialogue: 0,0:21:36.17,0:21:37.26,Default,,0,0,0,,{\i1}[Daphne chuckles]{\i0}
+Dialogue: 0,0:21:38.43,0:21:40.39,Default,,0,0,0,,{\i1}Is it awful that I'm enjoying it?{\i0}
+Dialogue: 0,0:21:40.47,0:21:42.10,Default,,0,0,0,,{\i1}My wild jealousy?{\i0}
+Dialogue: 0,0:21:42.18,0:21:43.93,Default,,0,0,0,,{\i1}Fooling Lady Whistledown.{\i0}
+Dialogue: 0,0:21:45.14,0:21:47.48,Default,,0,0,0,,{\i1}She knows everything about everyone,{\i0}\N{\i1}even the queen,{\i0}
+Dialogue: 0,0:21:47.56,0:21:51.65,Default,,0,0,0,,{\i1}and yet we have her utterly convinced{\i0}\N{\i1}that we are mad for each other.{\i0}
+Dialogue: 0,0:21:51.73,0:21:53.15,Default,,0,0,0,,{\i1}We are awfully clever.{\i0}
+Dialogue: 0,0:21:53.23,0:21:54.57,Default,,0,0,0,,{\i1}Indeed, we are.{\i0}
+Dialogue: 0,0:21:55.86,0:21:59.07,Default,,0,0,0,,{\i1}Excessive pride suits you,{\i0}\N{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:21:59.16,0:22:01.79,Default,,0,0,0,,{\i1}[gasps theatrically]{\i0}\N{\i1}Pride is a sin, Your Grace.{\i0}
+Dialogue: 0,0:22:01.87,0:22:03.75,Default,,0,0,0,,{\i1}One of the lesser sins. But do not worry.{\i0}
+Dialogue: 0,0:22:04.37,0:22:06.25,Default,,0,0,0,,{\i1}We must all start somewhere.{\i0}
+Dialogue: 0,0:22:06.33,0:22:09.29,Default,,0,0,0,,{\i1}You are not half as shocking{\i0}\N{\i1}as you think you are.{\i0}
+Dialogue: 0,0:22:12.59,0:22:13.51,Default,,0,0,0,,{\i1}Oh…{\i0}
+Dialogue: 0,0:22:14.63,0:22:17.05,Default,,0,0,0,,{\i1}-This one is yours too.{\i0}\N{\i1}-[Simon] You sound surprised.{\i0}
+Dialogue: 0,0:22:17.13,0:22:18.38,Default,,0,0,0,,{\i1}I suppose I am.{\i0}
+Dialogue: 0,0:22:19.93,0:22:22.27,Default,,0,0,0,,{\i1}It is not at all{\i0}\N{\i1}like the others you donated, is it?{\i0}
+Dialogue: 0,0:22:23.76,0:22:24.72,Default,,0,0,0,,{\i1}It is not.{\i0}
+Dialogue: 0,0:22:26.43,0:22:27.51,Default,,0,0,0,,{\i1}The others are…{\i0}
+Dialogue: 0,0:22:28.64,0:22:30.14,Default,,0,0,0,,{\i1}Well, they were to my father's tastes.{\i0}
+Dialogue: 0,0:22:31.61,0:22:35.28,Default,,0,0,0,,{\i1}If Lady Danbury is to be believed,{\i0}\N{\i1}this one was a favorite of my mother's.{\i0}
+Dialogue: 0,0:22:36.99,0:22:38.70,Default,,0,0,0,,{\i1}I have never understood why.{\i0}
+Dialogue: 0,0:22:42.57,0:22:43.95,Default,,0,0,0,,{\i1}It is very beautiful.{\i0}
+Dialogue: 0,0:22:48.58,0:22:52.08,Default,,0,0,0,,{\i1}It reminds me of waking up in the country.{\i0}
+Dialogue: 0,0:22:54.88,0:22:56.17,Default,,0,0,0,,{\i1}First thing in the morning,{\i0}
+Dialogue: 0,0:22:56.96,0:22:58.17,Default,,0,0,0,,{\i1}when I am all alone,{\i0}
+Dialogue: 0,0:22:58.92,0:23:01.55,Default,,0,0,0,,{\i1}and I have not yet spoken to a soul…{\i0}
+Dialogue: 0,0:23:03.10,0:23:05.39,Default,,0,0,0,,{\i1}I look outside the window, and it is…{\i0}
+Dialogue: 0,0:23:07.06,0:23:07.98,Default,,0,0,0,,{\i1}serene.{\i0}
+Dialogue: 0,0:23:09.89,0:23:13.19,Default,,0,0,0,,{\i1}As if I could be the only person left{\i0}\N{\i1}in the world, and yet…{\i0}
+Dialogue: 0,0:23:13.90,0:23:15.65,Default,,0,0,0,,{\i1}somehow I am not lonely.{\i0}
+Dialogue: 0,0:23:16.69,0:23:19.36,Default,,0,0,0,,{\i1}I am comforted, at peace.{\i0}
+Dialogue: 0,0:23:20.03,0:23:23.08,Default,,0,0,0,,{\i1}The others are certainly{\i0}\N{\i1}very grand and impressive,{\i0}
+Dialogue: 0,0:23:23.16,0:23:25.33,Default,,0,0,0,,{\i1}but this one…{\i0}
+Dialogue: 0,0:23:27.16,0:23:29.62,Default,,0,0,0,,{\i1}This one is intimate.{\i0}
+Dialogue: 0,0:23:31.54,0:23:33.92,Default,,0,0,0,,{\i1}[light piano music plays]{\i0}
+Dialogue: 0,0:23:42.30,0:23:43.43,Default,,0,0,0,,{\i1}[gasps lightly]{\i0}
+Dialogue: 0,0:23:55.15,0:23:56.48,Default,,0,0,0,,{\i1}[crowd gasps loudly]{\i0}
+Dialogue: 0,0:24:02.53,0:24:03.82,Default,,0,0,0,,{\i1}[crowd murmuring]{\i0}
+Dialogue: 0,0:24:04.99,0:24:06.20,Default,,0,0,0,,{\i1}What has happened?{\i0}
+Dialogue: 0,0:24:06.28,0:24:07.36,Default,,0,0,0,,{\i1}Cressida swooned.{\i0}
+Dialogue: 0,0:24:07.45,0:24:08.95,Default,,0,0,0,,{\i1}And Prince Friedrich caught her.{\i0}
+Dialogue: 0,0:24:10.75,0:24:13.04,Default,,0,0,0,,{\i1}-Water?{\i0}\N{\i1}-[woman] Yes, water, please. Thank you.{\i0}
+Dialogue: 0,0:24:13.71,0:24:16.25,Default,,0,0,0,,{\i1}I dare say it was{\i0}\N{\i1}the most romantic thing I've ever seen.{\i0}
+Dialogue: 0,0:24:16.84,0:24:17.97,Default,,0,0,0,,{\i1}Yes, thank you.{\i0}
+Dialogue: 0,0:24:18.04,0:24:20.67,Default,,0,0,0,,{\i1}A feigned swoon. Chapter six, I believe?{\i0}
+Dialogue: 0,0:24:20.76,0:24:23.22,Default,,0,0,0,,{\i1}-We ought to up our game.{\i0}\N{\i1}-[both snicker]{\i0}
+Dialogue: 0,0:24:25.47,0:24:26.97,Default,,0,0,0,,{\i1}[Cressida gasps theatrically]{\i0}
+Dialogue: 0,0:24:30.06,0:24:31.56,Default,,0,0,0,,{\i1}-Thank you.{\i0}\N{\i1}-Okay.{\i0}
+Dialogue: 0,0:24:31.64,0:24:33.18,Default,,0,0,0,,{\i1}[guests applaud lightly]{\i0}
+Dialogue: 0,0:24:39.15,0:24:41.53,Default,,0,0,0,,{\i1}Shall I set course{\i0}\N{\i1}for the opera, Your Grace?{\i0}
+Dialogue: 0,0:24:41.61,0:24:44.36,Default,,0,0,0,,{\i1}We need to make haste{\i0}\N{\i1}if you still plan to attend this evening.{\i0}
+Dialogue: 0,0:24:45.57,0:24:48.07,Default,,0,0,0,,{\i1}No. It will be{\i0}\N{\i1}straight home tonight, instead.{\i0}
+Dialogue: 0,0:25:04.22,0:25:05.85,Default,,0,0,0,,{\i1}I shall be locking up now, miss.{\i0}
+Dialogue: 0,0:25:06.76,0:25:09.22,Default,,0,0,0,,{\i1}Are you sure there are{\i0}\N{\i1}no gentlemen lingering about the gallery?{\i0}
+Dialogue: 0,0:25:12.39,0:25:15.02,Default,,0,0,0,,{\i1}[Lady Whistledown]{\i0}\N<span style="style2">These days, the modern young lady{\i0}
+Dialogue: 0,0:25:15.10,0:25:16.94,Default,,0,0,0,,{\i1}must display a miscellany of talents{\i0}
+Dialogue: 0,0:25:17.02,0:25:18.94,Default,,0,0,0,,{\i1}in her quest for a suitor.{\i0}
+Dialogue: 0,0:25:19.02,0:25:21.73,Default,,0,0,0,,{\i1}She must be a witty conversationalist,{\i0}
+Dialogue: 0,0:25:21.82,0:25:24.28,Default,,0,0,0,,{\i1}an accomplished musician,{\i0}
+Dialogue: 0,0:25:24.82,0:25:27.74,Default,,0,0,0,,{\i1}and an expert in the art of the swoon.{\i0}
+Dialogue: 0,0:25:28.49,0:25:31.99,Default,,0,0,0,,{\i1}For managing to faint{\i0}\N{\i1}with nary a petticoat out of place{\i0}
+Dialogue: 0,0:25:32.08,0:25:34.46,Default,,0,0,0,,{\i1}is a most coveted talent indeed.{\i0}
+Dialogue: 0,0:25:35.16,0:25:37.58,Default,,0,0,0,,{\i1}Of course, not everyone has fallen victim{\i0}
+Dialogue: 0,0:25:37.67,0:25:41.01,Default,,0,0,0,,{\i1}to the royal fever sweeping{\i0}\N{\i1}through London Town.{\i0}
+Dialogue: 0,0:25:41.09,0:25:44.68,Default,,0,0,0,,{\i1}One diamond in particular{\i0}\N{\i1}seems quite immune…{\i0}
+Dialogue: 0,0:25:44.76,0:25:46.68,Default,,0,0,0,,{\i1}[Queen Charlotte]{\i0}\N{\i1}"…making this author wonder{\i0}
+Dialogue: 0,0:25:46.76,0:25:48.72,Default,,0,0,0,,{\i1}if the crown has lost its luster."{\i0}
+Dialogue: 0,0:25:49.55,0:25:52.22,Default,,0,0,0,,{\i1}I know{\i0}\N{\i1}what this insolent woman insinuates,{\i0}
+Dialogue: 0,0:25:52.31,0:25:54.52,Default,,0,0,0,,{\i1}and I shall certainly{\i0}\N{\i1}not make allowances for it.{\i0}
+Dialogue: 0,0:25:54.60,0:25:55.77,Default,,0,0,0,,{\i1}Does she mean the king?{\i0}
+Dialogue: 0,0:25:56.31,0:25:58.31,Default,,0,0,0,,{\i1}Where on earth do they keep him anyway?{\i0}
+Dialogue: 0,0:26:01.19,0:26:04.94,Default,,0,0,0,,{\i1}The Bridgerton girl{\i0}\N{\i1}is the incomparable of the season,{\i0}
+Dialogue: 0,0:26:05.69,0:26:08.44,Default,,0,0,0,,{\i1}which means there is{\i0}\N{\i1}no more suitable a match for you{\i0}
+Dialogue: 0,0:26:08.53,0:26:09.74,Default,,0,0,0,,{\i1}on English shores.{\i0}
+Dialogue: 0,0:26:10.37,0:26:13.50,Default,,0,0,0,,{\i1}Miss Bridgerton is{\i0}\N{\i1}a delightful young lady, to be sure.{\i0}
+Dialogue: 0,0:26:13.58,0:26:17.08,Default,,0,0,0,,{\i1}But if this gossip sheet is correct,{\i0}\N{\i1}then her heart is already spoken for.{\i0}
+Dialogue: 0,0:26:17.16,0:26:19.62,Default,,0,0,0,,{\i1}Her heart is no matter,{\i0}
+Dialogue: 0,0:26:19.71,0:26:22.13,Default,,0,0,0,,{\i1}as long as her hand remains free.{\i0}
+Dialogue: 0,0:26:23.21,0:26:24.88,Default,,0,0,0,,{\i1}You are a prince.{\i0}
+Dialogue: 0,0:26:25.92,0:26:26.96,Default,,0,0,0,,{\i1}Charm her.{\i0}
+Dialogue: 0,0:26:28.01,0:26:29.64,Default,,0,0,0,,{\i1}[slow, repetitive piano playing]{\i0}
+Dialogue: 0,0:26:34.22,0:26:35.22,Default,,0,0,0,,{\i1}[Benedict sighs]{\i0}
+Dialogue: 0,0:26:51.95,0:26:53.83,Default,,0,0,0,,{\i1}Oh! Enough! I beg of you.{\i0}
+Dialogue: 0,0:26:55.87,0:26:57.37,Default,,0,0,0,,{\i1}Perhaps you should join me.{\i0}
+Dialogue: 0,0:26:58.37,0:27:01.67,Default,,0,0,0,,{\i1}You will need to be proficient{\i0}\N{\i1}on the pianoforte soon enough.{\i0}
+Dialogue: 0,0:27:02.42,0:27:04.13,Default,,0,0,0,,{\i1}You could use the practice, I'm sure.{\i0}
+Dialogue: 0,0:27:04.21,0:27:05.42,Default,,0,0,0,,{\i1}On second thought, continue.{\i0}
+Dialogue: 0,0:27:05.50,0:27:07.17,Default,,0,0,0,,{\i1}You will frighten away{\i0}\N{\i1}the duke, the prince,{\i0}
+Dialogue: 0,0:27:07.26,0:27:09.76,Default,,0,0,0,,{\i1}and any other eligible suitor{\i0}\N{\i1}clear across the North Sea.{\i0}
+Dialogue: 0,0:27:09.84,0:27:12.22,Default,,0,0,0,,{\i1}And you would wish that upon me,{\i0}\N{\i1}would you, Sister?{\i0}
+Dialogue: 0,0:27:12.30,0:27:15.93,Default,,0,0,0,,{\i1}If it kept Mama's attentions focused{\i0}\N{\i1}on you instead of me, I might.{\i0}
+Dialogue: 0,0:27:18.02,0:27:20.27,Default,,0,0,0,,{\i1}You can take your reading outside.{\i0}
+Dialogue: 0,0:27:21.02,0:27:22.69,Default,,0,0,0,,{\i1}You say that{\i0}\N{\i1}as if reading were a bad thing.{\i0}
+Dialogue: 0,0:27:22.77,0:27:23.77,Default,,0,0,0,,{\i1}I meant no such thing.{\i0}
+Dialogue: 0,0:27:23.86,0:27:25.86,Default,,0,0,0,,{\i1}But it won't gain me a husband?{\i0}\N{\i1}That what you meant?{\i0}
+Dialogue: 0,0:27:25.94,0:27:26.86,Default,,0,0,0,,{\i1}[sighs] Eloise…{\i0}
+Dialogue: 0,0:27:26.94,0:27:29.40,Default,,0,0,0,,{\i1}You wish to follow your heart,{\i0}\N{\i1}and I wish to nurture my mind.{\i0}
+Dialogue: 0,0:27:30.53,0:27:31.87,Default,,0,0,0,,{\i1}Let us leave it there.{\i0}
+Dialogue: 0,0:27:31.95,0:27:33.79,Default,,0,0,0,,{\i1}Can you at least try to understand?{\i0}
+Dialogue: 0,0:27:34.57,0:27:36.20,Default,,0,0,0,,{\i1}You never see things from my perspective.{\i0}
+Dialogue: 0,0:27:36.28,0:27:38.70,Default,,0,0,0,,{\i1}You are not the only one{\i0}\N{\i1}with troubles, Eloise.{\i0}
+Dialogue: 0,0:27:38.79,0:27:40.29,Default,,0,0,0,,{\i1}You have no idea what it--{\i0}
+Dialogue: 0,0:27:40.37,0:27:41.29,Default,,0,0,0,,{\i1}[exasperated sigh]{\i0}
+Dialogue: 0,0:27:44.00,0:27:45.17,Default,,0,0,0,,{\i1}It does not matter.{\i0}
+Dialogue: 0,0:27:50.55,0:27:51.68,Default,,0,0,0,,{\i1}Is it an original?{\i0}
+Dialogue: 0,0:27:53.01,0:27:56.43,Default,,0,0,0,,{\i1}-What?{\i0}\N{\i1}-That song, did you compose it yourself?{\i0}
+Dialogue: 0,0:27:56.51,0:27:57.84,Default,,0,0,0,,{\i1}In a manner of speaking.{\i0}
+Dialogue: 0,0:27:57.93,0:28:00.06,Default,,0,0,0,,{\i1}-What is the name of it?{\i0}\N{\i1}-It does not have a name.{\i0}
+Dialogue: 0,0:28:00.14,0:28:03.19,Default,,0,0,0,,{\i1}-Every song has a name.{\i0}\N{\i1}-It is just a song, Eloise.{\i0}
+Dialogue: 0,0:28:06.61,0:28:08.57,Default,,0,0,0,,{\i1}If you need to practice, then do so. Just…{\i0}
+Dialogue: 0,0:28:09.57,0:28:11.41,Default,,0,0,0,,{\i1}come up with a name for it, at least.{\i0}
+Dialogue: 0,0:28:20.54,0:28:23.29,Default,,0,0,0,,{\i1}[Daphne plays piano slowly]{\i0}
+Dialogue: 0,0:28:23.37,0:28:26.67,Default,,0,0,0,,{\i1}[townsfolk chattering]{\i0}
+Dialogue: 0,0:28:56.24,0:28:57.37,Default,,0,0,0,,{\i1}Why have you brought me here?{\i0}
+Dialogue: 0,0:28:57.45,0:29:01.08,Default,,0,0,0,,{\i1}Because I wanted you{\i0}\N{\i1}to see your future firsthand,{\i0}
+Dialogue: 0,0:29:01.16,0:29:03.79,Default,,0,0,0,,{\i1}should you refuse{\i0}\N{\i1}to follow my instructions.{\i0}
+Dialogue: 0,0:29:04.33,0:29:05.21,Default,,0,0,0,,{\i1}Heed me.{\i0}
+Dialogue: 0,0:29:05.96,0:29:09.80,Default,,0,0,0,,{\i1}This is what your life will be{\i0}\N{\i1}if you do not agree to be married.{\i0}
+Dialogue: 0,0:29:09.88,0:29:13.47,Default,,0,0,0,,{\i1}You must have me mistaken for one{\i0}\N{\i1}of your soft-handed daughters, ma'am.{\i0}
+Dialogue: 0,0:29:13.55,0:29:14.89,Default,,0,0,0,,{\i1}It is terribly presumptuous of you{\i0}
+Dialogue: 0,0:29:14.97,0:29:18.93,Default,,0,0,0,,{\i1}to think that a visit to this neighborhood{\i0}\N{\i1}full of good, hardworking people{\i0}
+Dialogue: 0,0:29:19.01,0:29:20.72,Default,,0,0,0,,{\i1}who happen to be{\i0}\N{\i1}less fortunate than yourself{\i0}
+Dialogue: 0,0:29:20.81,0:29:22.56,Default,,0,0,0,,{\i1}would ever sway me to change my mind.{\i0}
+Dialogue: 0,0:29:22.64,0:29:24.85,Default,,0,0,0,,{\i1}Look at the children, then. Go on.{\i0}
+Dialogue: 0,0:29:24.93,0:29:27.31,Default,,0,0,0,,{\i1}What, my dear,{\i0}\N{\i1}might you have to say about them?{\i0}
+Dialogue: 0,0:29:29.19,0:29:31.15,Default,,0,0,0,,{\i1}I believe it is you who should heed me.{\i0}
+Dialogue: 0,0:29:31.82,0:29:34.24,Default,,0,0,0,,{\i1}I will not stand silently by{\i0}\N{\i1}while you cut a sham{\i0}
+Dialogue: 0,0:29:34.32,0:29:36.70,Default,,0,0,0,,{\i1}with this miserable prospect{\i0}\N{\i1}you have cooked up in your head.{\i0}
+Dialogue: 0,0:29:36.78,0:29:39.45,Default,,0,0,0,,{\i1}-I have a man who loves me.{\i0}\N{\i1}-Is that so?{\i0}
+Dialogue: 0,0:29:39.53,0:29:43.53,Default,,0,0,0,,{\i1}Well, where is he, then?{\i0}\N{\i1}Why is he not here, tending to you?{\i0}
+Dialogue: 0,0:29:43.62,0:29:45.50,Default,,0,0,0,,{\i1}Because he's fighting in Spain{\i0}\N{\i1}for king and country.{\i0}
+Dialogue: 0,0:29:45.58,0:29:47.08,Default,,0,0,0,,{\i1}-Is he aware of your condition?{\i0}\N{\i1}-He is.{\i0}
+Dialogue: 0,0:29:47.17,0:29:49.01,Default,,0,0,0,,{\i1}I have written to him,{\i0}\N{\i1}beautiful love letters.{\i0}
+Dialogue: 0,0:29:49.08,0:29:52.29,Default,,0,0,0,,{\i1}And has he written back to you,{\i0}\N{\i1}ever since informing him?{\i0}
+Dialogue: 0,0:29:54.17,0:29:59.26,Default,,0,0,0,,{\i1}Sweet child, many men make declarations{\i0}\N{\i1}of love when they want to make love.{\i0}
+Dialogue: 0,0:29:59.89,0:30:02.60,Default,,0,0,0,,{\i1}But rare is the man{\i0}\N{\i1}whose love remains true{\i0}
+Dialogue: 0,0:30:02.68,0:30:06.60,Default,,0,0,0,,{\i1}when the consequences of lovemaking{\i0}\N{\i1}are brought to his attention.{\i0}
+Dialogue: 0,0:30:22.41,0:30:25.33,Default,,0,0,0,,{\i1}So, Miss Cowper{\i0}\N{\i1}has finally found her match.{\i0}
+Dialogue: 0,0:30:25.41,0:30:28.37,Default,,0,0,0,,{\i1}A highly unlikely pairing,{\i0}\N{\i1}if I may say so.{\i0}
+Dialogue: 0,0:30:28.46,0:30:30.55,Default,,0,0,0,,{\i1}I say good for the young lady.{\i0}
+Dialogue: 0,0:30:30.63,0:30:33.01,Default,,0,0,0,,{\i1}Perhaps it will keep{\i0}\N{\i1}that horrid mother of hers off her back.{\i0}
+Dialogue: 0,0:30:37.01,0:30:40.18,Default,,0,0,0,,{\i1}-[Simon] He knew this, of course.{\i0}\N{\i1}-[Daphne laughs]{\i0}
+Dialogue: 0,0:30:40.26,0:30:41.72,Default,,0,0,0,,{\i1}Or perhaps not.{\i0}
+Dialogue: 0,0:30:42.89,0:30:45.56,Default,,0,0,0,,{\i1}-And so Anthony Bridgerton…{\i0}\N{\i1}-Mm.{\i0}
+Dialogue: 0,0:30:45.64,0:30:47.81,Default,,0,0,0,,{\i1}-…serious man that he is…{\i0}\N{\i1}-[chuckles]{\i0}
+Dialogue: 0,0:30:47.89,0:30:50.35,Default,,0,0,0,,{\i1}…let a farm animal into your dormitory?{\i0}
+Dialogue: 0,0:30:51.44,0:30:53.40,Default,,0,0,0,,{\i1}Why ever would you put up{\i0}\N{\i1}with such pranks?{\i0}
+Dialogue: 0,0:30:53.48,0:30:54.40,Default,,0,0,0,,{\i1}He was my friend.{\i0}
+Dialogue: 0,0:30:54.48,0:30:56.94,Default,,0,0,0,,{\i1}Who do you think helped your brother{\i0}\N{\i1}get the animal back out?{\i0}
+Dialogue: 0,0:30:57.03,0:30:58.74,Default,,0,0,0,,{\i1}[Daphne] Of course it was you.{\i0}
+Dialogue: 0,0:30:59.03,0:31:01.20,Default,,0,0,0,,{\i1}My mother told me{\i0}\N{\i1}something curious the other day.{\i0}
+Dialogue: 0,0:31:01.28,0:31:02.11,Default,,0,0,0,,{\i1}[Simon] Mm.{\i0}
+Dialogue: 0,0:31:02.82,0:31:05.32,Default,,0,0,0,,{\i1}That one should marry{\i0}\N{\i1}one's dearest friend.{\i0}
+Dialogue: 0,0:31:05.41,0:31:08.08,Default,,0,0,0,,{\i1}-Are you suggesting I marry your brother?{\i0}\N{\i1}-No.{\i0}
+Dialogue: 0,0:31:09.04,0:31:10.21,Default,,0,0,0,,{\i1}But I do wonder,{\i0}
+Dialogue: 0,0:31:10.29,0:31:12.67,Default,,0,0,0,,{\i1}is that truly what marriage{\i0}\N{\i1}is all about, then?{\i0}
+Dialogue: 0,0:31:12.75,0:31:13.71,Default,,0,0,0,,{\i1}Friendship?{\i0}
+Dialogue: 0,0:31:13.79,0:31:15.33,Default,,0,0,0,,{\i1}Well, I imagine it a good start.{\i0}
+Dialogue: 0,0:31:15.42,0:31:17.51,Default,,0,0,0,,{\i1}Though most marriages{\i0}\N{\i1}are more like battlefields.{\i0}
+Dialogue: 0,0:31:17.59,0:31:19.59,Default,,0,0,0,,{\i1}Even if it is a battlefield,{\i0}
+Dialogue: 0,0:31:19.67,0:31:22.51,Default,,0,0,0,,{\i1}there must be other things{\i0}\N{\i1}that hold the troop together.{\i0}
+Dialogue: 0,0:31:22.59,0:31:25.59,Default,,0,0,0,,{\i1}My word! I might have thought{\i0}\N{\i1}you were trying to organize a militia.{\i0}
+Dialogue: 0,0:31:26.47,0:31:27.31,Default,,0,0,0,,{\i1}Ah!{\i0}
+Dialogue: 0,0:31:27.39,0:31:29.77,Default,,0,0,0,,{\i1}Now, there is{\i0}\N{\i1}a fine group of recruits.{\i0}
+Dialogue: 0,0:31:40.74,0:31:42.45,Default,,0,0,0,,{\i1}What I mean is{\i0}
+Dialogue: 0,0:31:42.53,0:31:44.16,Default,,0,0,0,,{\i1}there {\i0}<span style="style2">are {\i0}{\i1}other things…{\i0}
+Dialogue: 0,0:31:45.12,0:31:46.12,Default,,0,0,0,,{\i1}physical…{\i0}
+Dialogue: 0,0:31:46.78,0:31:49.07,Default,,0,0,0,,{\i1}or perhaps intangible…{\i0}
+Dialogue: 0,0:31:50.37,0:31:51.91,Default,,0,0,0,,{\i1}that bring a couple together.{\i0}
+Dialogue: 0,0:31:53.21,0:31:56.17,Default,,0,0,0,,{\i1}Well, yes, of course{\i0}\N{\i1}there's more to a marriage,{\i0}
+Dialogue: 0,0:31:56.25,0:31:58.17,Default,,0,0,0,,{\i1}physical and intangible.{\i0}
+Dialogue: 0,0:31:58.25,0:31:59.13,Default,,0,0,0,,{\i1}-Both.{\i0}\N{\i1}-Both?{\i0}
+Dialogue: 0,0:31:59.21,0:32:01.50,Default,,0,0,0,,{\i1}But how can something be{\i0}\N{\i1}both physical and intangible{\i0}
+Dialogue: 0,0:32:01.59,0:32:03.09,Default,,0,0,0,,{\i1}when they are quite the opposite?{\i0}
+Dialogue: 0,0:32:06.93,0:32:09.14,Default,,0,0,0,,{\i1}-[laughs]{\i0}\N{\i1}-You are beastly!{\i0}
+Dialogue: 0,0:32:09.22,0:32:10.18,Default,,0,0,0,,{\i1}Never mind.{\i0}
+Dialogue: 0,0:32:10.27,0:32:13.73,Default,,0,0,0,,{\i1}No. I'm not laughing at you.{\i0}\N{\i1}I'm laughing at the absurdity{\i0}
+Dialogue: 0,0:32:13.81,0:32:15.48,Default,,0,0,0,,{\i1}of how little{\i0}\N{\i1}mothers tell their daughters.{\i0}
+Dialogue: 0,0:32:15.56,0:32:16.60,Default,,0,0,0,,{\i1}They tell us nothing.{\i0}
+Dialogue: 0,0:32:16.69,0:32:19.53,Default,,0,0,0,,{\i1}-Well, I certainly cannot tell you.{\i0}\N{\i1}-Why not?{\i0}
+Dialogue: 0,0:32:19.61,0:32:21.49,Default,,0,0,0,,{\i1}Because it is not my place.{\i0}
+Dialogue: 0,0:32:22.65,0:32:26.11,Default,,0,0,0,,{\i1}In any real courtship,{\i0}\N{\i1}yes, it would be scandalous{\i0}
+Dialogue: 0,0:32:26.20,0:32:28.99,Default,,0,0,0,,{\i1}for her suitor{\i0}\N{\i1}to discuss such things with a lady.{\i0}
+Dialogue: 0,0:32:29.49,0:32:32.24,Default,,0,0,0,,{\i1}But {\i0}<span style="style2">you {\i0}{\i1}are not a real suitor, are you?{\i0}
+Dialogue: 0,0:32:33.29,0:32:35.75,Default,,0,0,0,,{\i1}And besides,{\i0}\N{\i1}no one else will tell me anything.{\i0}
+Dialogue: 0,0:32:35.83,0:32:37.67,Default,,0,0,0,,{\i1}So, how am I to find a proper husband{\i0}
+Dialogue: 0,0:32:37.75,0:32:39.75,Default,,0,0,0,,{\i1}if I do not even know{\i0}\N{\i1}what I am to be searching for?{\i0}
+Dialogue: 0,0:32:39.84,0:32:42.59,Default,,0,0,0,,{\i1}-You will know when you know.{\i0}\N{\i1}-What does that even mean?{\i0}
+Dialogue: 0,0:32:42.67,0:32:44.63,Default,,0,0,0,,{\i1}-I cannot tell you.{\i0}\N{\i1}-I thought we were friends.{\i0}
+Dialogue: 0,0:32:44.72,0:32:45.68,Default,,0,0,0,,{\i1}-Daphne…{\i0}\N{\i1}-Simon.{\i0}
+Dialogue: 0,0:32:46.76,0:32:47.59,Default,,0,0,0,,{\i1}Tell me.{\i0}
+Dialogue: 0,0:32:48.43,0:32:50.52,Default,,0,0,0,,{\i1}-Tell me!{\i0}\N{\i1}-All right! All right!{\i0}
+Dialogue: 0,0:32:52.18,0:32:55.77,Default,,0,0,0,,{\i1}What happens between a husband and a wife…{\i0}
+Dialogue: 0,0:32:55.85,0:33:00.73,Default,,0,0,0,,{\i1}Well, it is a natural continuation{\i0}\N{\i1}of what happens at night.{\i0}
+Dialogue: 0,0:33:00.82,0:33:01.82,Default,,0,0,0,,{\i1}At night?{\i0}
+Dialogue: 0,0:33:01.90,0:33:03.49,Default,,0,0,0,,{\i1}[chuckles] What happens at night?{\i0}
+Dialogue: 0,0:33:04.49,0:33:05.74,Default,,0,0,0,,{\i1}When you are alone.{\i0}
+Dialogue: 0,0:33:06.32,0:33:09.24,Default,,0,0,0,,{\i1}-When I am sleeping?{\i0}\N{\i1}-Not when you are sleeping.{\i0}
+Dialogue: 0,0:33:12.62,0:33:13.91,Default,,0,0,0,,{\i1}When you touch yourself.{\i0}
+Dialogue: 0,0:33:18.33,0:33:20.75,Default,,0,0,0,,{\i1}You do touch yourself?{\i0}
+Dialogue: 0,0:33:26.38,0:33:30.63,Default,,0,0,0,,{\i1}When you are alone,{\i0}\N{\i1}you can touch yourself…{\i0}
+Dialogue: 0,0:33:32.18,0:33:34.64,Default,,0,0,0,,{\i1}anywhere on your body,{\i0}\N{\i1}anywhere that gives you pleasure,{\i0}
+Dialogue: 0,0:33:35.39,0:33:36.81,Default,,0,0,0,,{\i1}but especially…{\i0}
+Dialogue: 0,0:33:37.81,0:33:39.19,Default,,0,0,0,,{\i1}between your legs.{\i0}
+Dialogue: 0,0:33:40.98,0:33:43.32,Default,,0,0,0,,{\i1}And when you find a feeling{\i0}\N{\i1}you particularly enjoy…{\i0}
+Dialogue: 0,0:33:44.86,0:33:46.49,Default,,0,0,0,,{\i1}you can carry on with that…{\i0}
+Dialogue: 0,0:33:47.99,0:33:51.66,Default,,0,0,0,,{\i1}until the feeling grows,{\i0}\N{\i1}and eventually you reach…{\i0}
+Dialogue: 0,0:33:53.87,0:33:54.91,Default,,0,0,0,,{\i1}a pinnacle,{\i0}
+Dialogue: 0,0:33:55.71,0:33:56.84,Default,,0,0,0,,{\i1}a release.{\i0}
+Dialogue: 0,0:34:04.92,0:34:06.05,Default,,0,0,0,,{\i1}And that should help you…{\i0}
+Dialogue: 0,0:34:08.72,0:34:09.60,Default,,0,0,0,,{\i1}Come.{\i0}
+Dialogue: 0,0:34:14.56,0:34:16.90,Default,,0,0,0,,{\i1}-Ow!{\i0}\N{\i1}-[Lady Danbury] I demand to know.{\i0}
+Dialogue: 0,0:34:17.98,0:34:21.65,Default,,0,0,0,,{\i1}Is all this time you are spending{\i0}\N{\i1}with Miss Bridgerton leading anywhere?{\i0}
+Dialogue: 0,0:34:22.23,0:34:24.90,Default,,0,0,0,,{\i1}Could it not merely be time well spent?{\i0}
+Dialogue: 0,0:34:25.69,0:34:27.82,Default,,0,0,0,,{\i1}A prolonged courtship is one thing,{\i0}
+Dialogue: 0,0:34:28.36,0:34:30.82,Default,,0,0,0,,{\i1}but now it is very clear{\i0}\N{\i1}to anyone with eyes{\i0}
+Dialogue: 0,0:34:30.91,0:34:34.00,Default,,0,0,0,,{\i1}that Daphne Bridgerton has caught{\i0}\N{\i1}the attention of Prince Friedrich.{\i0}
+Dialogue: 0,0:34:35.04,0:34:38.13,Default,,0,0,0,,{\i1}If you have designs upon the girl{\i0}\N{\i1}and wish to marry her,{\i0}
+Dialogue: 0,0:34:38.21,0:34:40.59,Default,,0,0,0,,{\i1}then Friedrich can disappear,{\i0}\N{\i1}for all I care,{\i0}
+Dialogue: 0,0:34:40.67,0:34:42.84,Default,,0,0,0,,{\i1}and become{\i0}\N{\i1}a delicious dinner party anecdote.{\i0}
+Dialogue: 0,0:34:43.46,0:34:45.75,Default,,0,0,0,,{\i1}But if you are merely dallying with her,{\i0}
+Dialogue: 0,0:34:45.84,0:34:49.84,Default,,0,0,0,,{\i1}and if she loses her chance{\i0}\N{\i1}of such an extraordinary match,{\i0}
+Dialogue: 0,0:34:49.93,0:34:53.43,Default,,0,0,0,,{\i1}simply because{\i0}\N{\i1}she is too wrapped up in your charms…{\i0}
+Dialogue: 0,0:34:54.51,0:34:55.34,Default,,0,0,0,,{\i1}well, then…{\i0}
+Dialogue: 0,0:34:56.43,0:34:57.97,Default,,0,0,0,,{\i1}she would be a fool,{\i0}
+Dialogue: 0,0:34:58.06,0:35:01.15,Default,,0,0,0,,{\i1}and I would never forgive you{\i0}\N{\i1}your carelessness.{\i0}
+Dialogue: 0,0:35:01.23,0:35:03.27,Default,,0,0,0,,{\i1}Miss Bridgerton is far from a fool.{\i0}
+Dialogue: 0,0:35:03.36,0:35:05.15,Default,,0,0,0,,{\i1}Then you are just being cruel,{\i0}
+Dialogue: 0,0:35:05.65,0:35:08.44,Default,,0,0,0,,{\i1}and we both know{\i0}\N{\i1}I taught you better than that.{\i0}
+Dialogue: 0,0:35:20.12,0:35:21.20,Default,,0,0,0,,{\i1}[splutters]{\i0}
+Dialogue: 0,0:35:21.79,0:35:22.62,Default,,0,0,0,,{\i1}Oh.{\i0}
+Dialogue: 0,0:35:24.92,0:35:25.84,Default,,0,0,0,,{\i1}[Eloise chuckles]{\i0}
+Dialogue: 0,0:35:29.63,0:35:30.67,Default,,0,0,0,,{\i1}[Benedict sighs]{\i0}
+Dialogue: 0,0:35:38.27,0:35:40.44,Default,,0,0,0,,{\i1}I found bits of your sketchbook{\i0}\N{\i1}in the fireplace.{\i0}
+Dialogue: 0,0:35:40.52,0:35:42.02,Default,,0,0,0,,{\i1}-Are you spying on me now?{\i0}\N{\i1}-[chuckles]{\i0}
+Dialogue: 0,0:35:42.10,0:35:44.85,Default,,0,0,0,,{\i1}You'd actually have to be interesting{\i0}\N{\i1}for me to bother spying on you.{\i0}
+Dialogue: 0,0:35:45.77,0:35:47.61,Default,,0,0,0,,{\i1}The drawings{\i0}\N{\i1}in that sketchbook were abominable.{\i0}
+Dialogue: 0,0:35:47.69,0:35:49.02,Default,,0,0,0,,{\i1}I could not stand to look at them.{\i0}
+Dialogue: 0,0:35:49.11,0:35:51.03,Default,,0,0,0,,{\i1}I believe{\i0}\N{\i1}that is why they call it a sketchbook.{\i0}
+Dialogue: 0,0:35:51.78,0:35:55.33,Default,,0,0,0,,{\i1}I write in my diary, which is not the same{\i0}\N{\i1}as writing in my novel.{\i0}
+Dialogue: 0,0:35:56.78,0:35:59.49,Default,,0,0,0,,{\i1}[chuckles] It must be very difficult{\i0}\N{\i1}to want something{\i0}
+Dialogue: 0,0:35:59.58,0:36:01.00,Default,,0,0,0,,{\i1}-and not be able to get it.{\i0}\N{\i1}-Eloise…{\i0}
+Dialogue: 0,0:36:01.08,0:36:03.46,Default,,0,0,0,,{\i1}If you enjoy drawing{\i0}\N{\i1}but need practice, then practice.{\i0}
+Dialogue: 0,0:36:03.54,0:36:05.29,Default,,0,0,0,,{\i1}Hire a drawing master.{\i0}
+Dialogue: 0,0:36:05.38,0:36:07.55,Default,,0,0,0,,{\i1}Find a young lady to act impressed.{\i0}
+Dialogue: 0,0:36:07.63,0:36:09.22,Default,,0,0,0,,{\i1}If you desire the sun and the moon,{\i0}
+Dialogue: 0,0:36:09.30,0:36:11.89,Default,,0,0,0,,{\i1}all you have to do is go out{\i0}\N{\i1}and shoot at the sky.{\i0}
+Dialogue: 0,0:36:11.97,0:36:13.14,Default,,0,0,0,,{\i1}Some of us cannot.{\i0}
+Dialogue: 0,0:36:15.14,0:36:18.73,Default,,0,0,0,,{\i1}Look no further than Lady Whistledown.{\i0}\N{\i1}She possesses a huge talent for writing,{\i0}
+Dialogue: 0,0:36:18.81,0:36:21.35,Default,,0,0,0,,{\i1}and yet she must hide away{\i0}\N{\i1}and publish under a false name.{\i0}
+Dialogue: 0,0:36:21.43,0:36:23.56,Default,,0,0,0,,{\i1}Yes, because if anyone knew{\i0}\N{\i1}who Whistledown truly was,{\i0}
+Dialogue: 0,0:36:23.64,0:36:25.18,Default,,0,0,0,,{\i1}she'd be strung up for what she said.{\i0}
+Dialogue: 0,0:36:25.27,0:36:26.52,Default,,0,0,0,,{\i1}That is not my point.{\i0}
+Dialogue: 0,0:36:26.61,0:36:29.91,Default,,0,0,0,,{\i1}Whistledown is a woman,{\i0}\N{\i1}therefore she has nothing,{\i0}
+Dialogue: 0,0:36:30.40,0:36:32.40,Default,,0,0,0,,{\i1}and still she writes.{\i0}
+Dialogue: 0,0:36:32.49,0:36:34.66,Default,,0,0,0,,{\i1}You're a man,{\i0}\N{\i1}therefore you have everything.{\i0}
+Dialogue: 0,0:36:34.74,0:36:38.99,Default,,0,0,0,,{\i1}You are able to do whatever you want.{\i0}\N{\i1}So do it. Be bold.{\i0}
+Dialogue: 0,0:36:40.45,0:36:44.29,Default,,0,0,0,,{\i1}At least that way{\i0}\N{\i1}I can live vicariously through you.{\i0}
+Dialogue: 0,0:36:45.75,0:36:46.71,Default,,0,0,0,,{\i1}Eloise…{\i0}
+Dialogue: 0,0:36:48.92,0:36:50.30,Default,,0,0,0,,{\i1}are you Lady Whistledown?{\i0}
+Dialogue: 0,0:36:50.38,0:36:52.17,Default,,0,0,0,,{\i1}[chuckles ironically]{\i0}
+Dialogue: 0,0:36:52.26,0:36:55.76,Default,,0,0,0,,{\i1}You're an accomplished writer,{\i0}\N{\i1}always scribbling in that diary of yours.{\i0}
+Dialogue: 0,0:36:55.84,0:36:57.76,Default,,0,0,0,,{\i1}You certainly know{\i0}\N{\i1}everyone else's business.{\i0}
+Dialogue: 0,0:36:57.85,0:37:00.56,Default,,0,0,0,,{\i1}You have more opinions{\i0}\N{\i1}than anyone else I know in London.{\i0}
+Dialogue: 0,0:37:01.14,0:37:04.06,Default,,0,0,0,,{\i1}You would have my full support{\i0}\N{\i1}and admiration either way, Sister.{\i0}
+Dialogue: 0,0:37:04.14,0:37:05.93,Default,,0,0,0,,{\i1}So… is it you?{\i0}
+Dialogue: 0,0:37:06.56,0:37:07.39,Default,,0,0,0,,{\i1}No.{\i0}
+Dialogue: 0,0:37:08.44,0:37:09.52,Default,,0,0,0,,{\i1}Though if it were…{\i0}
+Dialogue: 0,0:37:10.69,0:37:12.65,Default,,0,0,0,,{\i1}do you honestly think that I'd admit it?{\i0}
+Dialogue: 0,0:37:35.76,0:37:37.76,Default,,0,0,0,,{\i1}[light piano music plays]{\i0}
+Dialogue: 0,0:37:57.49,0:37:58.87,Default,,0,0,0,,{\i1}[music intensifies]{\i0}
+Dialogue: 0,0:38:14.88,0:38:15.88,Default,,0,0,0,,{\i1}[gasps lightly]{\i0}
+Dialogue: 0,0:38:19.09,0:38:21.18,Default,,0,0,0,,{\i1}[Daphne playing piano]{\i0}
+Dialogue: 0,0:38:24.89,0:38:25.89,Default,,0,0,0,,{\i1}[piano playing ends]{\i0}
+Dialogue: 0,0:38:27.10,0:38:29.85,Default,,0,0,0,,{\i1}You finished. How lovely!{\i0}
+Dialogue: 0,0:38:31.77,0:38:34.02,Default,,0,0,0,,{\i1}I do hope{\i0}\N{\i1}you have finally given it a name.{\i0}
+Dialogue: 0,0:38:39.28,0:38:40.16,Default,,0,0,0,,{\i1}Wait here.{\i0}
+Dialogue: 0,0:38:44.33,0:38:47.46,Default,,0,0,0,,{\i1}So, I was thinking{\i0}\N{\i1}about us doing something different.{\i0}
+Dialogue: 0,0:38:47.54,0:38:50.79,Default,,0,0,0,,{\i1}The ice flavors here are divine, yes,{\i0}\N{\i1}but, well, perhaps the two of us--{\i0}
+Dialogue: 0,0:38:50.88,0:38:53.13,Default,,0,0,0,,{\i1}I shall not be joining you today,{\i0}\N{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:38:55.09,0:38:58.01,Default,,0,0,0,,{\i1}Nor tomorrow,{\i0}\N{\i1}nor any longer, for that matter.{\i0}
+Dialogue: 0,0:39:00.43,0:39:02.93,Default,,0,0,0,,{\i1}-What can you mean?{\i0}\N{\i1}-Is it not obvious?{\i0}
+Dialogue: 0,0:39:03.01,0:39:05.22,Default,,0,0,0,,{\i1}Apparently not,{\i0}\N{\i1}if I require your further elaboration.{\i0}
+Dialogue: 0,0:39:05.31,0:39:07.90,Default,,0,0,0,,{\i1}You now have a bevy of suitors{\i0}\N{\i1}at your disposal,{\i0}
+Dialogue: 0,0:39:07.98,0:39:10.36,Default,,0,0,0,,{\i1}and I've been afforded relief{\i0}\N{\i1}from mamas and daughters alike{\i0}
+Dialogue: 0,0:39:10.44,0:39:12.98,Default,,0,0,0,,{\i1}in order to conduct my affairs in peace{\i0}\N{\i1}whilst remaining in London.{\i0}
+Dialogue: 0,0:39:13.06,0:39:15.06,Default,,0,0,0,,{\i1}Thus our arrangement has succeeded,{\i0}\N{\i1}Miss Bridgerton.{\i0}
+Dialogue: 0,0:39:15.15,0:39:15.98,Default,,0,0,0,,{\i1}Stop calling me that.{\i0}
+Dialogue: 0,0:39:16.07,0:39:18.74,Default,,0,0,0,,{\i1}-These very circumstances prove…{\i0}\N{\i1}-What are you doing?{\i0}
+Dialogue: 0,0:39:18.82,0:39:21.03,Default,,0,0,0,,{\i1}…our ruse should hereby need to end.{\i0}
+Dialogue: 0,0:39:22.28,0:39:24.24,Default,,0,0,0,,{\i1}-Have I done something wrong?{\i0}\N{\i1}-No.{\i0}
+Dialogue: 0,0:39:25.20,0:39:26.24,Default,,0,0,0,,{\i1}Then tell me why.{\i0}
+Dialogue: 0,0:39:26.33,0:39:30.08,Default,,0,0,0,,{\i1}You have the attentions of a prince.{\i0}\N{\i1}He is perfect for you.{\i0}
+Dialogue: 0,0:39:32.08,0:39:34.08,Default,,0,0,0,,{\i1}This is about our conversation yesterday.{\i0}
+Dialogue: 0,0:39:34.17,0:39:36.71,Default,,0,0,0,,{\i1}-I apologize for that.{\i0}\N{\i1}-There is no need to apologize.{\i0}
+Dialogue: 0,0:39:36.80,0:39:39.89,Default,,0,0,0,,{\i1}Your brother was correct.{\i0}\N{\i1}I am and always will be a rake.{\i0}
+Dialogue: 0,0:39:39.97,0:39:42.10,Default,,0,0,0,,{\i1}-Before I corrupt you any further--{\i0}\N{\i1}-Corrupt me?{\i0}
+Dialogue: 0,0:39:42.18,0:39:43.97,Default,,0,0,0,,{\i1}I assure you, I am quite capable{\i0}
+Dialogue: 0,0:39:44.05,0:39:46.89,Default,,0,0,0,,{\i1}of deciding the bounds{\i0}\N{\i1}of my own propriety.{\i0}
+Dialogue: 0,0:39:46.97,0:39:48.89,Default,,0,0,0,,{\i1}I thought you and I were friends.{\i0}
+Dialogue: 0,0:39:50.94,0:39:52.23,Default,,0,0,0,,{\i1}We were never friends.{\i0}
+Dialogue: 0,0:39:52.31,0:39:54.81,Default,,0,0,0,,{\i1}I do not believe{\i0}\N{\i1}there could be a more ridiculous notion{\i0}
+Dialogue: 0,0:39:54.90,0:39:57.28,Default,,0,0,0,,{\i1}than that of us ever being friends.{\i0}
+Dialogue: 0,0:39:57.36,0:40:00.03,Default,,0,0,0,,{\i1}A young lady,{\i0}\N{\i1}barely out of her leading strings, you…{\i0}
+Dialogue: 0,0:40:02.15,0:40:03.61,Default,,0,0,0,,{\i1}You were a convenience…{\i0}
+Dialogue: 0,0:40:04.82,0:40:07.41,Default,,0,0,0,,{\i1}a diversion,{\i0}\N{\i1}a pretty one at that, but nothing more.{\i0}
+Dialogue: 0,0:40:08.33,0:40:10.00,Default,,0,0,0,,{\i1}Now that I've concluded{\i0}\N{\i1}my business in town,{\i0}
+Dialogue: 0,0:40:10.08,0:40:11.21,Default,,0,0,0,,{\i1}I shall be moving on.{\i0}
+Dialogue: 0,0:40:11.79,0:40:13.21,Default,,0,0,0,,{\i1}I suggest you do the same.{\i0}
+Dialogue: 0,0:40:16.42,0:40:20.13,Default,,0,0,0,,{\i1}You will be very happy{\i0}\N{\i1}with your prince, Miss Bridgerton.{\i0}
+Dialogue: 0,0:40:22.93,0:40:23.93,Default,,0,0,0,,{\i1}[gasps]{\i0}
+Dialogue: 0,0:40:28.64,0:40:31.39,Default,,0,0,0,,{\i1}We must bring forward our plans{\i0}\N{\i1}to vacate England as soon as possible.{\i0}
+Dialogue: 0,0:40:31.48,0:40:33.69,Default,,0,0,0,,{\i1}But, Your Grace,{\i0}\N{\i1}you still have some business to conclude.{\i0}
+Dialogue: 0,0:40:33.77,0:40:36.65,Default,,0,0,0,,{\i1}I wish to leave.{\i0}\N{\i1}Do what you must to expedite matters.{\i0}
+Dialogue: 0,0:40:39.44,0:40:40.90,Default,,0,0,0,,{\i1}[sobbing breaths]{\i0}
+Dialogue: 0,0:40:42.19,0:40:43.82,Default,,0,0,0,,{\i1}Did something happen, miss?{\i0}
+Dialogue: 0,0:40:46.03,0:40:46.87,Default,,0,0,0,,{\i1}[whimpers]{\i0}
+Dialogue: 0,0:40:51.91,0:40:53.91,Default,,0,0,0,,{\i1}[Rose] Miss? Miss?{\i0}
+Dialogue: 0,0:40:55.17,0:40:56.38,Default,,0,0,0,,{\i1}Leave me be, Rose.{\i0}
+Dialogue: 0,0:40:59.46,0:41:00.92,Default,,0,0,0,,{\i1}[singing aria]{\i0}
+Dialogue: 0,0:41:07.05,0:41:09.30,Default,,0,0,0,,{\i1}[attendees chattering]{\i0}
+Dialogue: 0,0:41:09.39,0:41:11.81,Default,,0,0,0,,{\i1}[aria singing continues]{\i0}
+Dialogue: 0,0:42:03.32,0:42:05.86,Default,,0,0,0,,{\i1}[indistinct chatter]{\i0}
+Dialogue: 0,0:42:22.92,0:42:24.59,Default,,0,0,0,,{\i1}A gentleman is here for you.{\i0}
+Dialogue: 0,0:42:36.18,0:42:39.56,Default,,0,0,0,,{\i1}To what do I owe this unexpected visit?{\i0}
+Dialogue: 0,0:42:39.65,0:42:42.19,Default,,0,0,0,,{\i1}-I wanted to see you.{\i0}\N{\i1}-What is it this time?{\i0}
+Dialogue: 0,0:42:42.27,0:42:45.27,Default,,0,0,0,,{\i1}A ball you wish not to attend?{\i0}\N{\i1}A family obligation you prefer to avoid?{\i0}
+Dialogue: 0,0:42:45.36,0:42:47.53,Default,,0,0,0,,{\i1}What, perchance,{\i0}
+Dialogue: 0,0:42:47.61,0:42:50.70,Default,,0,0,0,,{\i1}is the Viscount Bridgerton{\i0}\N{\i1}seeking to escape tonight?{\i0}
+Dialogue: 0,0:42:52.12,0:42:53.71,Default,,0,0,0,,{\i1}Surprising as it may be to you,{\i0}
+Dialogue: 0,0:42:53.78,0:42:56.28,Default,,0,0,0,,{\i1}I do not sit here{\i0}\N{\i1}merely waiting for your visits.{\i0}
+Dialogue: 0,0:42:56.87,0:42:59.21,Default,,0,0,0,,{\i1}-I have plans of my own to attend.{\i0}\N{\i1}-With the duke?{\i0}
+Dialogue: 0,0:42:59.29,0:43:01.79,Default,,0,0,0,,{\i1}My affairs are{\i0}\N{\i1}no longer your concern, sir,{\i0}
+Dialogue: 0,0:43:01.88,0:43:03.80,Default,,0,0,0,,{\i1}as you have already made abundantly clear.{\i0}
+Dialogue: 0,0:43:03.88,0:43:06.88,Default,,0,0,0,,{\i1}If you are using Hastings{\i0}\N{\i1}in some scheme to vex me, Siena…{\i0}
+Dialogue: 0,0:43:06.96,0:43:11.26,Default,,0,0,0,,{\i1}Well, he is certainly a handsome man{\i0}\N{\i1}of great wealth and high rank,{\i0}
+Dialogue: 0,0:43:11.34,0:43:13.09,Default,,0,0,0,,{\i1}everything a woman in my position{\i0}\N{\i1}might want.{\i0}
+Dialogue: 0,0:43:13.18,0:43:15.64,Default,,0,0,0,,{\i1}-Your vindictiveness is noted--{\i0}\N{\i1}-The duke has not called on me.{\i0}
+Dialogue: 0,0:43:16.31,0:43:17.14,Default,,0,0,0,,{\i1}[sighs]{\i0}
+Dialogue: 0,0:43:17.22,0:43:19.89,Default,,0,0,0,,{\i1}And I am not consorting{\i0}\N{\i1}with any friend of yours.{\i0}
+Dialogue: 0,0:43:20.44,0:43:22.28,Default,,0,0,0,,{\i1}[chuckles ironically] Though I must say,{\i0}
+Dialogue: 0,0:43:23.11,0:43:25.45,Default,,0,0,0,,{\i1}it is not surprising in the least{\i0}
+Dialogue: 0,0:43:25.52,0:43:28.82,Default,,0,0,0,,{\i1}to know that you are only here{\i0}\N{\i1}because you are jealous.{\i0}
+Dialogue: 0,0:43:28.90,0:43:30.90,Default,,0,0,0,,{\i1}-I'm not here because I'm jealous.{\i0}\N{\i1}-Goodbye, my lord.{\i0}
+Dialogue: 0,0:43:30.99,0:43:33.70,Default,,0,0,0,,{\i1}I am here because I miss you! [panting]{\i0}
+Dialogue: 0,0:43:34.83,0:43:37.75,Default,,0,0,0,,{\i1}I cannot think of anything else, Siena.{\i0}
+Dialogue: 0,0:43:38.95,0:43:40.08,Default,,0,0,0,,{\i1}Come back to me.{\i0}
+Dialogue: 0,0:43:42.92,0:43:44.21,Default,,0,0,0,,{\i1}[Siena panting]{\i0}
+Dialogue: 0,0:43:44.79,0:43:47.25,Default,,0,0,0,,{\i1}Your position in life remains unchanged.{\i0}
+Dialogue: 0,0:43:48.13,0:43:49.76,Default,,0,0,0,,{\i1}And so, too, does mine.{\i0}
+Dialogue: 0,0:43:50.67,0:43:52.51,Default,,0,0,0,,{\i1}You are the viscount.{\i0}
+Dialogue: 0,0:43:52.59,0:43:56.51,Default,,0,0,0,,{\i1}Your responsibility will always be{\i0}\N{\i1}to that title, above all else.{\i0}
+Dialogue: 0,0:43:56.60,0:44:00.40,Default,,0,0,0,,{\i1}You shall marry, sire an heir,{\i0}\N{\i1}and guard your family.{\i0}
+Dialogue: 0,0:44:00.48,0:44:04.11,Default,,0,0,0,,{\i1}And I… I shall always be{\i0}\N{\i1}the woman you may love in darkness…{\i0}
+Dialogue: 0,0:44:04.19,0:44:06.32,Default,,0,0,0,,{\i1}-No.{\i0}\N{\i1}-…but never in the light of day.{\i0}
+Dialogue: 0,0:44:07.36,0:44:11.11,Default,,0,0,0,,{\i1}You have made me promises before,{\i0}\N{\i1}and I, like a fool, believed them.{\i0}
+Dialogue: 0,0:44:13.49,0:44:14.45,Default,,0,0,0,,{\i1}[sighs]{\i0}
+Dialogue: 0,0:44:15.20,0:44:17.24,Default,,0,0,0,,{\i1}I cannot be your fool again.{\i0}
+Dialogue: 0,0:44:19.45,0:44:21.45,Default,,0,0,0,,{\i1}[footsteps retreating]{\i0}
+Dialogue: 0,0:44:31.76,0:44:33.14,Default,,0,0,0,,{\i1}[horse neighs]{\i0}
+Dialogue: 0,0:44:35.64,0:44:37.14,Default,,0,0,0,,{\i1}[man] Post has arrived!{\i0}
+Dialogue: 0,0:44:44.23,0:44:45.56,Default,,0,0,0,,{\i1}[sighs lightly]{\i0}
+Dialogue: 0,0:44:59.79,0:45:02.13,Default,,0,0,0,,{\i1}Marina, it is here. A letter from Spain.{\i0}
+Dialogue: 0,0:45:02.20,0:45:04.37,Default,,0,0,0,,{\i1}It must be from Sir George.{\i0}\N{\i1}He has written back to you.{\i0}
+Dialogue: 0,0:45:10.46,0:45:12.80,Default,,0,0,0,,{\i1}Well, what does he say?{\i0}
+Dialogue: 0,0:45:17.39,0:45:18.22,Default,,0,0,0,,{\i1}Well?{\i0}
+Dialogue: 0,0:45:25.73,0:45:28.36,Default,,0,0,0,,{\i1}What has happened?{\i0}\N{\i1}Marina, has he been wounded?{\i0}
+Dialogue: 0,0:45:29.94,0:45:32.44,Default,,0,0,0,,{\i1}He pretends there was nothing between us.{\i0}
+Dialogue: 0,0:45:33.74,0:45:34.82,Default,,0,0,0,,{\i1}How do you mean?{\i0}
+Dialogue: 0,0:45:35.61,0:45:37.11,Default,,0,0,0,,{\i1}He says he desires…{\i0}
+Dialogue: 0,0:45:38.24,0:45:40.08,Default,,0,0,0,,{\i1}nothing more to do with me,{\i0}
+Dialogue: 0,0:45:40.74,0:45:41.82,Default,,0,0,0,,{\i1}or our…{\i0}
+Dialogue: 0,0:45:44.20,0:45:45.99,Default,,0,0,0,,{\i1}my{\i0}<span style="style1"> situation.{\i0}
+Dialogue: 0,0:45:48.29,0:45:50.25,Default,,0,0,0,,{\i1}That he had no part in it.{\i0}
+Dialogue: 0,0:45:52.05,0:45:54.47,Default,,0,0,0,,{\i1}[Marina sobs]{\i0}
+Dialogue: 0,0:45:59.93,0:46:02.48,Default,,0,0,0,,{\i1}[Marina wails]{\i0}
+Dialogue: 0,0:46:02.56,0:46:03.98,Default,,0,0,0,,{\i1}[muffled wailing]{\i0}
+Dialogue: 0,0:46:06.52,0:46:07.48,Default,,0,0,0,,{\i1}So…{\i0}
+Dialogue: 0,0:46:08.69,0:46:11.07,Default,,0,0,0,,{\i1}it would seem{\i0}\N{\i1}our efforts were not in vain.{\i0}
+Dialogue: 0,0:46:11.15,0:46:12.82,Default,,0,0,0,,{\i1}[dramatic music plays]{\i0}
+Dialogue: 0,0:46:17.49,0:46:18.99,Default,,0,0,0,,{\i1}[Varley] I believe…{\i0}
+Dialogue: 0,0:46:20.62,0:46:22.33,Default,,0,0,0,,{\i1}Oh, it is quite exact, ma'am.{\i0}
+Dialogue: 0,0:46:22.99,0:46:25.53,Default,,0,0,0,,{\i1}Make certain you place the letters{\i0}\N{\i1}just the way we found them{\i0}
+Dialogue: 0,0:46:25.62,0:46:27.54,Default,,0,0,0,,{\i1}beneath Miss Thompson's pillow.{\i0}
+Dialogue: 0,0:46:29.46,0:46:31.96,Default,,0,0,0,,{\i1}What do we do{\i0}\N{\i1}when her soldier arrives home, ma'am?{\i0}
+Dialogue: 0,0:46:32.04,0:46:33.83,Default,,0,0,0,,{\i1}If he should return,{\i0}\N{\i1}I can say with certainty,{\i0}
+Dialogue: 0,0:46:33.92,0:46:35.80,Default,,0,0,0,,{\i1}he will not be coming to collect her.{\i0}
+Dialogue: 0,0:46:36.34,0:46:38.47,Default,,0,0,0,,{\i1}[Marina wails]{\i0}
+Dialogue: 0,0:46:39.59,0:46:42.01,Default,,0,0,0,,{\i1}She was going to learn the truth{\i0}\N{\i1}about men one way or another.{\i0}
+Dialogue: 0,0:46:42.10,0:46:45.73,Default,,0,0,0,,{\i1}We have done what is right{\i0}\N{\i1}and what is best,{\i0}
+Dialogue: 0,0:46:45.81,0:46:47.69,Default,,0,0,0,,{\i1}and now she is protected.{\i0}
+Dialogue: 0,0:46:47.77,0:46:50.27,Default,,0,0,0,,{\i1}Now, draw my arches lower.{\i0}
+Dialogue: 0,0:46:50.35,0:46:52.39,Default,,0,0,0,,{\i1}Otherwise, I'll have a look{\i0}\N{\i1}of constant astonishment{\i0}
+Dialogue: 0,0:46:52.48,0:46:53.52,Default,,0,0,0,,{\i1}on my face all day.{\i0}
+Dialogue: 0,0:47:02.20,0:47:04.62,Default,,0,0,0,,{\i1}[indistinct conversation in background]{\i0}
+Dialogue: 0,0:47:06.66,0:47:07.95,Default,,0,0,0,,{\i1}Beautiful, dearest.{\i0}
+Dialogue: 0,0:47:10.33,0:47:11.87,Default,,0,0,0,,{\i1}Ah, Lady Bridgerton.{\i0}
+Dialogue: 0,0:47:12.88,0:47:14.30,Default,,0,0,0,,{\i1}-Lady Cowper.{\i0}\N{\i1}-Hmm.{\i0}
+Dialogue: 0,0:47:16.38,0:47:22.43,Default,,0,0,0,,{\i1}I must say, it is a good thing{\i0}\N{\i1}Daphne is so taken by the duke.{\i0}
+Dialogue: 0,0:47:23.60,0:47:25.35,Default,,0,0,0,,{\i1}Uh… Well, thank--{\i0}
+Dialogue: 0,0:47:25.43,0:47:29.27,Default,,0,0,0,,{\i1}Cressida would never have a hope with{\i0}\N{\i1}the prince if your Daphne went for him.{\i0}
+Dialogue: 0,0:47:29.77,0:47:33.02,Default,,0,0,0,,{\i1}We all know my darling{\i0}\N{\i1}might have the fortune,{\i0}
+Dialogue: 0,0:47:33.11,0:47:36.24,Default,,0,0,0,,{\i1}but it is your Daphne who has the face.{\i0}
+Dialogue: 0,0:47:36.98,0:47:38.40,Default,,0,0,0,,{\i1}[Lady Cowper chuckles]{\i0}
+Dialogue: 0,0:47:41.07,0:47:42.32,Default,,0,0,0,,{\i1}[shop door opens]{\i0}
+Dialogue: 0,0:47:44.58,0:47:45.50,Default,,0,0,0,,{\i1}[shop door closes]{\i0}
+Dialogue: 0,0:47:47.83,0:47:48.96,Default,,0,0,0,,{\i1}[sighs]{\i0}
+Dialogue: 0,0:47:52.96,0:47:55.21,Default,,0,0,0,,{\i1}[light music plays]{\i0}
+Dialogue: 0,0:47:55.29,0:47:57.04,Default,,0,0,0,,{\i1}You can put that dress away, Rose.{\i0}
+Dialogue: 0,0:47:57.13,0:47:58.76,Default,,0,0,0,,{\i1}Are we not attending{\i0}\N{\i1}the ball this evening?{\i0}
+Dialogue: 0,0:47:58.84,0:47:59.67,Default,,0,0,0,,{\i1}No, we are,{\i0}
+Dialogue: 0,0:47:59.76,0:48:02.05,Default,,0,0,0,,{\i1}but I shall wear{\i0}\N{\i1}the white and silver instead.{\i0}
+Dialogue: 0,0:48:02.13,0:48:03.92,Default,,0,0,0,,{\i1}And will you do my hair{\i0}\N{\i1}just the way you like{\i0}
+Dialogue: 0,0:48:04.01,0:48:05.55,Default,,0,0,0,,{\i1}with the circlet of jewels and flowers?{\i0}
+Dialogue: 0,0:48:05.64,0:48:07.52,Default,,0,0,0,,{\i1}Of course. You will look perfect.{\i0}
+Dialogue: 0,0:48:07.60,0:48:10.35,Default,,0,0,0,,{\i1}Good. That is what they want.{\i0}
+Dialogue: 0,0:48:24.95,0:48:27.70,Default,,0,0,0,,{\i1}Will you be joining us{\i0}\N{\i1}at tonight's ball, Anthony?{\i0}
+Dialogue: 0,0:48:27.78,0:48:29.95,Default,,0,0,0,,{\i1}I have accepted the invitation.{\i0}
+Dialogue: 0,0:48:30.04,0:48:32.92,Default,,0,0,0,,{\i1}Perhaps you might cast your eye{\i0}\N{\i1}over this list before the event, then.{\i0}
+Dialogue: 0,0:48:33.00,0:48:33.96,Default,,0,0,0,,{\i1}What is this?{\i0}
+Dialogue: 0,0:48:34.04,0:48:37.29,Default,,0,0,0,,{\i1}These are names. Fourteen, to be exact.{\i0}
+Dialogue: 0,0:48:37.38,0:48:42.18,Default,,0,0,0,,{\i1}Fourteen single, eligible young ladies,{\i0}\N{\i1}all from excellent families.{\i0}
+Dialogue: 0,0:48:42.26,0:48:44.01,Default,,0,0,0,,{\i1}Lady Leeworth's eldest miss is--{\i0}
+Dialogue: 0,0:48:44.09,0:48:46.47,Default,,0,0,0,,{\i1}I shall consider your suggestions.{\i0}\N{\i1}Thank you.{\i0}
+Dialogue: 0,0:48:53.44,0:48:54.61,Default,,0,0,0,,{\i1}Was there something else?{\i0}
+Dialogue: 0,0:48:54.69,0:48:56.15,Default,,0,0,0,,{\i1}What time do you have?{\i0}
+Dialogue: 0,0:48:57.77,0:48:58.69,Default,,0,0,0,,{\i1}What?{\i0}
+Dialogue: 0,0:48:58.77,0:49:00.02,Default,,0,0,0,,{\i1}The time.{\i0}
+Dialogue: 0,0:49:00.90,0:49:03.03,Default,,0,0,0,,{\i1}You were just checking{\i0}\N{\i1}your father's old watch{\i0}
+Dialogue: 0,0:49:03.11,0:49:04.57,Default,,0,0,0,,{\i1}when I caught you, yes?{\i0}
+Dialogue: 0,0:49:05.91,0:49:07.54,Default,,0,0,0,,{\i1}It is a lovely heirloom.{\i0}
+Dialogue: 0,0:49:09.24,0:49:10.70,Default,,0,0,0,,{\i1}It is quarter till, Mother.{\i0}
+Dialogue: 0,0:49:10.79,0:49:12.75,Default,,0,0,0,,{\i1}It's quite late, indeed.{\i0}
+Dialogue: 0,0:49:13.41,0:49:16.21,Default,,0,0,0,,{\i1}At any rate, do let me know{\i0}\N{\i1}who I should introduce you to, my dear.{\i0}
+Dialogue: 0,0:49:17.13,0:49:19.59,Default,,0,0,0,,{\i1}Time, as we both know,{\i0}
+Dialogue: 0,0:49:19.67,0:49:21.38,Default,,0,0,0,,{\i1}is certainly of the essence.{\i0}
+Dialogue: 0,0:49:30.31,0:49:31.31,Default,,0,0,0,,{\i1}[Anthony sighs]{\i0}
+Dialogue: 0,0:49:34.89,0:49:37.31,Default,,0,0,0,,{\i1}-[attendees chattering]{\i0}\N{\i1}-[soft piano music plays]{\i0}
+Dialogue: 0,0:49:47.24,0:49:49.37,Default,,0,0,0,,{\i1}Prinzessin {\i0}<span style="style1">Cressida.{\i0}
+Dialogue: 0,0:49:49.45,0:49:51.58,Default,,0,0,0,,{\i1}It rolls right off the tongue,{\i0}\N{\i1}does it not?{\i0}
+Dialogue: 0,0:50:02.50,0:50:05.46,Default,,0,0,0,,{\i1}Miss Thompson,{\i0}\N{\i1}how lovely to see you back with us.{\i0}
+Dialogue: 0,0:50:05.55,0:50:08.76,Default,,0,0,0,,{\i1}-Might I have your next dance?{\i0}\N{\i1}-I would be delighted, my lord.{\i0}
+Dialogue: 0,0:50:17.48,0:50:20.69,Default,,0,0,0,,{\i1}You have been rather reserved all evening,{\i0}\N{\i1}Your Grace.{\i0}
+Dialogue: 0,0:50:20.77,0:50:23.44,Default,,0,0,0,,{\i1}I have decided{\i0}\N{\i1}to leave England earlier than expected.{\i0}
+Dialogue: 0,0:50:24.23,0:50:27.65,Default,,0,0,0,,{\i1}Apologies, Lady Danbury,{\i0}\N{\i1}but I believe it is time for me to go.{\i0}
+Dialogue: 0,0:50:30.07,0:50:31.07,Default,,0,0,0,,{\i1}You're foolish.{\i0}
+Dialogue: 0,0:50:37.08,0:50:39.17,Default,,0,0,0,,{\i1}Are you feeling all right, dearest?{\i0}
+Dialogue: 0,0:50:39.67,0:50:40.80,Default,,0,0,0,,{\i1}Exceptionally.{\i0}
+Dialogue: 0,0:50:41.75,0:50:44.42,Default,,0,0,0,,{\i1}[swelling music plays]{\i0}
+Dialogue: 0,0:51:32.01,0:51:33.51,Default,,0,0,0,,{\i1}[music, no dialogue]{\i0}
+Dialogue: 0,0:52:07.75,0:52:10.59,Default,,0,0,0,,{\i1}Miss Bridgerton,{\i0}\N{\i1}I simply must have your first dance.{\i0}
+Dialogue: 0,0:52:11.26,0:52:13.14,Default,,0,0,0,,{\i1}It would be an honor, Your Highness.{\i0}
+Dialogue: 0,0:52:25.19,0:52:26.65,Default,,0,0,0,,{\i1}[music continues]{\i0}
+Dialogue: 0,0:52:36.58,0:52:38.21,Default,,0,0,0,,{\i1}[Lady Whistledown] {\i0}<span style="style2">Could it be true?{\i0}
+Dialogue: 0,0:52:38.29,0:52:43.84,Default,,0,0,0,,{\i1}The season's diamond even more precious{\i0}\N{\i1}and rare a stone than previously thought?{\i0}
+Dialogue: 0,0:52:45.21,0:52:49.38,Default,,0,0,0,,{\i1}For it now appears{\i0}\N{\i1}this treasure is set to join the likes{\i0}
+Dialogue: 0,0:52:49.46,0:52:53.51,Default,,0,0,0,,{\i1}of the queen's ever-so-cherished{\i0}\N{\i1}crown jewels themselves.{\i0}
+Dialogue: 0,0:52:54.47,0:52:55.93,Default,,0,0,0,,{\i1}The Duke of Hastings, I hear,{\i0}
+Dialogue: 0,0:52:56.01,0:52:58.68,Default,,0,0,0,,{\i1}was left looking{\i0}\N{\i1}rather tongue-tied last night,{\i0}
+Dialogue: 0,0:52:58.76,0:53:02.60,Default,,0,0,0,,{\i1}as Miss Bridgerton seems{\i0}\N{\i1}to have finally grown tired{\i0}
+Dialogue: 0,0:53:02.68,0:53:06.52,Default,,0,0,0,,{\i1}of waiting for him{\i0}\N{\i1}to pose that all-important question.{\i0}
+Dialogue: 0,0:53:15.36,0:53:19.53,Default,,0,0,0,,{\i1}Or, perhaps,{\i0}\N{\i1}the young miss has simply traded up.{\i0}
+Dialogue: 0,0:53:20.33,0:53:22.25,Default,,0,0,0,,{\i1}Surprising? Quite.{\i0}
+Dialogue: 0,0:53:22.33,0:53:25.25,Default,,0,0,0,,{\i1}Unreasonable? Of course not.{\i0}
+Dialogue: 0,0:53:25.79,0:53:29.75,Default,,0,0,0,,{\i1}After all, why settle for a duke{\i0}
+Dialogue: 0,0:53:30.46,0:53:33.50,Default,,0,0,0,,{\i1}when one can have a prince?{\i0}
+Dialogue: 0,0:53:35.43,0:53:37.02,Default,,0,0,0,,{\i1}[music crescendos]{\i0}
