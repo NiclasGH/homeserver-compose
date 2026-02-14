@@ -1,6 +1,7 @@
 jellyfin/media/
 jellyfin/config/log
 jellyfin/config/data/ScheduledTasks
+jellyfin/config/data/subtitles
 jellyfin/config/metadata
 .DS_Store
 *.env
