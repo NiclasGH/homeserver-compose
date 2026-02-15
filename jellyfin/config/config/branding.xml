@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BrandingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <LoginDisclaimer />
+  <CustomCss>/* Adjust both "size-adjust" and "size" to modify size */
+.headerTabs.sectionTabs {
+  text-size-adjust: 110%;
+  font-size: 110%;
+}
+.pageTitle {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.emby-tab-button {
+  padding: 1.75em 1.7em;
+}
+
+/* Narrow the login form */
+#loginPage .readOnlyContent,
+#loginPage form {
+  max-width: 22em;
+}
+
+/* Hide "please login" text, margin is to prevent login form moving too far up */
+#loginPage h1 {
+  display: none;
+}
+#loginPage .padded-left.padded-right.padded-bottom-page {
+  margin-top: 50px;
+}
+
+/* Hide "manual" and "forgot" buttons */
+#loginPage .raised.cancel.block.btnManual.emby-button {
+  display: none;
+}
+#loginPage .raised.cancel.block.btnForgotPassword.emby-button {
+  display: none;
+}</CustomCss>
+  <SplashscreenEnabled>true</SplashscreenEnabled>
+</BrandingOptions>

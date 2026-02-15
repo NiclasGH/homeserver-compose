@@ -29,6 +29,22 @@ services:
       - type: bind
         source: jellyfin/media
         target: /media
+      # branding (could be done with entrypoint script but this is easier to change
+      - type: bind
+        source: jellyfin/branding/icon-transparent.baba78f2a106d9baee83.png
+        target: /jellyfin/jellyfin-web/icon-transparent.baba78f2a106d9baee83.png
+      - type: bind
+        source: jellyfin/branding/banner-light.b113d4d1c6c07fcb73f0.png
+        target: /jellyfin/jellyfin-web/banner-light.b113d4d1c6c07fcb73f0.png
+      - type: bind
+        source: jellyfin/branding/favicon.bc8d51405ec040305a87.ico
+        target: /jellyfin/jellyfin-web/favicon.bc8d51405ec040305a87.ico
+      - type: bind
+        source: jellyfin/branding/touchicon144.39209dd2362c0db7c673.png
+        target: /jellyfin/jellyfin-web/touchicon144.39209dd2362c0db7c673.png
+      - type: bind
+        source: jellyfin/branding/favicons
+        target: /jellyfin/jellyfin-web/favicons
     restart: 'unless-stopped'
 
   filebrowser:
