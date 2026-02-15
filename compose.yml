@@ -13,7 +13,7 @@ services:
         target: /etc/nginx/conf.d/
       # - certs:/etc/nginx/certs
 
-  # === MEDIA SERVER - 8000
+  # === MEDIA SERVER
   jellyfin:
     image: jellyfin/jellyfin
     ports:
@@ -61,30 +61,6 @@ services:
       - filebrowser-config:/config
     restart: 'unless-stopped'
 
-  # === KEYCLOAK
-  keycloak:
-    image: quay.io/keycloak/keycloak:26.3.4
-    depends_on:
-      - keycloak-db
-    # ports:
-    #   - "8080:8080"
-    networks:
-     - proxy_network
-     - keycloak-network
-    environment:
-      KC_DB: postgres
-      KC_DB_URL: jdbc:postgresql://keycloak-db:5432/keycloak
-    env_file: keycloak.env
-    command: "start-dev"
-
-  keycloak-db:
-    image: postgres:17
-    volumes:
-      - keycloak-data:/var/lib/postgresql/data
-    env_file: keycloak.env
-    networks:
-     - keycloak-network
-
   # === KUMA
   uptime-kuma:
     image: louislam/uptime-kuma:2
@@ -98,12 +74,13 @@ services:
       - uptime-kuma-data:/app/data
     restart: unless-stopped
 
-  # === PIHOLE - 53
+  # === PIHOLE
   pihole:
     image: pihole/pihole:latest
     networks:
      - proxy_network
     ports:
+      - "8003:80/tcp"
       - "53:53/tcp"
       - "53:53/udp"
     env_file: pihole.env
@@ -116,6 +93,17 @@ services:
         source: pihole/pihole.toml
         target: /etc/pihole/pihole.toml
     restart: unless-stopped
+
+  # === RATHOLE - Wireguard
+  rathole:
+    image: ghcr.io/rathole-org/rathole:dev
+    network_mode: host
+    volumes:
+      - type: bind
+        source: rathole/client.toml
+        target: /app/config.toml
+    restart: unless-stopped
+    entrypoint: "./rathole --client /app/config.toml"
 
 volumes:
   jellyfin-cache:
@@ -134,3 +122,4 @@ networks:
   keycloak-network:
 
   proxy_network:
+  wireguard_network:
