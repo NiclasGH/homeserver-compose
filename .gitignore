@@ -3,5 +3,8 @@ jellyfin/config/log
 jellyfin/config/data/ScheduledTasks
 jellyfin/config/data/subtitles
 jellyfin/config/metadata
+
+nginx/certs/
+
 .DS_Store
 *.env

@@ -9,13 +9,15 @@ services:
       - 80:80
     volumes:
       - type: bind
-        source: nginx
+        source: nginx/conf
         target: /etc/nginx/conf.d/
-      # - certs:/etc/nginx/certs
+      - type: bind
+        source: nginx/certs
+        target: /etc/nginx/certs
 
   # === MEDIA SERVER
   jellyfin:
-    image: jellyfin/jellyfin
+    image: jellyfin/jellyfin@sha256:1edf3f17997acbe139718f252a7d2ded2706762390d787a34204668498dbc5f6
     ports:
       - 8000:8096/tcp # for devices, that block local dns
       - 7359:7359/udp
@@ -48,7 +50,7 @@ services:
     restart: 'unless-stopped'
 
   filebrowser:
-    image: filebrowser/filebrowser
+    image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508
     ports:
       - 8001:80/tcp
     networks:
@@ -76,7 +78,7 @@ services:
 
   # === PIHOLE
   pihole:
-    image: pihole/pihole:latest
+    image: pihole/pihole@sha256:91dc91ddd413bf461c283204558f8f21839851e9824799075a7ceff7c77eea40
     networks:
      - proxy_network
     ports:
