@@ -1,17 +1,57 @@
 services:
-  # === NGINX - 80, 443
-  proxy:
-    image: nginx
+  # === TRAEFIK - 80, 443
+  traefik:
+    image: traefik:v3.6
+    container_name: traefik
+    restart: unless-stopped
+    command:
+      - "--entrypoints.web.address=:80"
+      # Redirect to https
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
+      - "--entrypoints.web.http.redirections.entrypoint.permanent=true"
+      - "--entrypoints.websecure.address=:443"
+      - "--entrypoints.websecure.http.tls=true"
+
+      # Attach the static configuration tls.yaml file that contains the tls configuration settings
+      - "--providers.file.filename=/tls/tls.yaml"
+
+      # Providers 
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.network=proxy_network"
+
+      # API & Dashboard 
+      - "--api.dashboard=true"
+      - "--api.insecure=false"
+
+      # Observability 
+      - "--log.level=INFO"
+    ports:
+      - "80:80"
+      - "443:443"
+    labels:
+      # Enable self‑routing
+      - "traefik.enable=true"
+
+      # Dashboard router
+      - "traefik.http.routers.dashboard.rule=Host(`traefik.tira-misu.org`)"
+      - "traefik.http.routers.dashboard.entrypoints=websecure"
+      - "traefik.http.routers.dashboard.service=api@internal"
+      - "traefik.http.routers.dashboard.tls=true"
+
+      # Basic‑auth middleware
+      - "traefik.http.middlewares.dashboard-auth.basicauth.users=admin:$$apr1$$AhREzA4N$$DuoI0Izq25uTA/UBPEov70"
+      - "traefik.http.routers.dashboard.middlewares=dashboard-auth@docker"
     networks:
       - proxy_network
-    ports:
-      - 443:443
-      - 80:80
     volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - certs:/certs:ro
       - type: bind
-        source: nginx/conf
-        target: /etc/nginx/conf.d/
-      - certs:/etc/nginx/certs
+        source: traefik/tls.yaml
+        target: /tls/tls.yaml
+        read_only: true
 
   # === MEDIA SERVER
   jellyfin:
@@ -29,23 +69,35 @@ services:
       - type: bind
         source: jellyfin/media
         target: /media
+        read_only: true
       # branding (could be done with entrypoint script but this is easier to change
       - type: bind
         source: jellyfin/branding/icon-transparent.baba78f2a106d9baee83.png
         target: /jellyfin/jellyfin-web/icon-transparent.baba78f2a106d9baee83.png
+        read_only: true
       - type: bind
         source: jellyfin/branding/banner-light.b113d4d1c6c07fcb73f0.png
         target: /jellyfin/jellyfin-web/banner-light.b113d4d1c6c07fcb73f0.png
+        read_only: true
       - type: bind
         source: jellyfin/branding/favicon.bc8d51405ec040305a87.ico
         target: /jellyfin/jellyfin-web/favicon.bc8d51405ec040305a87.ico
+        read_only: true
       - type: bind
         source: jellyfin/branding/touchicon144.39209dd2362c0db7c673.png
         target: /jellyfin/jellyfin-web/touchicon144.39209dd2362c0db7c673.png
+        read_only: true
       - type: bind
         source: jellyfin/branding/favicons
         target: /jellyfin/jellyfin-web/favicons
+        read_only: true
     restart: 'unless-stopped'
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.jellyfin.rule=Host(`media.tira-misu.org`)"
+      - "traefik.http.services.jellyfin.loadbalancer.server.port=8096"
+      - "traefik.http.routers.jellyfin.entrypoints=websecure"
+      - "traefik.http.routers.jellyfin.tls=true"
 
   filebrowser:
     image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508
@@ -60,6 +112,11 @@ services:
       - filebrowser-database:/database
       - filebrowser-config:/config
     restart: 'unless-stopped'
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.filebrowser.rule=Host(`filebrowser.tira-misu.org`)"
+      - "traefik.http.routers.filebrowser.entrypoints=websecure"
+      - "traefik.http.routers.filebrowser.tls=true"
 
   # === KUMA
   uptime-kuma:
@@ -71,6 +128,11 @@ services:
     volumes:
       - uptime-kuma-data:/app/data
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.kuma.rule=Host(`kuma.tira-misu.org`)"
+      - "traefik.http.routers.kuma.entrypoints=websecure"
+      - "traefik.http.routers.kuma.tls=true"
 
   # === PIHOLE
   pihole:
@@ -90,7 +152,21 @@ services:
       - type: bind
         source: pihole/pihole.toml
         target: /etc/pihole/pihole.toml
+        read_only: true
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.pihole.rule=Host(`dns.tira-misu.org`)"
+
+       # Redirect / to /admin
+      - "traefik.http.routers.pihole.middlewares=pihole-redirect"
+      - "traefik.http.middlewares.pihole-redirect.redirectregex.regex=^https://dns.tira-misu.org/$"
+      - "traefik.http.middlewares.pihole-redirect.redirectregex.replacement=https://dns.tira-misu.org/admin"
+      - "traefik.http.middlewares.pihole-redirect.redirectregex.permanent=true" 
+
+      - "traefik.http.services.pihole.loadbalancer.server.port=80"
+      - "traefik.http.routers.pihole.entrypoints=websecure"
+      - "traefik.http.routers.pihole.tls=true"
 
   # === RATHOLE - Wireguard
   rathole:
@@ -109,10 +185,10 @@ services:
     volumes:
       - certs:/acme.sh
       - type: bind
-        source: /home/tiramisu/pi-compose/acme/acme-setup.sh
+        source: acme/acme-setup.sh
         target: /setup.sh
     entrypoint: ["/bin/sh", "-c", "./setup.sh"]
-    env_file: "/home/tiramisu/pi-compose/acme/acme.env"
+    env_file: "acme/acme.env"
     stdin_open: true
     tty: true
     restart: no

@@ -1,0 +1,4 @@
+tls:
+  certificates:
+    - certFile: /certs/tira-misu.org_ecc/tira-misu.org.cer
+      keyFile:  /certs/tira-misu.org_ecc/tira-misu.org.key
