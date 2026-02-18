@@ -11,16 +11,14 @@ services:
       - type: bind
         source: nginx/conf
         target: /etc/nginx/conf.d/
-      - type: bind
-        source: nginx/certs
-        target: /etc/nginx/certs
+      - certs:/etc/nginx/certs
 
   # === MEDIA SERVER
   jellyfin:
     image: jellyfin/jellyfin@sha256:1edf3f17997acbe139718f252a7d2ded2706762390d787a34204668498dbc5f6
     ports:
-      - 8000:8096/tcp # for devices, that block local dns
-      - 7359:7359/udp
+      # - 8096:8096/tcp
+      - 7359:7359/udp # discovery in local network
     networks:
       - proxy_network
     volumes:
@@ -52,7 +50,7 @@ services:
   filebrowser:
     image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508
     ports:
-      - 8001:80/tcp
+      - 8000:80/tcp
     networks:
       - proxy_network
     volumes:
@@ -68,8 +66,6 @@ services:
     image: louislam/uptime-kuma:2
     # ports:
     #   - "3001:3001"
-    ports:
-      - 8002:3001
     networks:
      - proxy_network
     volumes:
@@ -82,7 +78,7 @@ services:
     networks:
      - proxy_network
     ports:
-      - "8003:80/tcp"
+      # - "80:80/tcp"
       - "53:53/tcp"
       - "53:53/udp"
     env_file: pihole.env
@@ -107,6 +103,20 @@ services:
     restart: unless-stopped
     entrypoint: "./rathole --client /app/config.toml"
 
+  acme-sh:
+    image: neilpang/acme.sh
+    container_name: acme.sh
+    volumes:
+      - certs:/acme.sh
+      - type: bind
+        source: /home/tiramisu/pi-compose/acme/acme-setup.sh
+        target: /setup.sh
+    entrypoint: ["/bin/sh", "-c", "./setup.sh"]
+    env_file: "/home/tiramisu/pi-compose/acme/acme.env"
+    stdin_open: true
+    tty: true
+    restart: no
+
 volumes:
   jellyfin-cache:
 
@@ -119,6 +129,8 @@ volumes:
   uptime-kuma-data:
 
   pihole-data:
+
+  certs:
 
 networks:
   keycloak-network:
