@@ -200,8 +200,6 @@ volumes:
   filebrowser-database:
   filebrowser-config:
 
-  keycloak-data:
-
   uptime-kuma-data:
 
   pihole-data:
@@ -209,7 +207,4 @@ volumes:
   certs:
 
 networks:
-  keycloak-network:
-
   proxy_network:
-  wireguard_network:
