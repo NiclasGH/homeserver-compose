@@ -19,7 +19,7 @@ services:
       # Providers 
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
-      - "--providers.docker.network=proxy"
+      - "--providers.docker.network=pi-compose_proxy"
 
       # API & Dashboard 
       - "--api.dashboard=true"
@@ -56,6 +56,7 @@ services:
   # === MEDIA SERVER
   jellyfin:
     image: jellyfin/jellyfin@sha256:1edf3f17997acbe139718f252a7d2ded2706762390d787a34204668498dbc5f6
+    container_name: jellyfin
     ports:
       # - 8096:8096/tcp
       - 7359:7359/udp # discovery in local network
@@ -101,6 +102,7 @@ services:
 
   filebrowser:
     image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508
+    container_name: filebrowser
     ports:
       - 8000:80/tcp
     networks:
@@ -121,6 +123,7 @@ services:
   # === KUMA
   uptime-kuma:
     image: louislam/uptime-kuma:2
+    container_name: uptime-kuma
     # ports:
     #   - "3001:3001"
     networks:
@@ -137,6 +140,7 @@ services:
   # === PIHOLE
   pihole:
     image: pihole/pihole@sha256:91dc91ddd413bf461c283204558f8f21839851e9824799075a7ceff7c77eea40
+    container_name: pihole
     networks:
      - proxy
     ports:
@@ -152,7 +156,6 @@ services:
       - type: bind
         source: pihole/pihole.toml
         target: /etc/pihole/pihole.toml
-        read_only: true
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
@@ -171,6 +174,7 @@ services:
   # === RATHOLE - Wireguard
   rathole:
     image: ghcr.io/rathole-org/rathole:dev
+    container_name: rathole
     network_mode: host
     volumes:
       - type: bind
