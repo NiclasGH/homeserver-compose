@@ -19,7 +19,7 @@ services:
       # Providers 
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
-      - "--providers.docker.network=proxy_network"
+      - "--providers.docker.network=proxy"
 
       # API & Dashboard 
       - "--api.dashboard=true"
@@ -44,7 +44,7 @@ services:
       - "traefik.http.middlewares.dashboard-auth.basicauth.users=admin:$$apr1$$AhREzA4N$$DuoI0Izq25uTA/UBPEov70"
       - "traefik.http.routers.dashboard.middlewares=dashboard-auth@docker"
     networks:
-      - proxy_network
+      - proxy
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - certs:/certs:ro
@@ -60,7 +60,7 @@ services:
       # - 8096:8096/tcp
       - 7359:7359/udp # discovery in local network
     networks:
-      - proxy_network
+      - proxy
     volumes:
       - type: bind
         source: jellyfin/config
@@ -104,7 +104,7 @@ services:
     ports:
       - 8000:80/tcp
     networks:
-      - proxy_network
+      - proxy
     volumes:
       - type: bind
         source: jellyfin/media
@@ -124,7 +124,7 @@ services:
     # ports:
     #   - "3001:3001"
     networks:
-     - proxy_network
+     - proxy
     volumes:
       - uptime-kuma-data:/app/data
     restart: unless-stopped
@@ -138,7 +138,7 @@ services:
   pihole:
     image: pihole/pihole@sha256:91dc91ddd413bf461c283204558f8f21839851e9824799075a7ceff7c77eea40
     networks:
-     - proxy_network
+     - proxy
     ports:
       # - "80:80/tcp"
       - "53:53/tcp"
@@ -207,4 +207,4 @@ volumes:
   certs:
 
 networks:
-  proxy_network:
+  proxy:
