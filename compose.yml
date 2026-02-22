@@ -5,6 +5,9 @@ services:
     container_name: traefik
     restart: unless-stopped
     command:
+      # Healthcheck
+      - "--ping=true"
+
       - "--entrypoints.web.address=:80"
       # Redirect to https
       - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
@@ -52,6 +55,12 @@ services:
         source: traefik/tls.yaml
         target: /tls/tls.yaml
         read_only: true
+    healthcheck:
+      test: ["CMD", "traefik", "healthcheck", "--ping"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
 
   # === MEDIA SERVER STACK
   # Media Server
@@ -109,13 +118,10 @@ services:
       - NET_ADMIN
     devices:
       - /dev/net/tun:/dev/net/tun
-    ports:
-      - 7878:7878 # radarr
-      - 9696:9696 # prowlarr
-      - 8989:8989 # sonarr
-      - 8080:8080 # qbit
     volumes:
       - gluetun-config:/gluetun
+    networks:
+      - proxy
     env_file: arr-stack/vpn.env
     environment:
       - VPN_SERVICE_PROVIDER=surfshark
@@ -130,12 +136,26 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
+    # ports:
+    #   - 7878:7878
     volumes:
       - radarr-config:/config
       - type: bind
         source: jellyfin/media
         target: /data
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.radarr.rule=Host(`movies.tira-misu.org`)"
+      - "traefik.http.services.radarr.loadbalancer.server.port=7878"
+      - "traefik.http.routers.radarr.entrypoints=websecure"
+      - "traefik.http.routers.radarr.tls=true"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7878/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
     
   # Used to find shows automatically
   sonarr:
@@ -146,12 +166,26 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
+    # ports:
+    #   - 8989:8989
     volumes:
       - sonarr-config:/config
       - type: bind
         source: jellyfin/media
         target: /data
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.sonarr.rule=Host(`shows.tira-misu.org`)"
+      - "traefik.http.services.sonarr.loadbalancer.server.port=8989"
+      - "traefik.http.routers.sonarr.entrypoints=websecure"
+      - "traefik.http.routers.sonarr.tls=true"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8989/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
 
   # Manages indexers
   prowlarr:
@@ -162,9 +196,23 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Berlin
+    # ports:
+    #   - 9696:9696
     volumes:
       - prowlarr-config:/config
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.prowlarr.rule=Host(`index.tira-misu.org`)"
+      - "traefik.http.services.prowlarr.loadbalancer.server.port=9696"
+      - "traefik.http.routers.prowlarr.entrypoints=websecure"
+      - "traefik.http.routers.prowlarr.tls=true"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9696/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
 
   # Torrent client
   qbittorrent:
@@ -178,6 +226,7 @@ services:
       - WEBUI_PORT=8080
       - UMASK=002
     # ports:
+    #   - 8080:8080 # WebUI
     #   - 6881:6881 # Used for seeding
     #   - 6881:6881/udp # Used for seeding
     volumes:
@@ -186,12 +235,12 @@ services:
         source: jellyfin/media
         target: /data
     restart: unless-stopped
-    # labels:
-    #   - "traefik.enable=true"
-    #   - "traefik.http.routers.jellyfin.rule=Host(`torrent.tira-misu.org`)"
-    #   - "traefik.http.services.jellyfin.loadbalancer.server.port=8080"
-    #   - "traefik.http.routers.jellyfin.entrypoints=websecure"
-    #   - "traefik.http.routers.jellyfin.tls=true"
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.qbittorrent.rule=Host(`torrent.tira-misu.org`)"
+      - "traefik.http.services.qbittorrent.loadbalancer.server.port=8080"
+      - "traefik.http.routers.qbittorrent.entrypoints=websecure"
+      - "traefik.http.routers.qbittorrent.tls=true"
 
   filebrowser:
     image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508

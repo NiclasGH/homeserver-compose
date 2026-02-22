@@ -6,6 +6,10 @@
         "192.168.178.60 filebrowser.tira-misu.org",
         "192.168.178.60 kuma.tira-misu.org",
         "192.168.178.60 traefik.tira-misu.org",
+        "192.168.178.60 torrent.tira-misu.org",
+        "192.168.178.60 index.tira-misu.org",
+        "192.168.178.60 movies.tira-misu.org",
+        "192.168.178.60 shows.tira-misu.org",
     ]
     listeningMode = "ALL"
     upstreams = ["9.9.9.9", "8.8.8.8"]
