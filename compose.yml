@@ -187,33 +187,6 @@ services:
       retries: 3
       start_period: 30s
 
-  # Manages indexers
-  prowlarr:
-    image: lscr.io/linuxserver/prowlarr:latest
-    container_name: prowlarr
-    network_mode: "service:gluetun"
-    environment:
-      - PUID=1000
-      - PGID=1000
-      - TZ=Europe/Berlin
-    # ports:
-    #   - 9696:9696
-    volumes:
-      - prowlarr-config:/config
-    restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.prowlarr.rule=Host(`index.tira-misu.org`)"
-      - "traefik.http.services.prowlarr.loadbalancer.server.port=9696"
-      - "traefik.http.routers.prowlarr.entrypoints=websecure"
-      - "traefik.http.routers.prowlarr.tls=true"
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:9696/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
-      start_period: 30s
-
   # Torrent client
   qbittorrent:
     image: lscr.io/linuxserver/qbittorrent 
