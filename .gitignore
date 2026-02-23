@@ -1,6 +1,8 @@
 jellyfin/media/
 jellyfin/config/log
 jellyfin/config/data/ScheduledTasks
+jellyfin/config/data/splashscreen.*
+jellyfin/config/data/jellyfin.db-*
 jellyfin/config/data/subtitles
 jellyfin/config/metadata
 
