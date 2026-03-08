@@ -1,3 +1,4 @@
+# Jellyfin Ignores
 jellyfin/media/
 jellyfin/config/log
 jellyfin/config/data/ScheduledTasks
@@ -5,6 +6,8 @@ jellyfin/config/data/splashscreen.*
 jellyfin/config/data/jellyfin.db-*
 jellyfin/config/data/subtitles
 jellyfin/config/metadata
+jellyfin/config/data/introskipper
+jellyfin/config/plugins/Intro\ Skipper_1.10.11.16
 
 nginx/certs/
 
