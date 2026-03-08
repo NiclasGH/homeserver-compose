@@ -110,6 +110,34 @@ services:
       - "traefik.http.routers.jellyfin.entrypoints=websecure"
       - "traefik.http.routers.jellyfin.tls=true"
 
+  jellyseer:
+    image: ghcr.io/seerr-team/seerr:v3.1.0
+    init: true
+    container_name: jellyseer
+    environment:
+      - LOG_LEVEL=info
+      - TZ=Europe/Berlin
+    volumes:
+      - seerr-config:/app/config
+    ports:
+      - 5055:5055
+    networks:
+      - proxy
+    healthcheck:
+      test: wget --no-verbose --tries=1 --spider http://localhost:5055/api/v1/status || exit 1
+      start_period: 20s
+      timeout: 3s
+      interval: 15s
+      retries: 3
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.jellyseerr.rule=Host(`discovery.tira-misu.org`)"
+      - "traefik.http.services.jellyseerr.loadbalancer.server.port=5055"
+      - "traefik.http.routers.jellyseerr.entrypoints=websecure"
+      - "traefik.http.routers.jellyseerr.tls=true"
+
+
   filebrowser:
     image: filebrowser/filebrowser@sha256:e9ef7570b2e4110e9842f2e004f2aaac246e54e7fef2b3b9f4352a3a1bb04508
     container_name: filebrowser
@@ -213,6 +241,8 @@ volumes:
   filebrowser-data:
   filebrowser-database:
   filebrowser-config:
+
+  seerr-config:
 
   uptime-kuma-data:
 
