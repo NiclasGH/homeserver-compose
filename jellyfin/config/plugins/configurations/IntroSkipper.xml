@@ -7,7 +7,7 @@
   <CacheFingerprints>true</CacheFingerprints>
   <UseAlternativeBlackFrameAnalyzer>false</UseAlternativeBlackFrameAnalyzer>
   <UpdateMediaSegments>true</UpdateMediaSegments>
-  <RebuildMediaSegments>true</RebuildMediaSegments>
+  <RebuildMediaSegments>false</RebuildMediaSegments>
   <ScanIntroduction>true</ScanIntroduction>
   <ScanCredits>true</ScanCredits>
   <ScanRecap>true</ScanRecap>
