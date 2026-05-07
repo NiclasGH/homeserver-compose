@@ -1,4 +1,28 @@
 services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:v1.12.3
+    container_name: homepage
+    env_file:
+      - homepage/homepage.env
+    volumes:
+      - type: bind
+        source: homepage/config
+        target: /app/config
+    networks:
+      - proxy
+    environment:
+      HOMEPAGE_ALLOWED_HOSTS: tira-misu.org
+      PUID: 1000
+      PGID: 1000
+    restart: 'unless-stopped'
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.homepage.rule=Host(`tira-misu.org`)"
+      - "traefik.http.services.homepage.loadbalancer.server.port=3000"
+      - "traefik.http.routers.homepage.entrypoints=websecure"
+      - "traefik.http.routers.homepage.tls=true"
+
+
   # === TRAEFIK - 80, 443
   traefik:
     image: traefik:v3.6
@@ -119,8 +143,8 @@ services:
       - TZ=Europe/Berlin
     volumes:
       - seerr-config:/app/config
-    ports:
-      - 5055:5055
+    # ports:
+    #   - 5055:5055
     networks:
       - proxy
     healthcheck:

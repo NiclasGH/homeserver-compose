@@ -1,0 +1,7 @@
+logs/
+config.yaml
+custom.css
+custom.js
+docker.yaml
+kubernetes.yaml
+proxmox.yaml
