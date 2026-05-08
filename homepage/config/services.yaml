@@ -3,8 +3,8 @@
 # https://gethomepage.dev/configs/services/
 
 - Media:
-    - Jellyfin:
-        icon: jellyfin.png
+    - Niclasflix:
+        icon: netflix.png
         href: https://media.tira-misu.org
         description: Medienserver
         widget:
@@ -19,7 +19,7 @@
           showEpisodeNumber: false
           expandOneStreamToTwoRows: false
 
-    - Overseerr:
+    - Discovery:
         icon: overseerr.png
         href: https://discovery.tira-misu.org
         description: |
