@@ -51,3 +51,4 @@ In **both** Sonarr and Radarr, enable these advanced options:
 - `Hardlinks`
 - `Rename Episodes`
 - `Add Quality Profile for 1080p German`
+- `Add release year to folder name for Sonarr`

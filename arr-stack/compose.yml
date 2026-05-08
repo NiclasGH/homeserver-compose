@@ -67,6 +67,7 @@ services:
     #   - 8989:8989
     volumes:
       - sonarr-config:/config
+      - nzb-downloads:/downloads
       - type: bind
         source: ../jellyfin/media
         target: /data
