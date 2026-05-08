@@ -22,7 +22,10 @@
     - Overseerr:
         icon: overseerr.png
         href: https://discovery.tira-misu.org
-        description: Filme und Serien Anfragen
+        description: - Für direktes herunterladen 
+        description: |
+          Filme und Serien Anfragen 
+          Für direktes herunterladen direkt das Filme oder Serien Widget verwenden.
         widget:
           type: seerr
           url: http://jellyseer:5055
@@ -38,16 +41,27 @@
           username: "{{HOMEPAGE_VAR_FILEBROWSER_USERNAME}}"
           password: "{{HOMEPAGE_VAR_FILEBROWSER_PASSWORD}}"
 
+    - Filme:
+        icon: radarr.png
+        href: https://movies.tira-misu.org
+        description: Automatisches Herunterladen von Filmen
+
+    - Serien:
+        icon: sonarr.png
+        href: https://shows.tira-misu.org
+        description: Automatisches Herunterladen von Serien und Anime
+
+
+    - Download Client:
+        icon: sabnzbd.png
+        href: https://download.tira-misu.org
+        description: Downloads verwalten
+
 - Admin:
     - Traefik:
         icon: traefik.png
         href: https://traefik.tira-misu.org
         description: Reverse Proxy Dashboard
-        # widget:
-        #   type: traefik
-        #   url: http://traefik:8080
-        #   username: "{{HOMEPAGE_VAR_TRAEFIK_USERNAME}}"
-        #   password: "{{HOMEPAGE_VAR_TRAEFIK_PASSWORD}}"
 
     - VPN Uptime:
         icon: uptime-kuma.png
@@ -67,3 +81,7 @@
           version: 6
           key: "{{HOMEPAGE_VAR_PIHOLE_PASSWORD}}"
 
+    - Prowlarr:
+        icon: prowlarr.png
+        href: https://prowlarr.tira-misu.org
+        description: Zentrale Verwaltung von Indexern für Serien und Filme
