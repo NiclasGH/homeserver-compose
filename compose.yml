@@ -251,7 +251,7 @@ services:
     volumes:
       - certs:/acme.sh
       - type: bind
-        source: acme/acme-setup.sh
+        source: acme/entrypoint.sh
         target: /setup.sh
     entrypoint: ["/bin/sh", "-c", "./setup.sh"]
     env_file: "acme/acme.env"
