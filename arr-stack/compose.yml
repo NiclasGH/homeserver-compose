@@ -1,6 +1,6 @@
 ---
 networks:
-  media:
+  proxy:
     name: pi-compose_proxy
     external: true
 
@@ -21,7 +21,7 @@ services:
     volumes:
       - gluetun-config:/gluetun
     networks:
-      - media
+      - proxy
     env_file: config/vpn.env
     environment:
       - VPN_SERVICE_PROVIDER=surfshark

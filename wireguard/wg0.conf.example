@@ -1,0 +1,16 @@
+[Interface]
+Address = 192.168.198.1/32
+ListenPort = 51820
+PrivateKey = <prv-key>
+MTU = 1450
+PostUp = 
+PreDown = 
+PostDown = 
+Table = auto
+
+# client 1
+[Peer]
+PublicKey = <client-pubkey>
+AllowedIPs = 192.168.198.2/32
+
+...

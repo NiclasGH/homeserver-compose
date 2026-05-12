@@ -27,7 +27,7 @@
           Für direktes herunterladen direkt das Filme oder Serien Widget verwenden.
         widget:
           type: seerr
-          url: http://jellyseer:5055
+          url: http://seerr:5055
           key: "{{HOMEPAGE_VAR_SEERR_API_KEY}}"
 
     - Filebrowser:
