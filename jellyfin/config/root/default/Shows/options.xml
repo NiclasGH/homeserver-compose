@@ -57,33 +57,25 @@
     <TypeOptions>
       <Type>Series</Type>
       <MetadataFetchers>
-        <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
         <string>TheMovieDb</string>
+        <string>AniDB</string>
         <string>The Open Movie Database</string>
       </MetadataFetchers>
       <MetadataFetcherOrder>
+        <string>TheMovieDb</string>
         <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
         <string>Missing Episode Fetcher</string>
         <string>TheTVDB</string>
-        <string>TheMovieDb</string>
         <string>The Open Movie Database</string>
       </MetadataFetcherOrder>
       <ImageFetchers>
-        <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
         <string>TheMovieDb</string>
+        <string>AniDB</string>
       </ImageFetchers>
       <ImageFetcherOrder>
-        <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
-        <string>TheTVDB</string>
         <string>TheMovieDb</string>
+        <string>AniDB</string>
+        <string>TheTVDB</string>
       </ImageFetcherOrder>
       <ImageOptions />
     </TypeOptions>
@@ -100,14 +92,10 @@
       </MetadataFetcherOrder>
       <ImageFetchers>
         <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
         <string>TheMovieDb</string>
       </ImageFetchers>
       <ImageFetcherOrder>
         <string>AniDB</string>
-        <string>AniList</string>
-        <string>AniSearch</string>
         <string>TheTVDB</string>
         <string>TheMovieDb</string>
       </ImageFetcherOrder>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <TitlePreference>Localized</TitlePreference>
-  <OriginalTitlePreference>JapaneseRomaji</OriginalTitlePreference>
+  <OriginalTitlePreference>Localized</OriginalTitlePreference>
   <IgnoreSeason>false</IgnoreSeason>
   <TitleSimilarityThreshold>50</TitleSimilarityThreshold>
   <MaxGenres>5</MaxGenres>
