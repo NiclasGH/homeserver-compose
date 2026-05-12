@@ -173,7 +173,7 @@ services:
       - type: bind
         source: jellyfin/media
         target: /srv
-      - filebrowser-database:/database
+      - filebrowser-data:/database
       - filebrowser-config:/config
     restart: 'unless-stopped'
     labels:
@@ -263,7 +263,6 @@ volumes:
   jellyfin-cache:
 
   filebrowser-data:
-  filebrowser-database:
   filebrowser-config:
 
   seerr-config:
@@ -273,12 +272,6 @@ volumes:
   pihole-data:
 
   certs:
-
-  radarr-config:
-  sonarr-config:
-  prowlarr-config:
-  gluetun-config:
-  qbittorrent-config:
 
 networks:
   proxy:
