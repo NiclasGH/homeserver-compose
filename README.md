@@ -20,6 +20,9 @@ jellyfin/media/movies
 ### VPN
 Wireguard is not currently running in a container due to network issues I had. therefor it needs to be installed locally. The wireguard directory, provides an example config and some useful insights
 
+### Modules
+The default settings from homepage and pihole assumes, that you activate all modules. If you dont and something doesnt work, check the configuration of those!
+
 ## Application stacks
 ### Web/Domain
 - Traefik: Acts as a docker-first reverse proxy. Can be configured using docker labels

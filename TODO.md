@@ -1,3 +1,3 @@
-- I want to cleanup volumes names and setup rules for the naming
-- I want to create a longer README with how to use and initial setups or an init script (like creating the media directory)
 - Create pipelines to control aspects like a server restart
+- Automatic Backups
+- Split into more modules
