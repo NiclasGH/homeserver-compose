@@ -97,15 +97,20 @@ services:
     networks:
       - proxy
     volumes:
-      - type: bind
-        source: jellyfin/config
-        target: /config
+      # - type: bind
+      #   source: jellyfin/config
+      #   target: /config
+      - jellyfin-config:/config # plugins, watch history
+      - jellyfin-backup:/config/data/backups # plugins, watch history
       - jellyfin-cache:/cache
       - type: bind
         source: jellyfin/media
         target: /media
         read_only: true
       # branding (could be done with entrypoint script but this is easier to change
+      - type: bind
+        source: jellyfin/branding/branding.xml
+        target: /config/config/branding.xml
       - type: bind
         source: jellyfin/branding/icon-transparent.baba78f2a106d9baee83.png
         target: /jellyfin/jellyfin-web/icon-transparent.baba78f2a106d9baee83.png
@@ -261,6 +266,8 @@ services:
 
 volumes:
   jellyfin-cache:
+  jellyfin-config:
+  jellyfin-backup:
 
   filebrowser-data:
   filebrowser-config:

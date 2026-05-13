@@ -54,8 +54,7 @@ The [directory](arr-stack/SETUP.md) has a more thorough guide on what to configu
 I use AWS S3 without backing up any movies or shows. This backup costs roughly 3-10cts/month
 1. Create the backup bucket using [terraform](backups/terraform/README.md)
 2. Copnfigure your secrets in the backups.env file
-3. Create a cronjob like `0 0 * * * /home/user/server/backups/backup.py` (midnight every day), which automatically backups relevant docker volumes to AWS. 
-```bash
+3. Create a cronjob like `0 0 * * * /home/user/server/backups/backup.py` (midnight every day), which automatically backups relevant docker volumes to AWS. No root needed
 
 
 ## Troubleshooting
@@ -84,7 +83,12 @@ The default settings from homepage and pihole assumes, that you activate all mod
 - rathole: NAT Traversal service, that connects to a VPS where a rathole server is provided. The rathole server opens the wireguard port. This way clients from outside the private network can connect to the home server via wireguard, without having to publish the homenetwork ip or having to deal with dyndns. Could be replaced with tailscale
 
 ### Backups
-Uses the docker-volume-backup image and an AWS S3 storage for simplicity. In a python script I have defined in a map which container and which corresponding service I wanna backup. I then synchronously stop the container, backup the volume and then restart the container.
+Uses the docker-volume-backup image and an AWS S3 storage for simplicity. In a python script I have defined in a map which container and which corresponding service I wanna backup. I then synchronously stop the container, backup the volume and then restart the container. \
+
+Current limitations:
+- Jellyfin currently doesnt support pruning of old backups
+- Jellyfin currently doesnt support automatic creation of backups
+-> I run a small script that triggers the API that creates a backup, and then prunes, around an hour before the normal backup. This is suboptimal but *alright* for now. The script can be found in the backup directory
 
 
 ![architecture](.github/readme/arch.png)

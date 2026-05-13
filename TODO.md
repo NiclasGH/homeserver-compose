@@ -1,3 +1,4 @@
 - Create pipelines to control aspects like a server restart
 - Automatic Backups
+- Find an automated way to configure the arr stack
 - Ansible Playbooks for the Wireguard VPS and Homeserver
