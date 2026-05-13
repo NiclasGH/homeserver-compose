@@ -84,6 +84,9 @@ Current limitations:
 - Jellyfin currently doesnt support automatic creation of backups \
 -> I run a small script that triggers the API that creates a backup, and then prunes, around an hour before the normal backup. This is suboptimal but *alright* for now. The script can be found in the backup directory
 
+## Bin directory
+I have some minor binaries that I use regularly that I add into the path. The save-shows one is actually the only form of show backups that I have, where I just create a text file with shows and movies that are currently on the server
+
 ## Troubleshooting
 ### Modules
 The default settings from homepage and pihole assumes, that you activate all modules. If you dont and something doesnt work, check the configuration of those!
