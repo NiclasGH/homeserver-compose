@@ -51,6 +51,7 @@ The stack unfortunately doesn't have a lot of file configurations and thus needs
 The [directory](arr-stack/SETUP.md) has a more thorough guide on what to configure
 
 ### Backups (If using AWS)
+I use AWS S3 without backing up any movies or shows. This backup costs roughly 3-10cts/month
 1. Create the backup bucket using [terraform](backups/terraform/README.md)
 2. Copnfigure your secrets in the backups.env file
 3. Create a cronjob like `0 0 * * *` (midnight every day) and run the [python script](backups/backup.py), which automatically backups relevant docker volumes to AWS. 
