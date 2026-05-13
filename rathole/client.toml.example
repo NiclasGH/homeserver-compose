@@ -1,5 +1,5 @@
 [client]
-remote_addr = "46.225.115.8:9306" # The address of the server. The port must be the same with the port in `server.bind_addr`
+remote_addr = "<ip>:<port>" # The address of the server. The port must be the same with the port in `server.bind_addr`
 default_token = "<token>" 
 
 [client.transport]

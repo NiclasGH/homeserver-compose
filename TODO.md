@@ -1,3 +1,3 @@
 - Create pipelines to control aspects like a server restart
 - Automatic Backups
-- Split into more modules
+- Ansible Playbooks for the Wireguard VPS and Homeserver

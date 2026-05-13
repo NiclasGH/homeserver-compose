@@ -2,24 +2,60 @@
 This is my raspberri pi homeserver in a docker compose file.
 The root compose contains all the applications that build the base.
 
-## Manual Setups
-### DNS
-To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server for your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google.
+## Getting Started
+### Testing it out
+If you just wanna test the basic functionality, I would remove traefik, pihole, acme.sh, rathole as these require the most setup. \
+Then just uncomment the port mappings. By default, the containers are only available through traefik.
 
-### API Keys
-- acme.sh: Requires cloudflare access token for dns and a general account token (or comparable if not using cloudflare)
-- arr-stack: Requires a bunch of passing around of each others api keys. A more thorough setup guide is in the arr-stack directory
-- homepage: Needs keys from within the applications to access metadata for the homepage dashboard
-
-### Directories
-Following directories are in the .gitignore and should not be checked in but are used by the stack:
-Media files:
+### Basic Setup
+1. Create the media file directories. You can also already put your media there.
 jellyfin/media/shows
 jellyfin/media/movies
 
-### VPN
-Wireguard is not currently running in a container due to network issues I had. therefor it needs to be installed locally. The wireguard directory, provides an example config and some useful insights
+2. Configure pihole, acme.sh and traefik to support your domain and the automatic ssl certificates. For this, just copy the .env.examples variables into a .env with identical name. The compose will pick these up.
+For testing purposes, pihole, traefik and acme.sh can also all be removed, to just use the port mappings.
 
+3. Create the homepage .env
+Feel free to keep everything empty for now. The widgets will not work but the homepage will still be able to start.
+
+4. Start the root docker compose
+
+5. Configure your router to use your pihole as a dns server.
+To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server for your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google.
+
+### VPN
+If you want to access your home server through a VPN you have 3 options:
+1. Export the VPN (wireguard here) port through your router. This requires you to have a stable IP, which isn't often provided by ISP. You can use DynDNS to circumvent this.
+2. Use a SaaS like Tailscale for a full service NAT Traversal VPN. Requires every device to have the dedicated tailscale app installed.
+3. Use rathole for a NAT Traversal solution with the advantage of being able to use the native wireguard protocol everywhere.
+I used 3 but if you throw out rathole, you can then just start replacing it with any of the other solutions.
+
+*NAT Traversal using rathole*
+For this you will need a VPS, VM or any comparable device outside of your home network thats publically reachable. I currently use a Hetzner Cloud VPS for 2$ a month, tho you can probably also find free tiers somewhere. 
+It has basically 0 performance requirements, so just use the cheapest one you can find.
+
+1. Create and run a compose file to run rathole on the server with a server config.
+2. Take the ip address of the server and put it into the local rathole and put it into the client.toml.
+For token/secret generation you can find examples in their [docs](https://github.com/rathole-org/rathole/blob/main/docs/transport.md)
+3. Install wireguard locally and configure it. In the wireguard directory, you can find an example configuration, tho this is really just plain wireguard.
+
+### SSL Automation
+I bought the domain at cloudflare. If you dont, check [acme.sh](https://github.com/acmesh-official/acme.sh/tree/master/dnsapi) to see the required environment variables and entrypoint configs for your registrar.
+1. Point cloudflare domain record to your VPS IP (or home network if you just expose the port).
+2. Configure the traefik tls names and acme.sh secrets
+
+
+### ARR-Stack
+A popular stack to automate show and movie downloads. Requires a Usenet Server and Indexer Account. Otherwise you could also replace shadnzbd with qbittorrent and then utilize torrents.
+The stack unfortunately doesn't have a lot of file configurations and thus needs a bit of manual setup to get going, which is mostly logging into services and passing some API Keys around.
+The [directory](arr-stack/SETUP.md) has a more thorough guide on what to configure
+
+### Backups (If using AWS)
+1. Create the backup bucket using [terraform](backups/terraform/README.md)
+2. Copnfigure your secrets in the backups.env file
+3. Create a cronjob like `0 0 * * *` (midnight every day) and run the [python script](backups/backup.py), which automatically backups relevant docker volumes to AWS. 
+
+## Troubleshooting
 ### Modules
 The default settings from homepage and pihole assumes, that you activate all modules. If you dont and something doesnt work, check the configuration of those!
 
@@ -44,6 +80,5 @@ The default settings from homepage and pihole assumes, that you activate all mod
 ### VPN
 - rathole: NAT Traversal service, that connects to a VPS where a rathole server is provided. The rathole server opens the wireguard port. This way clients from outside the private network can connect to the home server via wireguard, without having to publish the homenetwork ip or having to deal with dyndns. Could be replaced with tailscale
 
-## Backups
-Until actual backups are built: jellyfin db is checked into git, shows.txt is checked in
-TODO
+### Backups
+Uses the docker-volume-backup image and an AWS S3 storage for simplicity. In a python script I have defined in a map which container and which corresponding service I wanna backup. I then synchronously stop the container, backup the volume and then restart the container.
