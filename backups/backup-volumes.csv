@@ -1,0 +1,10 @@
+enabled,container,volumes
+1,seerr,pi-compose_seerr-config
+1,filebrowser,pi-compose_filebrowser-data;pi-compose_filebrowser-config
+1,uptime-kuma,pi-compose_uptime-kuma-data
+1,prowlarr,arr-stack_prowlarr-config
+1,sonarr,arr-stack_sonarr-config
+1,radarr,arr-stack_radarr-config
+1,sabnzbd,arr-stack_sabnzbd-config
+0,example-disabled,some_volume
+ 
