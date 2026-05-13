@@ -23,7 +23,7 @@ printf 'Triggering backup in container %s ...\n' "$JELLYFIN_CONTAINER_NAME"
 docker exec "$JELLYFIN_CONTAINER_NAME" curl -fsS -X POST \
   -H "Content-Type: application/json" \
   -H "Authorization: MediaBrowser Token=$JELLYFIN_API_KEY" \
-  -d '{"Database":true,"Metadata":false,"Trickplay":false,"Subtitles":false}'
+  -d '{"Database":true,"Metadata":false,"Trickplay":false,"Subtitles":false}' \
   "${JELLYFIN_BASE_URL}${JELLYFIN_BACKUP_ENDPOINT}"
 
 printf 'Pruning backups older than %s days in %s ...\n' "$PRUNE_DURATION_DAYS" "$BACKUP_VOLUME_PATH"
