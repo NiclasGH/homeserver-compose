@@ -82,3 +82,6 @@ The default settings from homepage and pihole assumes, that you activate all mod
 
 ### Backups
 Uses the docker-volume-backup image and an AWS S3 storage for simplicity. In a python script I have defined in a map which container and which corresponding service I wanna backup. I then synchronously stop the container, backup the volume and then restart the container.
+
+
+![architecture](.github/readme/arch.png)
