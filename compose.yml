@@ -14,7 +14,7 @@ services:
       HOMEPAGE_ALLOWED_HOSTS: tira-misu.org
       PUID: 1000
       PGID: 1000
-    restart: 'unless-stopped'
+    restart: unless-stopped
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.homepage.rule=Host(`tira-misu.org`)"
@@ -131,7 +131,7 @@ services:
         source: jellyfin/branding/favicons
         target: /jellyfin/jellyfin-web/favicons
         read_only: true
-    restart: 'unless-stopped'
+    restart: unless-stopped
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.jellyfin.rule=Host(`media.tira-misu.org`)"
@@ -180,7 +180,7 @@ services:
         target: /srv
       - filebrowser-data:/database
       - filebrowser-config:/config
-    restart: 'unless-stopped'
+    restart: unless-stopped
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.filebrowser.rule=Host(`filebrowser.tira-misu.org`)"

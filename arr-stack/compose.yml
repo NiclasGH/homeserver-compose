@@ -22,6 +22,7 @@ services:
       - gluetun-config:/gluetun
     networks:
       - proxy
+    restart: unless-stopped
     env_file: config/vpn.env
     environment:
       - VPN_SERVICE_PROVIDER=surfshark
