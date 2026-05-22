@@ -1,0 +1,3 @@
+# Plugins
+- AniDB: Metadata
+- IntroSkipper

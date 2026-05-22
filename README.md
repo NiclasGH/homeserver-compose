@@ -9,8 +9,7 @@ Then just uncomment the port mappings. By default, the containers are only avail
 
 ### Basic Setup
 1. Create the media file directories. You can also already put your media there.
-- `jellyfin/media/shows`
-- `jellyfin/media/movies`
+- `/mnt/data/media`
 
 2. Configure pihole, acme.sh and traefik to support your domain and the automatic ssl certificates. For this, just copy the .env.examples variables into a .env with identical name and fill the fields. The compose will pick these up. For additional config see below. \
 For testing purposes, pihole, traefik and acme.sh can also all be removed, to just use the port mappings. \
@@ -18,10 +17,14 @@ For testing purposes, pihole, traefik and acme.sh can also all be removed, to ju
 3. Create the homepage .env \
 Feel free to keep everything empty for now. The widgets will not work but the homepage will still be able to start.
 
-4. Start the root docker compose
+4. Copy the rathole client.toml.example. You can confiugure this when setting up your VPN.
 
-5. Configure your router to use your pihole as a dns server. \
-To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server from your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google.
+5. Start the root docker compose
+
+6. Configure your router to use your pihole as a dns server. \
+To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server from your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google. \
+You should also configure a static ip in your local network. \
+I also recommend adding a list like [Hagezi](https://github.com/hagezi/dns-blocklists#normal) to the blocklists.
 
 ### VPN
 If you want to access your home server through a VPN you have 3 options:

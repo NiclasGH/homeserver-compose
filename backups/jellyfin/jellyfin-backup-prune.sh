@@ -4,7 +4,7 @@ set -eu
 
 PRUNE_DURATION_DAYS="${PRUNE_DURATION_DAYS:-60}"
 JELLYFIN_CONTAINER_NAME="${JELLYFIN_CONTAINER_NAME:-jellyfin}"
-VOLUME_NAME="${VOLUME_NAME:-pi-compose_jellyfin-backup}"
+VOLUME_NAME="${VOLUME_NAME:-homeserver_jellyfin-backup}"
 
 
 JELLYFIN_BASE_URL="http://127.0.0.1:8096"

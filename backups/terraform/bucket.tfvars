@@ -1,1 +1,1 @@
-backup_bucket_name = "pi-compose-backups"
+backup_bucket_name = "homeserver-backups"

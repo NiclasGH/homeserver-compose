@@ -1,3 +1,5 @@
+name: homeserver
+
 services:
   homepage:
     image: ghcr.io/gethomepage/homepage:v1.12.3
@@ -6,8 +8,17 @@ services:
       - homepage/homepage.env
     volumes:
       - type: bind
-        source: homepage/config
-        target: /app/config
+        source: homepage/config/settings.yaml
+        target: /app/config/settings.yaml
+      - type: bind
+        source: homepage/config/bookmarks.yaml
+        target: /app/config/bookmarks.yaml
+      - type: bind
+        source: homepage/config/widgets.yaml
+        target: /app/config/widgets.yaml
+      - type: bind
+        source: homepage/config/services.yaml
+        target: /app/config/services.yaml
     networks:
       - proxy
     environment:
@@ -46,7 +57,7 @@ services:
       # Providers 
       - "--providers.docker=true"
       - "--providers.docker.exposedbydefault=false"
-      - "--providers.docker.network=pi-compose_proxy"
+      - "--providers.docker.network=homeserver_proxy"
 
       # API & Dashboard 
       - "--api.dashboard=true"
@@ -97,14 +108,11 @@ services:
     networks:
       - proxy
     volumes:
-      # - type: bind
-      #   source: jellyfin/config
-      #   target: /config
       - jellyfin-config:/config # plugins, watch history
       - jellyfin-backup:/config/data/backups # plugins, watch history
       - jellyfin-cache:/cache
       - type: bind
-        source: jellyfin/media
+        source: /mnt/data/media
         target: /media
         read_only: true
       # branding (could be done with entrypoint script but this is easier to change
@@ -176,7 +184,7 @@ services:
       - proxy
     volumes:
       - type: bind
-        source: jellyfin/media
+        source: /mnt/data/media
         target: /srv
       - filebrowser-data:/database
       - filebrowser-config:/config

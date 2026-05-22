@@ -1,1 +1,1 @@
-state_bucket_name = "pi-compose-terraform-state"
+state_bucket_name = "homeserver-terraform-state"

@@ -1,18 +1,18 @@
 [dns]
     hosts = [
-        "192.168.178.60 tira-misu.org",
-        "192.168.178.60 media.tira-misu.org",
-        "192.168.178.60 dns.tira-misu.org",
-        "192.168.178.60 filebrowser.tira-misu.org",
-        "192.168.178.60 kuma.tira-misu.org",
-        "192.168.178.60 traefik.tira-misu.org",
-        "192.168.178.60 discovery.tira-misu.org",
+        "192.168.178.81 tira-misu.org",
+        "192.168.178.81 media.tira-misu.org",
+        "192.168.178.81 dns.tira-misu.org",
+        "192.168.178.81 filebrowser.tira-misu.org",
+        "192.168.178.81 kuma.tira-misu.org",
+        "192.168.178.81 traefik.tira-misu.org",
+        "192.168.178.81 discovery.tira-misu.org",
 
         # arr-stack
-        "192.168.178.60 movies.tira-misu.org",
-        "192.168.178.60 shows.tira-misu.org",
-        "192.168.178.60 index.tira-misu.org",
-        "192.168.178.60 download.tira-misu.org",
+        "192.168.178.81 movies.tira-misu.org",
+        "192.168.178.81 shows.tira-misu.org",
+        "192.168.178.81 index.tira-misu.org",
+        "192.168.178.81 download.tira-misu.org",
     ]
     listeningMode = "ALL"
     upstreams = ["9.9.9.9", "8.8.8.8"]
