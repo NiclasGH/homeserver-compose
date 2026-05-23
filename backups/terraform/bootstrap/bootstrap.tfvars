@@ -1,1 +1,1 @@
-state_bucket_name = "homeserver-terraform-state"
+state_bucket_name="homeserver-terraform-state"

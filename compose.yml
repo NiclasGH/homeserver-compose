@@ -140,6 +140,8 @@ services:
         target: /jellyfin/jellyfin-web/favicons
         read_only: true
     restart: unless-stopped
+    devices:
+    - /dev/dri:/dev/dri # GPU pass through
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.jellyfin.rule=Host(`media.tira-misu.org`)"
