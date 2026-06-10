@@ -8,6 +8,8 @@
         "192.168.178.81 traefik.tira-misu.org",
         "192.168.178.81 discovery.tira-misu.org",
 
+        "192.168.178.81 logs.tira-misu.org",
+
         # arr-stack
         "192.168.178.81 movies.tira-misu.org",
         "192.168.178.81 shows.tira-misu.org",
