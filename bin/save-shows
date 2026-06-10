@@ -8,15 +8,16 @@ fi
 
 # Small script to create a list of currently installed shows and movies, so a recovery in case of data loss is just a matter of like an hour
 OUTPUT_FILE=$1
+BASE_DIRECTORY="/mnt/data/media"
 
 # Check if media exists
-if [ ! -d "jellyfin/media" ] || [ ! -d "jellyfin/media/shows" ] || [ ! -d "jellyfin/media/movies" ]; then
+if [ ! -d $BASE_DIRECTORY ] || [ ! -d "$BASE_DIRECTORY/shows" ] || [ ! -d "$BASE_DIRECTORY/movies" ]; then
     echo "Media, Shows or Movies directory does not exist. Not updating shows file"
     exit 1
 fi
 
 echo "Shows" > $OUTPUT_FILE
-find jellyfin/media/shows -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort >> $OUTPUT_FILE
+find $BASE_DIRECTORY/shows -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort >> $OUTPUT_FILE
 
 printf "\nMovies\n" >> $OUTPUT_FILE
-find jellyfin/media/movies -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort >> $OUTPUT_FILE
+find $BASE_DIRECTORY/movies -maxdepth 1 -mindepth 1 -type d -printf '%f\n' | sort >> $OUTPUT_FILE
