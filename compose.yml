@@ -2,7 +2,7 @@ name: homeserver
 
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:v1.12.3
+    image: ghcr.io/gethomepage/homepage:v1.13
     container_name: homepage
     env_file:
       - homepage/homepage.env
@@ -150,7 +150,7 @@ services:
       - "traefik.http.routers.jellyfin.tls=true"
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.2.0
+    image: ghcr.io/seerr-team/seerr:v3.3
     init: true
     container_name: seerr
     environment:
@@ -178,7 +178,7 @@ services:
 
 
   filebrowser:
-    image: filebrowser/filebrowser:v2.63.2
+    image: filebrowser/filebrowser:v2.63.14
     container_name: filebrowser
     # ports:
     #   - 80:80/tcp
@@ -216,7 +216,7 @@ services:
 
   # === PIHOLE
   pihole:
-    image: pihole/pihole:2026.04.1
+    image: pihole/pihole:2026.05.0
     container_name: pihole
     networks:
      - proxy
