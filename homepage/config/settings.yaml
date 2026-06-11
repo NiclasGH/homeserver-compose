@@ -17,6 +17,6 @@ layout:
     columns: 3
   Admin:
     style: row
-    columns: 4
+    columns: 3
 
 

@@ -84,3 +84,8 @@
         icon: prowlarr.png
         href: https://index.tira-misu.org
         description: Zentrale Verwaltung von Indexern für Serien und Filme
+
+    - Drozzle:
+        icon: lubelogger.png
+        href: https://logs.tira-misu.org
+        description: Logs von allen Containern
