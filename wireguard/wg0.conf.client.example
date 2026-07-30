@@ -1,0 +1,15 @@
+[Interface]
+Address = 192.168.198.1/32 # custom client ip
+ListenPort = 51820
+PrivateKey = <prv-key>
+MTU = 1450
+PostUp = 
+PreDown = 
+PostDown = 
+Table = auto
+
+# server
+[Peer]
+PublicKey = <client-pubkey>
+AllowedIPs = 192.168.198.1/32
+Endpoint = VPS IP
