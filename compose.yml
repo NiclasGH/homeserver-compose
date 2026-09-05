@@ -79,7 +79,7 @@ services:
       - "traefik.http.routers.dashboard.tls=true"
 
       # Basic‑auth middleware
-      - "traefik.http.middlewares.dashboard-auth.basicauth.users=admin:$$apr1$$AhREzA4N$$DuoI0Izq25uTA/UBPEov70"
+      - "traefik.http.middlewares.dashboard-auth.basicauth.users=admin:$$2y$$12$$HDvkr5mY.jL4WiNkub8yrussgAhUawnizY5gHE8GaGoMhCwIVzqXa"
       - "traefik.http.routers.dashboard.middlewares=dashboard-auth@docker"
     networks:
       - proxy
