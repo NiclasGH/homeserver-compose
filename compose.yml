@@ -150,7 +150,7 @@ services:
       - "traefik.http.routers.jellyfin.tls=true"
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.3
+    image: ghcr.io/seerr-team/seerr:v3.4
     init: true
     container_name: seerr
     environment:
@@ -186,7 +186,7 @@ services:
       - proxy
     volumes:
       - type: bind
-        source: /mnt/data/media
+        source: /mnt/data
         target: /srv
       - filebrowser-data:/database
       - filebrowser-config:/config

@@ -10,6 +10,8 @@ Then just uncomment the port mappings. By default, the containers are only avail
 ### Basic Setup
 1. Create the media file directories. You can also already put your media there.
 - `/mnt/data/media`
+If you use the arr stack, you should also create
+- `/mnt/data/downloads/`
 
 2. Configure pihole, acme.sh and traefik to support your domain and the automatic ssl certificates. For this, just copy the .env.examples variables into a .env with identical name and fill the fields. The compose will pick these up. For additional config see below. \
 For testing purposes, pihole, traefik and acme.sh can also all be removed, to just use the port mappings. \
