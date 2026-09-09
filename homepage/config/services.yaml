@@ -8,7 +8,7 @@
         href: https://media.tira-misu.org
         description: Medienserver
         widget:
-          version: 1
+          version: 2
           type: jellyfin
           url: http://jellyfin:8096
           key: "{{HOMEPAGE_VAR_JELLYFIN_API_KEY}}"

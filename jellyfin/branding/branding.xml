@@ -1,18 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BrandingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LoginDisclaimer />
-  <CustomCss>/* Adjust both "size-adjust" and "size" to modify size */
-.headerTabs.sectionTabs {
-  text-size-adjust: 110%;
-  font-size: 110%;
+  <CustomCss>/* Replace top left icon START */
+/* remove the text */
+a.MuiButton-root[href="#/"] {
+  font-size: 0;
 }
-.pageTitle {
-  margin-top: auto;
-  margin-bottom: auto;
+
+/* Remove spacing intended for the text */
+a.MuiButton-root[href="#/"] .MuiButton-startIcon {
+  margin: 0;
 }
-.emby-tab-button {
-  padding: 1.75em 1.7em;
+
+/* Hide the original icon */
+a.MuiButton-root[href="#/"] .MuiButton-startIcon img {
+  display: none;
 }
+
+/* Add the replacement icon */
+a.MuiButton-root[href="#/"] .MuiButton-startIcon::before {
+  content: "";
+  
+  width: 100px;
+  height: 50px;
+  background: url("./banner-light.b113d4d1c6c07fcb73f0.png") center / contain no-repeat;
+}
+/* Replace top left icon END */
 
 /* Narrow the login form */
 #loginPage .readOnlyContent,
