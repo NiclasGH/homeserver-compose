@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <BrandingOptions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <LoginDisclaimer />
-  <CustomCss>/* Replace top left icon START */
+  <CustomCss>button[title="Play All"] {
+    display: none !important;
+}
+button[title="Shuffle"] {
+    display: none !important;
+}
+
+/* Replace top left icon START */
 /* remove the text */
 a.MuiButton-root[href="#/"] {
   font-size: 0;
