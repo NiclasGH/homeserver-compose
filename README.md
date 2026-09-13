@@ -89,6 +89,16 @@ Current limitations:
 - Jellyfin currently doesnt support automatic creation of backups \
 -> I run a small script that triggers the API that creates a backup, and then prunes, around an hour before the normal backup. This is suboptimal but *alright* for now. The script can be found in the backup directory
 
+## Updating
+### Images
+I mainly use the (honestly unsafe) larger docker tags, that get updated automatically on at least patch-level updates. 
+A safer way would be to pin the version by its sha256 hash. Docker Compose by default (without Swarm) does not support rolling updates. 
+Because of this, updates should be tested on a second machine before applying them on the main server. This way the downtime deployment will be almost unnoticable. It is also recommended to keep any stateful configs out of this project, to ensure owning the git repo alone is enough to reproduce the project.
+
+### OS
+Using `sudo dpkg-reconfigure unattended-upgrades` you can automatically update stable packages on debian based operating systems
+
+
 ## Bin directory
 I have some minor binaries that I use regularly that I add into the path. The save-shows one is actually the only form of show backups that I have, where I just create a text file with shows and movies that are currently on the server
 
