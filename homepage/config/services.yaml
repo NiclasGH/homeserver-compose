@@ -40,6 +40,11 @@
           username: "{{HOMEPAGE_VAR_FILEBROWSER_USERNAME}}"
           password: "{{HOMEPAGE_VAR_FILEBROWSER_PASSWORD}}"
 
+    - Copyparty:
+        icon: filebrowser.png
+        href: https://copyparty.tira-misu.org
+        description: Dateien verwalten
+
     - Filme:
         icon: radarr.png
         href: https://movies.tira-misu.org

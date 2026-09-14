@@ -197,6 +197,46 @@ services:
       - "traefik.http.routers.filebrowser.entrypoints=websecure"
       - "traefik.http.routers.filebrowser.tls=true"
 
+  copyparty:
+    image: copyparty/ac:1.20.22
+    container_name: copyparty
+    command: [
+      "--usernames",
+      "--ah-alg", "argon2", # Hashing algorithm
+      "--rproxy", "1", # Enables reverse proxy support
+      "--xff-hdr", "x-forwarded-for", # Header used by traefik
+      "--xff-src", "172.18.0.4", # Internal traefik ip
+      "--name", "Tiramisu"
+    ]
+    # ports:
+    #   - 3923:3923/tcp
+    networks:
+      - proxy
+    volumes:
+      - type: bind
+        source: /mnt/data
+        target: /w
+      - copyparty-config:/cfg
+      - type: bind
+        source: copyparty/copyparty.conf
+        target: /cfg/copyparty.conf
+    restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.copyparty.rule=Host(`copyparty.tira-misu.org`)"
+      - "traefik.http.services.copyparty.loadbalancer.server.port=3923"
+      - "traefik.http.routers.copyparty.entrypoints=websecure"
+      - "traefik.http.routers.copyparty.tls=true"
+    healthcheck:
+      # hide it from logs with "/._" so it matches the default --lf-url filter 
+      test: ["CMD-SHELL", "wget --spider -q 127.0.0.1:3923/?reset=/._"]
+      interval: 1m
+      timeout: 2s
+      retries: 5
+      start_period: 15s
+    environment:
+      PYTHONUNBUFFERED: 1
+
   # === KUMA
   uptime-kuma:
     image: louislam/uptime-kuma:2
@@ -299,6 +339,8 @@ volumes:
 
   filebrowser-data:
   filebrowser-config:
+
+  copyparty-config:
 
   seerr-config:
 

@@ -4,6 +4,7 @@
         "192.168.178.81 media.tira-misu.org",
         "192.168.178.81 dns.tira-misu.org",
         "192.168.178.81 filebrowser.tira-misu.org",
+        "192.168.178.81 copyparty.tira-misu.org",
         "192.168.178.81 kuma.tira-misu.org",
         "192.168.178.81 traefik.tira-misu.org",
         "192.168.178.81 discovery.tira-misu.org",
