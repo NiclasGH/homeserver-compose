@@ -235,7 +235,7 @@ services:
       retries: 5
       start_period: 15s
     environment:
-      PYTHONUNBUFFERED: 1
+      PYTHONUNBUFFERED: 1 # for some reason this is required so logs arent delayed
 
   # === KUMA
   uptime-kuma:
