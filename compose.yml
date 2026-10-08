@@ -204,6 +204,7 @@ services:
       "--usernames",
       "--ah-alg", "argon2", # Hashing algorithm
       "--http-only",
+      "--ihead=*",
       "--rproxy", "1", # Enables reverse proxy support
       "--xff-hdr", "x-forwarded-for", # Header used by traefik
       "--xff-src", "172.18.0.4", # Internal traefik ip
