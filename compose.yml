@@ -207,7 +207,7 @@ services:
       "--ihead=*",
       "--rproxy", "1", # Enables reverse proxy support
       "--xff-hdr", "x-forwarded-for", # Header used by traefik
-      "--xff-src", "172.18.0.4", # Internal traefik ip
+      "--xff-src", "lan", # Internal traefik ip
       "--name", "Tiramisu"
     ]
     # ports:
