@@ -45,6 +45,12 @@
         href: https://copyparty.tira-misu.org
         description: Dateien verwalten
 
+    - Home Assistant:
+        icon: home-assistant.png
+        href: https://home.tira-misu.org
+        description: |
+          Home Assistant für Licht + Kamerasteuerung
+
     - Filme:
         icon: radarr.png
         href: https://movies.tira-misu.org
