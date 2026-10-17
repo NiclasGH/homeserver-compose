@@ -2,3 +2,18 @@ tls:
   certificates:
     - certFile: /certs/tira-misu.org_ecc/fullchain.cer
       keyFile:  /certs/tira-misu.org_ecc/tira-misu.org.key
+
+http:
+  routers:
+    home-assistant:
+      rule: Host(`home.tira-misu.org`)
+      entryPoints:
+        - websecure
+      service: home-assistant
+      tls: {}
+
+  services:
+    home-assistant:
+      loadBalancer:
+        servers:
+          - url: http://192.168.178.39
