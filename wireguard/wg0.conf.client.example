@@ -2,10 +2,7 @@
 Address = 192.168.198.1/32 # custom client ip
 ListenPort = 51820
 PrivateKey = <prv-key>
-MTU = 1450
-PostUp = 
-PreDown = 
-PostDown = 
+MTU = 1200
 Table = auto
 
 # server
