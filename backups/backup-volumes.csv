@@ -1,6 +1,5 @@
 enabled,container,volumes
 1,seerr,homeserver_seerr-config
-1,filebrowser,homeserver_filebrowser-data;homeserver_filebrowser-config
 1,uptime-kuma,homeserver_uptime-kuma-data
 1,prowlarr,arr-stack_prowlarr-config
 1,sonarr,arr-stack_sonarr-config

@@ -2,7 +2,7 @@ name: homeserver
 
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:v2.2
+    image: ghcr.io/gethomepage/homepage:v2.7
     container_name: homepage
     env_file:
       - homepage/homepage.env
@@ -36,7 +36,7 @@ services:
 
   # === TRAEFIK - 80, 443
   traefik:
-    image: traefik:v3.6
+    image: traefik:v3.7
     container_name: traefik
     restart: unless-stopped
     command:
@@ -100,7 +100,7 @@ services:
   # === MEDIA SERVER STACK
   # Media Server
   jellyfin:
-    image: jellyfin/jellyfin:12.0@sha256:baba630419915985442f315f08b0cf46d9f4c8a0cc4bd38e94a6d35751dd5ef5
+    image: jellyfin/jellyfin:12.3@sha256:2038fe038ab3876a80f6e7b7e0aef6607b032c7dc0c9b3ad3296d0b2eba3bbb5
     container_name: jellyfin
     ports:
       # - 8096:8096/tcp
@@ -150,7 +150,7 @@ services:
       - "traefik.http.routers.jellyfin.tls=true"
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.4
+    image: ghcr.io/seerr-team/seerr:v3.5
     init: true
     container_name: seerr
     environment:
@@ -176,26 +176,6 @@ services:
       - "traefik.http.routers.seerr.entrypoints=websecure"
       - "traefik.http.routers.seerr.tls=true"
 
-
-  filebrowser:
-    image: filebrowser/filebrowser:v2.63.14
-    container_name: filebrowser
-    # ports:
-    #   - 80:80/tcp
-    networks:
-      - proxy
-    volumes:
-      - type: bind
-        source: /mnt/data
-        target: /srv
-      - filebrowser-data:/database
-      - filebrowser-config:/config
-    restart: unless-stopped
-    labels:
-      - "traefik.enable=true"
-      - "traefik.http.routers.filebrowser.rule=Host(`filebrowser.tira-misu.org`)"
-      - "traefik.http.routers.filebrowser.entrypoints=websecure"
-      - "traefik.http.routers.filebrowser.tls=true"
 
   copyparty:
     image: copyparty/ac:1.20.26
@@ -258,7 +238,7 @@ services:
 
   # === PIHOLE
   pihole:
-    image: pihole/pihole:2026.05.0
+    image: pihole/pihole:2026.10.0
     container_name: pihole
     networks:
      - proxy
@@ -321,7 +301,7 @@ services:
       - "traefik.http.services.logs.loadbalancer.server.port=8080"
 
   acme-sh:
-    image: neilpang/acme.sh:3.1.3
+    image: neilpang/acme.sh:3.1.6
     container_name: acme.sh
     volumes:
       - certs:/acme.sh
