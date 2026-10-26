@@ -30,17 +30,7 @@
           url: http://seerr:5055
           key: "{{HOMEPAGE_VAR_SEERR_API_KEY}}"
 
-    - Copyparty:
-        icon: filebrowser.png
-        href: https://copyparty.tira-misu.org
-        description: Dateien verwalten
-
-    - Home Assistant:
-        icon: home-assistant.png
-        href: https://home.tira-misu.org
-        description: |
-          Home Assistant für Licht + Kamerasteuerung
-
+- Media Management:
     - Filme:
         icon: radarr.png
         href: https://movies.tira-misu.org
@@ -51,26 +41,29 @@
         href: https://shows.tira-misu.org
         description: Automatisches Herunterladen von Serien und Anime
 
-
     - Download Client:
         icon: sabnzbd.png
         href: https://download.tira-misu.org
         description: Downloads verwalten
 
-- Admin:
-    - Traefik:
-        icon: traefik.png
-        href: https://traefik.tira-misu.org
-        description: Reverse Proxy Dashboard
+    - Prowlarr:
+        icon: prowlarr.png
+        href: https://index.tira-misu.org
+        description: Zentrale Verwaltung von Indexern für Serien und Filme
 
-    - VPN Uptime:
-        icon: uptime-kuma.png
-        href: https://kuma.tira-misu.org
-        widget:
-          type: uptimekuma
-          url: http://uptime-kuma:3001
-          slug: vpn
+- Home Assistant:
+    - Home Assistant:
+        icon: home-assistant.png
+        href: https://home.tira-misu.org
+        description: |
+          Home Assistant für Licht + Kamerasteuerung
 
+    - Copyparty:
+        icon: filebrowser.png
+        href: https://copyparty.tira-misu.org
+        description: Dateien verwalten
+
+- Infrastructure:
     - Pi-hole Admin:
         icon: pi-hole.png
         href: https://dns.tira-misu.org
@@ -81,10 +74,23 @@
           version: 6
           key: "{{HOMEPAGE_VAR_PIHOLE_PASSWORD}}"
 
-    - Prowlarr:
-        icon: prowlarr.png
-        href: https://index.tira-misu.org
-        description: Zentrale Verwaltung von Indexern für Serien und Filme
+    - VPN Uptime:
+        icon: uptime-kuma.png
+        href: https://kuma.tira-misu.org
+        widget:
+          type: uptimekuma
+          url: http://uptime-kuma:3001
+          slug: vpn
+
+    - Version Monitoring:
+        icon: wudup.png
+        href: https://versioning.tira-misu.org
+        description: Docker image update monitoring
+
+    - Traefik:
+        icon: traefik.png
+        href: https://traefik.tira-misu.org
+        description: Reverse Proxy Dashboard
 
     - Drozzle:
         icon: lubelogger.png

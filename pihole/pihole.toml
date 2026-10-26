@@ -8,6 +8,7 @@
         "192.168.178.81 kuma.tira-misu.org",
         "192.168.178.81 traefik.tira-misu.org",
         "192.168.178.81 discovery.tira-misu.org",
+        "192.168.178.81 versioning.tira-misu.org",
 
         "192.168.178.81 logs.tira-misu.org",
 

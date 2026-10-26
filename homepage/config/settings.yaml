@@ -14,9 +14,15 @@ theme: dark
 layout:
   Media:
     style: row
-    columns: 3
-  Admin:
+    columns: 2
+  Media Management:
     style: row
-    columns: 3
+    columns: 4
+  Home Assistant:
+    style: row
+    columns: 2
+  Infrastructure:
+    style: row
+    columns: 4
 
 

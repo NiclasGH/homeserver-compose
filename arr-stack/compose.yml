@@ -7,7 +7,7 @@ networks:
 services:
   # VPN
   gluetun:
-    image: qmcgaw/gluetun:v3
+    image: qmcgaw/gluetun:v3.41
     container_name: gluetun
     # ports:
     #   - 8989:8989 # tv / sonarr

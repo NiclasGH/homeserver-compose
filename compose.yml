@@ -221,7 +221,7 @@ services:
 
   # === KUMA
   uptime-kuma:
-    image: louislam/uptime-kuma:2
+    image: louislam/uptime-kuma:2.5.8
     container_name: uptime-kuma
     # ports:
     #   - "3001:3001"
@@ -283,7 +283,7 @@ services:
     entrypoint: "./rathole --client /app/config.toml"
 
   dozzle:
-    image: amir20/dozzle:v10.6
+    image: amir20/dozzle:v11.3
     container_name: dozzle
     # ports:
     #   - 8080:8080
@@ -314,19 +314,45 @@ services:
     tty: true
     restart: no
 
+  # version update monitoring
+  whatsupdocker:
+    image: getwud/wud:9.6
+    container_name: wud
+    env_file:
+      - wud/wud.env
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - wud-data:/store
+    # ports:
+    #   - 3000:3000
+    healthcheck:
+      test: curl --fail http://localhost:3000/health || exit 1
+      interval: 10s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.wud.rule=Host(`versioning.tira-misu.org`)"
+      - "traefik.http.routers.wud.entrypoints=websecure"
+      - "traefik.http.routers.wud.tls=true"
+      - "traefik.http.services.wud.loadbalancer.server.port=3000"
+
+
 volumes:
   jellyfin-cache:
   jellyfin-config:
   jellyfin-backup:
-
-  filebrowser-data:
-  filebrowser-config:
 
   copyparty-config:
 
   seerr-config:
 
   uptime-kuma-data:
+
+  wud-data:
 
   pihole-data:
 
