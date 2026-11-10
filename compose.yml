@@ -2,7 +2,7 @@ name: homeserver
 
 services:
   homepage:
-    image: ghcr.io/gethomepage/homepage:v2.7
+    image: ghcr.io/gethomepage/homepage:${HOMEPAGE_VERSION:?Set in .env}
     container_name: homepage
     env_file:
       - homepage/homepage.env
@@ -36,7 +36,7 @@ services:
 
   # === TRAEFIK - 80, 443
   traefik:
-    image: traefik:v3.7
+    image: traefik:${TRAEFIK_VERSION:?Set in .env}
     container_name: traefik
     restart: unless-stopped
     command:
@@ -100,7 +100,7 @@ services:
   # === MEDIA SERVER STACK
   # Media Server
   jellyfin:
-    image: jellyfin/jellyfin:12.3@sha256:2038fe038ab3876a80f6e7b7e0aef6607b032c7dc0c9b3ad3296d0b2eba3bbb5
+    image: jellyfin/jellyfin:${JELLYFIN_VERSION:?Set in .env}
     container_name: jellyfin
     ports:
       # - 8096:8096/tcp
@@ -150,7 +150,7 @@ services:
       - "traefik.http.routers.jellyfin.tls=true"
 
   seerr:
-    image: ghcr.io/seerr-team/seerr:v3.5
+    image: ghcr.io/seerr-team/seerr:${SEERR_VERSION:?Set in .env}
     init: true
     container_name: seerr
     environment:
@@ -178,7 +178,7 @@ services:
 
 
   copyparty:
-    image: copyparty/ac:1.20.26
+    image: copyparty/ac:${COPYPARTY_VERSION:?Set in .env}
     container_name: copyparty
     command: [
       "--usernames",
@@ -221,7 +221,7 @@ services:
 
   # === KUMA
   uptime-kuma:
-    image: louislam/uptime-kuma:2.5.8
+    image: louislam/uptime-kuma:${UPTIME_KUMA_VERSION:?Set in .env}
     container_name: uptime-kuma
     # ports:
     #   - "3001:3001"
@@ -238,7 +238,7 @@ services:
 
   # === PIHOLE
   pihole:
-    image: pihole/pihole:2026.10.0
+    image: pihole/pihole:${PIHOLE_VERSION:?Set in .env}
     container_name: pihole
     networks:
      - proxy
@@ -272,7 +272,7 @@ services:
 
   # === RATHOLE - Wireguard
   rathole:
-    image: ghcr.io/rathole-org/rathole:dev
+    image: ghcr.io/rathole-org/rathole:${RATHOLE_VERSION:?Set in .env}
     container_name: rathole
     network_mode: host
     volumes:
@@ -283,7 +283,7 @@ services:
     entrypoint: "./rathole --client /app/config.toml"
 
   dozzle:
-    image: amir20/dozzle:v11.3
+    image: amir20/dozzle:${DOZZLE_VERSION:?Set in .env}
     container_name: dozzle
     # ports:
     #   - 8080:8080
@@ -301,7 +301,7 @@ services:
       - "traefik.http.services.logs.loadbalancer.server.port=8080"
 
   acme-sh:
-    image: neilpang/acme.sh:3.1.6
+    image: neilpang/acme.sh:${ACME_SH_VERSION:?Set in .env}
     container_name: acme.sh
     volumes:
       - certs:/acme.sh
@@ -316,7 +316,7 @@ services:
 
   # version update monitoring
   whatsupdocker:
-    image: getwud/wud:9.6
+    image: getwud/wud:${WUD_VERSION:?Set in .env}
     container_name: wud
     env_file:
       - wud/wud.env

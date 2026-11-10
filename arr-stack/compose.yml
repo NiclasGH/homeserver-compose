@@ -7,7 +7,7 @@ networks:
 services:
   # VPN
   gluetun:
-    image: qmcgaw/gluetun:v3.41
+    image: qmcgaw/gluetun:${GLUETUN_VERSION:?Set in .env}
     container_name: gluetun
     # ports:
     #   - 8989:8989 # tv / sonarr
@@ -30,7 +30,7 @@ services:
 
   # Indexer
   prowlarr:
-    image: lscr.io/linuxserver/prowlarr:2.6.5
+    image: lscr.io/linuxserver/prowlarr:${PROWLARR_VERSION:?Set in .env}
     container_name: prowlarr
     network_mode: "service:gluetun"
     environment:
@@ -57,7 +57,7 @@ services:
 
   # TV
   sonarr:
-    image: lscr.io/linuxserver/sonarr:4.0.20
+    image: lscr.io/linuxserver/sonarr:${SONARR_VERSION:?Set in .env}
     container_name: sonarr
     network_mode: "service:gluetun"
     environment:
@@ -90,7 +90,7 @@ services:
 
   # Movies
   radarr:
-    image: lscr.io/linuxserver/radarr:6.4.4
+    image: lscr.io/linuxserver/radarr:${RADARR_VERSION:?Set in .env}
     container_name: radarr
     network_mode: "service:gluetun"
     environment:
@@ -123,7 +123,7 @@ services:
 
   # Download Client
   sabnzbd:
-    image: lscr.io/linuxserver/sabnzbd:5.1.3
+    image: lscr.io/linuxserver/sabnzbd:${SABNZBD_VERSION:?Set in .env}
     container_name: sabnzbd
     network_mode: "service:gluetun"
     environment:

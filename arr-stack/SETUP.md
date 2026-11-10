@@ -2,6 +2,15 @@
 
 This stack needs a bit of initial manual setup after containers are running.
 
+## Image Versions and Startup
+
+From `arr-stack/`, copy the example versions file before starting the stack:
+
+```sh
+ln .env.example .env
+docker compose up -d
+```
+
 ## Components
 
 - `gluetun`: VPN container

@@ -21,7 +21,12 @@ Feel free to keep everything empty for now. The widgets will not work but the ho
 
 4. Copy the rathole client.toml.example. You can confiugure this when setting up your VPN.
 
-5. Start the root docker compose
+5. Link `.env.example` to `.env` in the repository root, then start the root docker compose:
+
+   ```sh
+   ln .env.example .env
+   docker compose up -d
+   ```
 
 6. Configure your router to use your pihole as a dns server. \
 To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server from your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google. \
@@ -91,9 +96,11 @@ Current limitations:
 
 ## Updating
 ### Images
-I mainly use the (honestly unsafe) larger docker tags, that get updated automatically on at least patch-level updates. 
-A safer way would be to pin the version by its sha256 hash. Docker Compose by default (without Swarm) does not support rolling updates. 
-Because of this, updates should be tested on a second machine before applying them on the main server. This way the downtime deployment will be almost unnoticable. It is also recommended to keep any stateful configs out of this project, to ensure owning the git repo alone is enough to reproduce the project.
+Image versions are configured in the root `.env`, not in `compose.yml`. For the optional ARR stack, use `arr-stack/.env` (see [setup](arr-stack/SETUP.md)). These files are ignored by Git; the tracked `.env.example` files contain the current versions.
+
+Missing or empty version variables cause Compose to fail with a configuration error. Link the `.env.example` and `.env` to keep them in sync when changing the versions.
+
+The container WUD can inform on new versions
 
 ### OS
 Using `sudo dpkg-reconfigure unattended-upgrades` you can automatically update stable packages on debian based operating systems
