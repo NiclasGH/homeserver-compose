@@ -202,6 +202,8 @@ services:
     #   - 3923:3923/tcp
     networks:
       - proxy
+    tmpfs:
+      - /cfg/media-root:ro
     volumes:
       - type: bind
         source: /mnt/data
