@@ -5,6 +5,7 @@
 - resources:
     cpu: true
     memory: true
+<<<<<<< Updated upstream
     disk: /
 
 - resources:
@@ -12,6 +13,12 @@
 
 - resources:
     disk: /mnt/data/media-nas-2-sm
+=======
+    disk:
+      - /
+      - /mnt/data/media-nas-1-lg
+      - /mnt/data/media-nas-2-sm
+>>>>>>> Stashed changes
 
 - search:
     provider: duckduckgo
