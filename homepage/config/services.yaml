@@ -63,6 +63,11 @@
         href: https://copyparty.tira-misu.org
         description: Dateien verwalten
 
+    - NAS:
+        icon: filebrowser.png
+        href: https://nas.tira-misu.org
+        description: Personal Ugreen 4 Bay NAS
+
 - Infrastructure:
     - Pi-hole Admin:
         icon: pi-hole.png
