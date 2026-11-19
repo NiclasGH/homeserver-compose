@@ -7,6 +7,14 @@
     memory: true
     disk: /
 
+- resources:
+    label: NAS LG
+    disk: /mnt/data/media-nas-1-lg
+
+- resources:
+    label: NAS SM
+    disk: /mnt/data/media-nas-2-sm
+
 - search:
     provider: duckduckgo
     target: _blank

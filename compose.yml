@@ -19,6 +19,14 @@ services:
       - type: bind
         source: homepage/config/services.yaml
         target: /app/config/services.yaml
+      - type: bind
+        source: /mnt/data/media-nas-1-lg
+        target: /mnt/data/media-nas-1-lg
+        read_only: true
+      - type: bind
+        source: /mnt/data/media-nas-2-sm
+        target: /mnt/data/media-nas-2-sm
+        read_only: true
     networks:
       - proxy
     environment:
