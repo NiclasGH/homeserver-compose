@@ -72,8 +72,14 @@ services:
         source: /mnt/data/downloads
         target: /downloads
       - type: bind
-        source: /mnt/data/media
-        target: /data
+        source: /mnt/data/media-local
+        target: /data/media-local
+      - type: bind
+        source: /mnt/data/media-nas-1-lg
+        target: /data/media-nas-1-lg
+      - type: bind
+        source: /mnt/data/media-nas-2-sm
+        target: /data/media-nas-2-sm
     restart: unless-stopped
     labels:
       - "traefik.enable=true"
@@ -105,8 +111,14 @@ services:
         source: /mnt/data/downloads
         target: /downloads
       - type: bind
-        source: /mnt/data/media
-        target: /data
+        source: /mnt/data/media-local
+        target: /data/media-local
+      - type: bind
+        source: /mnt/data/media-nas-1-lg
+        target: /data/media-nas-1-lg
+      - type: bind
+        source: /mnt/data/media-nas-2-sm
+        target: /data/media-nas-2-sm
     restart: unless-stopped
     labels:
       - "traefik.enable=true"

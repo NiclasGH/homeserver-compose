@@ -8,10 +8,7 @@ If you just wanna test the basic functionality, I would remove traefik, pihole, 
 Then just uncomment the port mappings. By default, the containers are only available through traefik.
 
 ### Basic Setup
-1. Create the media file directories. You can also already put your media there.
-- `/mnt/data/media`
-If you use the arr stack, you should also create
-- `/mnt/data/downloads/`
+1. Prepare the [host media storage](#media-storage) before starting either Compose project.
 
 2. Configure pihole, acme.sh and traefik to support your domain and the automatic ssl certificates. For this, just copy the .env.examples variables into a .env with identical name and fill the fields. The compose will pick these up. For additional config see below. \
 For testing purposes, pihole, traefik and acme.sh can also all be removed, to just use the port mappings. \
@@ -32,6 +29,19 @@ Feel free to keep everything empty for now. The widgets will not work but the ho
 To fully utilize Pihole as a network-wide ad-blocker, you need to configure it as your primary dns server from your network router. You also need to disable IPv6, as DHCPv6, as opposed to DHCPv4 is not a required protocol to implement. A lot of android phones *always* use the IPv6 DNS Server of Google. \
 You should also configure a static ip in your local network. \
 I also recommend adding a list like [Hagezi](https://github.com/hagezi/dns-blocklists#normal) to the blocklists.
+
+### Media Storage
+Create `/mnt/data/media-local` and mount the two NAS shares at `/mnt/data/media-nas-1-lg` and `/mnt/data/media-nas-2-sm` on the Docker host. If you use the ARR stack, also create `/mnt/data/downloads` (still `/downloads` in Sonarr, Radarr and SABnzbd). Ensure Jellyfin can read the media, Copyparty can read and write it, and Sonarr/Radarr can read and write it as UID/GID `1000:1000`.
+
+**Verify both NAS shares are mounted before starting either Compose project.** An unmounted path can look like an empty local directory, leading to missing media or writes to the host disk instead of the NAS.
+
+| Host path | Jellyfin (read-only) | Copyparty URL path | Sonarr/Radarr (read/write) |
+| --- | --- | --- | --- |
+| `/mnt/data/media-local` | `/media/media-local` | `/media/local` | `/data/media-local` |
+| `/mnt/data/media-nas-1-lg` | `/media/media-nas-1-lg` | `/media/nas-lg` | `/data/media-nas-1-lg` |
+| `/mnt/data/media-nas-2-sm` | `/media/media-nas-2-sm` | `/media/nas-sm` | `/data/media-nas-2-sm` |
+
+Compose does not move media or update library paths. Once your files are in place, go to **Jellyfin → Dashboard → Libraries**, edit each affected library, and replace the old folders with the corresponding folders under the new Jellyfin paths above. Save and rescan the libraries.
 
 ### VPN
 If you want to access your home server through a VPN you have 3 options:
@@ -74,7 +84,7 @@ I use AWS S3 without backing up any movies or shows. This backup costs roughly 3
 ### Media
 - Jellyfin: Open Source Media Server
 - Seerr: Used to request shows. Very useful when multiple people use the media server but only a few actually manage it.
-- Filebrowser: Provides a web UI to download or upload files. In this setup it specifically only has access to the `jellyfin/media` directory
+- Copyparty: Web file browser with public read access to the three media locations under `/media`, plus separate uploads, documents and downloads volumes.
 
 #### (Optional) ARR-Stack
 - Sonarr: Automates tv show downloads

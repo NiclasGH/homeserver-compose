@@ -112,8 +112,16 @@ services:
       - jellyfin-backup:/config/data/backups # plugins, watch history
       - jellyfin-cache:/cache
       - type: bind
-        source: /mnt/data/media
-        target: /media
+        source: /mnt/data/media-local
+        target: /media/media-local
+        read_only: true
+      - type: bind
+        source: /mnt/data/media-nas-1-lg
+        target: /media/media-nas-1-lg
+        read_only: true
+      - type: bind
+        source: /mnt/data/media-nas-2-sm
+        target: /media/media-nas-2-sm
         read_only: true
       # branding (could be done with entrypoint script but this is easier to change
       - type: bind
