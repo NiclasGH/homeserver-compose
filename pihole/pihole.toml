@@ -20,6 +20,9 @@
 
         # Home Assistant, proxied by Traefik
         "192.168.178.81 home.tira-misu.org",
+
+        # NAS, proxied by Traefik
+        "192.168.178.81 nas.tira-misu.org",
     ]
     listeningMode = "ALL"
     upstreams = ["9.9.9.9", "8.8.8.8"]

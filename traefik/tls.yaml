@@ -12,8 +12,20 @@ http:
       service: home-assistant
       tls: {}
 
+    nas:
+      rule: Host(`nas.tira-misu.org`)
+      entryPoints:
+        - websecure
+      service: nas
+      tls: {}
+
   services:
     home-assistant:
       loadBalancer:
         servers:
           - url: http://192.168.178.39
+
+    nas:
+      loadBalancer:
+        servers:
+          - url: http://192.168.178.48:9999
