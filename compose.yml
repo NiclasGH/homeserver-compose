@@ -293,6 +293,7 @@ services:
     image: ghcr.io/rathole-org/rathole:${RATHOLE_VERSION:?Set in .env}
     container_name: rathole
     network_mode: host
+    restart: unless-stopped
     volumes:
       - type: bind
         source: rathole/client.toml
@@ -336,6 +337,7 @@ services:
   whatsupdocker:
     image: getwud/wud:${WUD_VERSION:?Set in .env}
     container_name: wud
+    restart: unless-stopped
     env_file:
       - wud/wud.env
     volumes:
