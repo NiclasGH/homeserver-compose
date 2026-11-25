@@ -298,7 +298,6 @@ services:
       - type: bind
         source: rathole/client.toml
         target: /app/config.toml
-    restart: unless-stopped
     entrypoint: "./rathole --client /app/config.toml"
 
   dozzle:
